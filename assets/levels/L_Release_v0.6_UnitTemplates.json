@@ -1,0 +1,490 @@
+{
+    "templateData": [
+        {
+            "key": "Warrior",
+            "value": {
+                "name": "Warrior",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.5
+                    },
+                    {
+                        "key": 1,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 2,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 10,
+                        "value": 8.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 8.0
+                    },
+                    {
+                        "key": 5,
+                        "value": 35.0
+                    },
+                    {
+                        "key": 6,
+                        "value": 0.8
+                    },
+                    {
+                        "key": 11,
+                        "value": 6.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 200.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 9,
+                        "value": 3.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 1.5
+                    }
+                ],
+                "fsmPath": "fsm\\default_fsm_melee.json",
+                "modelPath": "models\\SK_Owl_Walk.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Rotation": {
+                        "value0": 0.4999999701976776,
+                        "value1": 0.4999999701976776,
+                        "value2": 0.4999999701976776,
+                        "value3": 0.4999999701976776
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    1,
+                    2,
+                    4
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\KnightOwl_Portrait.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 904.0,
+                    "value3": 904.0
+                },
+                "animationControllerPath": "animation_controllers/OwlControllerMelee.anim",
+                "materialPaths": [
+                    "materials\\Warrior_Owl.pepimat"
+                ],
+                "unitSounds": []
+            }
+        },
+        {
+            "key": "Mage",
+            "value": {
+                "name": "Mage",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.5
+                    },
+                    {
+                        "key": 1,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 2,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 5.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 5,
+                        "value": 50.0
+                    },
+                    {
+                        "key": 6,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 7,
+                        "value": 25.0
+                    },
+                    {
+                        "key": 8,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 9,
+                        "value": 15.0
+                    },
+                    {
+                        "key": 10,
+                        "value": 15.0
+                    },
+                    {
+                        "key": 11,
+                        "value": 4.5
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 80.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 29,
+                        "value": 1.2
+                    }
+                ],
+                "fsmPath": "fsm\\default_fsm.json",
+                "modelPath": "models\\SK_Owl_Walk.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Rotation": {
+                        "value0": 0.4999999701976776,
+                        "value1": 0.4999999701976776,
+                        "value2": 0.4999999701976776,
+                        "value3": 0.4999999701976776
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    1,
+                    2,
+                    4
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\Hoodini_Portrait.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 906.0,
+                    "value3": 902.0
+                },
+                "animationControllerPath": "animation_controllers/OwlControllerRanged.anim",
+                "materialPaths": [
+                    "materials\\Mage_Owl.pepimat"
+                ],
+                "unitSounds": []
+            }
+        },
+        {
+            "key": "StoneGolem",
+            "value": {
+                "name": "StoneGolem",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 2,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 5,
+                        "value": 35.0
+                    },
+                    {
+                        "key": 6,
+                        "value": 1.3
+                    },
+                    {
+                        "key": 7,
+                        "value": 25.0
+                    },
+                    {
+                        "key": 8,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 9,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 10,
+                        "value": 8.0
+                    },
+                    {
+                        "key": 11,
+                        "value": 3.5
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 250.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 17,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 19,
+                        "value": 5.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 1.5
+                    }
+                ],
+                "fsmPath": "fsm\\ranged_default_fsm.json",
+                "modelPath": "models\\Level Testing models\\SK_Golem_Death.glb",
+                "corpsePath": "models\\rock.gltf",
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Rotation": {
+                        "value0": 0.4999999701976776,
+                        "value1": 0.4999999701976776,
+                        "value2": 0.4999999701976776,
+                        "value3": 0.4999999701976776
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    1,
+                    3,
+                    2,
+                    4
+                ],
+                "iconPath": "assets/textures/checkerboard.png",
+                "iconTextureCoordinates": {
+                    "value0": 8992.0,
+                    "value1": 5472.0,
+                    "value2": 388.0,
+                    "value3": 388.0
+                },
+                "animationControllerPath": "animation_controllers\\GolemController.anim",
+                "materialPaths": [
+                    "materials\\Golem.pepimat"
+                ],
+                "unitSounds": []
+            }
+        },
+        {
+            "key": "WoodGolem",
+            "value": {
+                "name": "WoodGolem",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 2,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 5,
+                        "value": 25.0
+                    },
+                    {
+                        "key": 6,
+                        "value": 1.3
+                    },
+                    {
+                        "key": 7,
+                        "value": 50.0
+                    },
+                    {
+                        "key": 8,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 9,
+                        "value": 3.0
+                    },
+                    {
+                        "key": 10,
+                        "value": 8.0
+                    },
+                    {
+                        "key": 11,
+                        "value": 3.5
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 150.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 17,
+                        "value": 5.0
+                    },
+                    {
+                        "key": 19,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 1.5
+                    }
+                ],
+                "fsmPath": "fsm\\melee_default_fsm.json",
+                "modelPath": "models\\TreeGolem\\SK_TreeGolem_Death.glb",
+                "corpsePath": "models\\rock.gltf",
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Rotation": {
+                        "value0": 0.4999999701976776,
+                        "value1": 0.4999999701976776,
+                        "value2": 0.4999999701976776,
+                        "value3": 0.4999999701976776
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    1,
+                    3,
+                    2,
+                    4
+                ],
+                "iconPath": "assets/textures/checkerboard.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "animationControllerPath": "animation_controllers\\TreeGolemController.anim",
+                "materialPaths": [
+                    "materials\\M_Wood_Golem.pepimat"
+                ],
+                "unitSounds": []
+            }
+        }
+    ]
+}

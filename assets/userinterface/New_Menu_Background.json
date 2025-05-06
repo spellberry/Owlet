@@ -1,0 +1,53 @@
+{
+    "element": {
+        "name": "New_Menu_Background",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [],
+        "images": [
+            {
+                "name": "Texture_Background",
+                "start": {
+                    "value0": -0.029999999329447748,
+                    "value1": 0.03999999910593033
+                },
+                "size": {
+                    "value0": 1.5,
+                    "value1": 0.949999988079071
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 2560.0,
+                    "value3": 1440.0
+                },
+                "imageFile": "assets/textures/UI/Game UI collection/png files/Menu_Background.png",
+                "layer": 0
+            },
+            {
+                "name": "Texture_Logo",
+                "start": {
+                    "value0": 0.08500000089406967,
+                    "value1": 0.07005736231803894
+                },
+                "size": {
+                    "value0": 0.4000000059604645,
+                    "value1": 0.23000000417232514
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 2560.0,
+                    "value3": 1440.0
+                },
+                "imageFile": "assets/textures/UI/Game UI collection/png files/Menu_Logo.png",
+                "layer": 0
+            }
+        ],
+        "layer": 1,
+        "opacity": 1.0
+    }
+}

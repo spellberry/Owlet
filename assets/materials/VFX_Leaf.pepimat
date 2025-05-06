@@ -1,0 +1,32 @@
+{
+    "material": {
+        "Name": "VFX_Leaf",
+        "BaseColorFactor": {
+            "value0": 1.0,
+            "value1": 1.0,
+            "value2": 1.0,
+            "value3": 1.0
+        },
+        "UseBaseTexture": true,
+        "EmissiveFactor": {
+            "value0": 0.0,
+            "value1": 0.0,
+            "value2": 0.0
+        },
+        "UseEmissiveTexture": false,
+        "NormalTextureScale": 0.0,
+        "UseNormalTexture": false,
+        "OcclusionTextureStrength": 0.0,
+        "UseOcclusionTexture": false,
+        "UseMetallicRoughnessTexture": false,
+        "MetallicFactor": 0.0,
+        "RoughnessFactor": 1.0,
+        "IsUnlit": false,
+        "ReceiveShadows": true,
+        "BaseColorTexturePath": "textures\\leaf.png",
+        "EmissiveTexturePath": "",
+        "NormalTexturePath": "",
+        "OcclusionTexturePath": "",
+        "MetallicRoughnessTexturePath": ""
+    }
+}

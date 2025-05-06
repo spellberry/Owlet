@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Build_Release|x64">
+      <Configuration>Build_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Steam_Debug|x64">
+      <Configuration>Steam_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Steam_Release|x64">
+      <Configuration>Steam_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{4a455846-df2f-412c-9664-eb80e8a59ecb}</ProjectGuid>
+    <RootNamespace>Game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)\Build\Game\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\Build\Game\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">
+    <OutDir>$(SolutionDir)\Build\Game\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\Build\Game\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)\Build\Game\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\Build\Game\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">
+    <OutDir>$(SolutionDir)\Build\Game\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\Build\Intermediate\Game\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">
+    <OutDir>$(SolutionDir)\Build\Game\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\Build\Game\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);PLATFORM_WINDOWS;PLATFORM_DESKTOP;PERFORMANCEAPI_ENABLED;BEE_PLATFORM_PC;BEE_INSPECTOR;BEE_INSPERCTOR</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine\Include;$(SolutionDir)Engine\external;$(SolutionDir)Engine\external\fmt\include;$(SolutionDir)Engine\external\msdfgen;$(SolutionDir)Engine\external\msdfgen\dependencies\include;$(SolutionDir)source\platform\dx12;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\;Engine.lib;$(SolutionDir)Engine/external\;$(SolutionDir)Engine/external\Superluminal;$(SolutionDir)Engine/external\msdfgen\Debug;$(SolutionDir)Engine/external\msdfgen\dependencies\debug\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;opengl32.lib;glfw/glfw3.lib;d3d12.lib;dxgi.lib;dxguid.lib;$(SolutionDir)Engine/external/fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;$(SolutionDir)Engine/external/fmod/lib/fmod$(FMODSuffix)_vc.lib;PerformanceAPI_MDd.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2d.lib;freetyped.lib;libpng16d.lib;tinyxml2.lib;zlibd.lib;msdfgen-core.lib;msdfgen-ext.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)/Engine/external\fmod\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)Engine/external\*.dll" "$(TargetDir)"
+xcopy "$(SolutionDir)assets\*.*" "$(TargetDir)\assets" /Y /I /E
+xcopy /y /d "$(SolutionDir)Engine/external\dx12\*.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);PLATFORM_WINDOWS;PLATFORM_DESKTOP;PERFORMANCEAPI_ENABLED;BEE_PLATFORM_PC;BEE_INSPECTOR;BEE_INSPERCTOR;STEAM_API_WINDOWS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine\Include;$(SolutionDir)Engine\external;$(SolutionDir)Engine\external\fmt\include;$(SolutionDir)Engine\external\msdfgen;$(SolutionDir)Engine\external\msdfgen\dependencies\include;$(SolutionDir)source\platform\dx12;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\;Engine.lib;$(SolutionDir)Engine/external\;$(SolutionDir)Engine/external\Superluminal;$(SolutionDir)Engine/external\msdfgen\Debug;$(SolutionDir)Engine/external\steam;$(SolutionDir)Engine/external\msdfgen\dependencies\debug\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;opengl32.lib;glfw/glfw3.lib;d3d12.lib;dxgi.lib;dxguid.lib;$(SolutionDir)Engine/external/fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;$(SolutionDir)Engine/external/fmod/lib/fmod$(FMODSuffix)_vc.lib;PerformanceAPI_MDd.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2d.lib;freetyped.lib;libpng16d.lib;tinyxml2.lib;zlibd.lib;msdfgen-core.lib;msdfgen-ext.lib;steam_api64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)/Engine/external\fmod\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)Engine/external\*.dll" "$(TargetDir)"
+xcopy "$(SolutionDir)assets\*.*" "$(TargetDir)\assets" /Y /I /E
+xcopy /y /d "$(SolutionDir)Engine/external\dx12\*.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);PLATFORM_WINDOWS;PLATFORM_DESKTOP;PERFORMANCEAPI_ENABLED;BEE_PLATFORM_PC;BEE_INSPECTOR;BEE_INSPERCTOR;STEAM_API_WINDOWS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine\Include;$(SolutionDir)Engine\external;$(SolutionDir)Engine\external\fmt\include;$(SolutionDir)Engine\external\msdfgen;$(SolutionDir)Engine\external\msdfgen\dependencies\include;$(SolutionDir)source\platform\dx12;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\;Engine.lib;$(SolutionDir)Engine/external\;$(SolutionDir)Engine/external\Superluminal;$(SolutionDir)Engine/external\msdfgen\Debug;$(SolutionDir)Engine/external\steam;$(SolutionDir)Engine/external\msdfgen\dependencies\debug\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;opengl32.lib;glfw/glfw3.lib;d3d12.lib;dxgi.lib;dxguid.lib;$(SolutionDir)Engine/external/fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;$(SolutionDir)Engine/external/fmod/lib/fmod$(FMODSuffix)_vc.lib;PerformanceAPI_MDd.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2d.lib;freetyped.lib;libpng16d.lib;tinyxml2.lib;zlibd.lib;msdfgen-core.lib;msdfgen-ext.lib;steam_api64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)/Engine/external\fmod\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)Engine/external\*.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)Engine/external\steam\steam_api64.dll" "$(OutDir)"
+xcopy "$(SolutionDir)assets\*.*" "$(TargetDir)\assets" /Y /I /E
+xcopy /y /d "$(SolutionDir)Engine/external\dx12\*.dll" "$(TargetDir)"</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;BEE_INSPECTOR;BEE_INSPERCTOR;_CONSOLE;%(PreprocessorDefinitions);PLATFORM_WINDOWS;PLATFORM_DESKTOP;BEE_PLATFORM_PC;PERFORMANCEAPI_ENABLED;AUTOMATIC_RESOURCE</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine/include;$(SolutionDir)Engine/external;$(SolutionDir)Engine/external\msdfgen\dependencies\include;$(SolutionDir)Engine/external\msdfgen;$(SolutionDir)Engine/source\platform\dx12;$(SolutionDir)Engine/external\fmt\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\;$(SolutionDir)Engine/external\;$(SolutionDir)Engine/external\Superluminal;$(SolutionDir)Engine/external\msdfgen\dependencies\lib;$(SolutionDir)Engine/external\msdfgen\Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;opengl32.lib;glfw/glfw3.lib;d3d12.lib;dxgi.lib;dxguid.lib;msdfgen-core.lib;msdfgen-ext.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2.lib;freetype.lib;libpng16.lib;tinyxml2.lib;zlib.lib;$(SolutionDir)Engine/external/fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;$(SolutionDir)Engine/external/fmod/lib/fmod$(FMODSuffix)_vc.lib;PerformanceAPI_MD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)Engine/external\fmod\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)Engine/external\*.dll" "$(TargetDir)"
+xcopy "$(SolutionDir)assets\*.*" "$(TargetDir)\assets" /Y /I /E
+xcopy /y /d "$(SolutionDir)Engine/external\dx12\*.dll" "$(TargetDir)"
+</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);PLATFORM_WINDOWS;PLATFORM_DESKTOP;BEE_PLATFORM_PC;PERFORMANCEAPI_ENABLED;AUTOMATIC_RESOURCE;NO_CONSOLE</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine/include;$(SolutionDir)Engine/external;$(SolutionDir)Engine/external\msdfgen\dependencies\include;$(SolutionDir)Engine/external\msdfgen;$(SolutionDir)Engine/source\platform\dx12;$(SolutionDir)Engine/external\fmt\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\;$(SolutionDir)Engine/external\;$(SolutionDir)Engine/external\Superluminal;$(SolutionDir)Engine/external\msdfgen\dependencies\lib;$(SolutionDir)Engine/external\msdfgen\Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;opengl32.lib;glfw/glfw3.lib;d3d12.lib;dxgi.lib;dxguid.lib;msdfgen-core.lib;msdfgen-ext.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2.lib;freetype.lib;libpng16.lib;tinyxml2.lib;zlib.lib;$(SolutionDir)Engine/external/fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;$(SolutionDir)Engine/external/fmod/lib/fmod$(FMODSuffix)_vc.lib;PerformanceAPI_MD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)Engine/external\fmod\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)Engine/external\*.dll" "$(TargetDir)"
+xcopy "$(SolutionDir)assets\*.*" "$(TargetDir)\assets" /Y /I /E
+xcopy /y /d "$(SolutionDir)Engine/external\dx12\*.dll" "$(TargetDir)"
+</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;BEE_INSPECTOR;BEE_INSPERCTOR;_CONSOLE;%(PreprocessorDefinitions);PLATFORM_WINDOWS;PLATFORM_DESKTOP;BEE_PLATFORM_PC;PERFORMANCEAPI_ENABLED;STEAM_API_WINDOWS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine/include;$(SolutionDir)Engine/external;$(SolutionDir)Engine/external\msdfgen\dependencies\include;$(SolutionDir)Engine/external\msdfgen;$(SolutionDir)Engine/source\platform\dx12;$(SolutionDir)Engine/external\fmt\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\;$(SolutionDir)Engine/external\;$(SolutionDir)Engine/external\Superluminal;$(SolutionDir)Engine/external\msdfgen\dependencies\lib;$(SolutionDir)Engine/external\msdfgen\Release;$(SolutionDir)Engine/external\steam</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;opengl32.lib;glfw/glfw3.lib;d3d12.lib;dxgi.lib;dxguid.lib;msdfgen-core.lib;msdfgen-ext.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2.lib;freetype.lib;libpng16.lib;tinyxml2.lib;zlib.lib;steam_api64.lib;$(SolutionDir)Engine/external/fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;$(SolutionDir)Engine/external/fmod/lib/fmod$(FMODSuffix)_vc.lib;PerformanceAPI_MD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)Engine/external\fmod\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)Engine/external\*.dll" "$(TargetDir)"
+xcopy "$(SolutionDir)assets\*.*" "$(TargetDir)\assets" /Y /I /E
+xcopy /y /d "$(SolutionDir)Engine/external\dx12\*.dll" "$(TargetDir)"
+</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='test|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;BEE_INSPECTOR;BEE_INSPERCTOR;_CONSOLE;%(PreprocessorDefinitions);PLATFORM_WINDOWS;PLATFORM_DESKTOP;BEE_PLATFORM_PC;PERFORMANCEAPI_ENABLED</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine/include;$(SolutionDir)Engine/external;$(SolutionDir)Engine/external\msdfgen\dependencies\include;$(SolutionDir)Engine/external\msdfgen;$(SolutionDir)Engine/source\platform\dx12;$(SolutionDir)Engine/external\fmt\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\;$(SolutionDir)Engine/external\;$(SolutionDir)Engine/external\Superluminal;$(SolutionDir)Engine/external\msdfgen\dependencies\lib;$(SolutionDir)Engine/external\msdfgen\Release;$(SolutionDir)Engine/external\steam</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;opengl32.lib;glfw/glfw3.lib;d3d12.lib;dxgi.lib;dxguid.lib;msdfgen-core.lib;msdfgen-ext.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2.lib;freetype.lib;libpng16.lib;tinyxml2.lib;zlib.lib;steam_api64.lib;$(SolutionDir)Engine/external/fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;$(SolutionDir)Engine/external/fmod/lib/fmod$(FMODSuffix)_vc.lib;PerformanceAPI_MD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)Engine/external\fmod\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)Engine/external\*.dll" "$(TargetDir)"
+xcopy "$(SolutionDir)assets\*.*" "$(TargetDir)\assets" /Y /I /E
+xcopy /y /d "$(SolutionDir)Engine/external\dx12\*.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)Engine/external\steam\steam_api64.dll" "$(OutDir)"
+</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;BEE_INSPECTOR;BEE_INSPERCTOR;_CONSOLE;%(PreprocessorDefinitions);PLATFORM_WINDOWS;PLATFORM_DESKTOP;BEE_PLATFORM_PC;PERFORMANCEAPI_ENABLED;STEAM_API_WINDOWS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine/include;$(SolutionDir)Engine/external;$(SolutionDir)Engine/external\msdfgen\dependencies\include;$(SolutionDir)Engine/external\msdfgen;$(SolutionDir)Engine/source\platform\dx12;$(SolutionDir)Engine/external\fmt\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\;$(SolutionDir)Engine/external\;$(SolutionDir)Engine/external\Superluminal;$(SolutionDir)Engine/external\msdfgen\dependencies\lib;$(SolutionDir)Engine/external\msdfgen\Release;$(SolutionDir)Engine/external\steam</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;opengl32.lib;glfw/glfw3.lib;d3d12.lib;dxgi.lib;dxguid.lib;msdfgen-core.lib;msdfgen-ext.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2.lib;freetype.lib;libpng16.lib;tinyxml2.lib;zlib.lib;steam_api64.lib;$(SolutionDir)Engine/external/fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;$(SolutionDir)Engine/external/fmod/lib/fmod$(FMODSuffix)_vc.lib;PerformanceAPI_MD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(SolutionDir)Engine/external\fmod\lib\*.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)Engine/external\*.dll" "$(TargetDir)"
+xcopy "$(SolutionDir)assets\*.*" "$(TargetDir)\assets" /Y /I /E
+xcopy /y /d "$(SolutionDir)Engine/external\dx12\*.dll" "$(TargetDir)"
+xcopy /y /d "$(SolutionDir)Engine/external\steam\steam_api64.dll" "$(OutDir)"
+</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\game_ui\Deprecated\resource_ui.hpp" />
+    <ClInclude Include="include\game_ui\in_game_ui.hpp" />
+    <ClCompile Include="source\EnemyAIBehaviors.cpp" />
+    <ClCompile Include="source\game_ui\in_game_ui.cpp" />
+    <ClCompile Include="source\game_ui\main_menu.cpp" />
+    <ClCompile Include="source\game_ui\deprecated\resource_ui.cpp" />
+    <ClCompile Include="source\leaderboard\leaderboard.cpp" />
+    <ClCompile Include="source\leaderboard\text_field.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\order\order_system.cpp" />
+    <ClCompile Include="source\quest_system\objectives\build_objective.cpp" />
+    <ClCompile Include="source\quest_system\objectives\collect_objective.cpp" />
+    <ClCompile Include="source\quest_system\objectives\kill_objective.cpp" />
+    <ClCompile Include="source\quest_system\objectives\location_objective.cpp" />
+    <ClCompile Include="source\quest_system\objectives\objective.cpp" />
+    <ClCompile Include="source\quest_system\objectives\train_units_objective.cpp" />
+    <ClCompile Include="source\quest_system\quest.cpp" />
+    <ClCompile Include="source\quest_system\quest_system.cpp" />
+    <ClCompile Include="source\quest_system\stage.cpp" />
+    <ClCompile Include="source\quest_system\timer.cpp" />
+    <ClCompile Include="source\Starcraft.cpp" />
+    <ClCompile Include="source\game_ui\deprecated\unit_preview.cpp" />
+    <ClCompile Include="source\structure_behaviors.cpp" />
+    <ClCompile Include="source\TowerDefense.cpp" />
+    <ClCompile Include="source\wave_system.cpp" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ai_behaviors\enemy_ai_behaviors.hpp" />
+    <ClInclude Include="include\game_ui\main_menu.hpp" />
+    <ClInclude Include="include\leaderboard\leaderboard.hpp" />
+    <ClInclude Include="include\leaderboard\text_field.hpp" />
+    <ClInclude Include="include\order\order_system.hpp" />
+    <ClInclude Include="include\quest_system\objectives\build_objective.hpp" />
+    <ClInclude Include="include\quest_system\objectives\collect_objective.hpp" />
+    <ClInclude Include="include\quest_system\objectives\kill_objective.hpp" />
+    <ClInclude Include="include\quest_system\objectives\location_objective.hpp" />
+    <ClInclude Include="include\quest_system\objectives\objective.hpp" />
+    <ClInclude Include="include\quest_system\objectives\train_units_objective.hpp" />
+    <ClInclude Include="include\quest_system\quest.hpp" />
+    <ClInclude Include="include\quest_system\quest_system.hpp" />
+    <ClInclude Include="include\quest_system\stage.hpp" />
+    <ClInclude Include="include\quest_system\timer.hpp" />
+    <ClInclude Include="include\Starcraft.hpp" />
+    <ClInclude Include="include\game_ui\Deprecated\unit_preview.hpp" />
+    <ClInclude Include="include\TowerDefense.hpp" />
+    <ClInclude Include="include\ai_behaviors\structure_behaviors.hpp" />
+    <ClInclude Include="include\ai_behaviors\unit_behaviors.hpp" />
+    <ClInclude Include="include\ai_behaviors\wave_system.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon.png" />
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

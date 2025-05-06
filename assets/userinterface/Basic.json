@@ -1,0 +1,83 @@
+{
+    "element": {
+        "name": "Basic",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [
+            {
+                "name": "InGameTime",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.20999999344348908
+                },
+                "size": 0.10000000149011612,
+                "text": "In game time: 0",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "DiedOnWave",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.24500000476837159
+                },
+                "size": 0.10000000149011612,
+                "text": "Died on wave: 0",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Wood",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.2750000059604645
+                },
+                "size": 0.10000000149011612,
+                "text": "Wood Wasted: 0",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Stone",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.3050000071525574
+                },
+                "size": 0.10000000149011612,
+                "text": "Stone Wasted: 0",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "templateData": [
+        {
+            "key": "warrior",
+            "value": {
+                "name": "warrior",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 10,
+                        "value": 8.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 5,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 6,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 11,
+                        "value": 8.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    }
+                ],
+                "fsmPath": "default_fsm_melee.json",
+                "modelPath": "models\\SK_Owl_Melee.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    1,
+                    3,
+                    2,
+                    4
+                ],
+                "iconPath": "textures/checkerboard.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "animationControllerPath": "",
+                "materialPaths": [
+                    "materials\\Warrior_Owl.pepimat"
+                ],
+                "unitSounds": []
+            }
+        }
+    ]
+}

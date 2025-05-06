@@ -1,0 +1,49 @@
+{
+    "element": {
+        "name": "CollectedResources",
+        "tobs": 1,
+        "lors": 3,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [
+            {
+                "name": "PlusStone",
+                "start": {
+                    "value0": 0.25999999046325686,
+                    "value1": 0.06859983503818512
+                },
+                "size": 0.11999999731779099,
+                "text": "+100",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "PlusWood",
+                "start": {
+                    "value0": 0.4000000059604645,
+                    "value1": 0.06860695779323578
+                },
+                "size": 0.11999999731779099,
+                "text": "+100",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [],
+        "layer": 4,
+        "opacity": 1.0
+    }
+}

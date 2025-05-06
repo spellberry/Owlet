@@ -1,0 +1,101 @@
+"Action Manifest"
+{
+	"configurations"
+	{
+		"controller_xboxone"
+		{
+			"0"
+			{
+				"path" "xbox_controller.vdf"
+			}
+		}
+		"controller_steamcontroller_gordon"
+		{
+			"0"
+			{
+				"path" "steam_controller.vdf"
+			}
+		}
+		"controller_neptune"
+		{
+			"0"
+			{
+				"path" "steam_deck.vdf"
+			}
+		}
+	}
+	"actions"
+	{
+		"InGameControls"
+		{
+			"title"					"#Set_Ingame"
+			"StickPadGyro"
+			{
+				"Camera"
+				{
+					"title"			"#Action_Camera"
+					"input_mode"	"joystick_move"
+				}
+				"Ui_Movement"
+				{
+					"title"			"#Action_Ui_Movement"
+					"input_mode"	"joystick_move"
+				}
+				"Mouse"
+				{
+					"title"		"#Action_Mouse"
+					"input_mode"	"absolute_mouse"
+					"os_mouse"	"1"
+				}
+			}
+			"Button"
+			{
+				"Selection"			"#Action_Select"
+				"Order"				"#Action_Order"
+				"All"				"#Action_All"
+				"Up"				"#Action_Up"
+				"Down"				"#Action_Down"
+				"Change_Mode"		"#Action_Change_Mode"
+				"Press"				"#Action_Press"
+				"Press_All"			"#Action_Press_All"
+			}
+		}
+		"MainMenuControls"
+		{
+			"title"					"#Set_MainMenu"
+			"StickPadGyro"
+			{
+				"Menu"
+				{
+					"title"			"#Main_Menu_Controls"
+					"input_mode"	"joystick_move"
+				}
+			}
+			"Button"
+			{
+				"Click"				"#Action_Click"
+			}
+		}
+	}
+	"localization"
+	{
+		"english"
+		{
+			"Set_Ingame"			"In-Game Controls"
+			"Set_MainMenu"			"Main Menu Controls"
+			"Action_Camera"			"Camera Movement"
+			"Action_Select"			"Select Button"
+			"Action_Order"			"Order Button"
+			"Action_All"			"Combine Button"
+			"Action_Up"				"Move Up"
+			"Action_Down"			"Move Down"
+			"Action_Mouse"			"Mouse Input"
+			"Action_Click"			"The button that is used for clicking ui buttons"
+			"Action_Change_Mode"	"Hold to use the new selection"
+			"Main_Menu_Controls" 	"Is used for switching the focus between the main menu buttons"
+			"Action_Press"			"Button used for pressing the ui elements"
+			"Action_Ui_Movement"	"Toggle between units"
+			"Action_Press_All"		"Give order to all selected units"
+		}
+	}
+}

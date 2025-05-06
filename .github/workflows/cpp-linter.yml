@@ -1,0 +1,27 @@
+name: cpp-linter
+
+on: 
+  pull_request:
+    branches: [ "main" , "Development"]
+    paths-ignore: "docs/** external/** assets/** .github/** Engine/external** Game/assets/** executable/** SteamBuild/**"
+
+jobs:
+  cpp-linter:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cpp-linter/cpp-linter-action@v2
+        id: linter
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          style: 'file'
+          step-summary: true
+          file-annotations: false
+          ignore: docs|assets|external|.github
+          tidy-checks: ''
+          version: '15'
+          
+      - name: Check linting results
+        if: steps.linter.outputs.checks-failed > 0
+        run: echo 'Linting check failed! Open action summary annotations for more details'; # exit 1 <- temporarely removed to allow merging

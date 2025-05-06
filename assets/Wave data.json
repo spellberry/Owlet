@@ -1,0 +1,25 @@
+{
+    "delayBetweenWaves": 20.0,
+    "enemiesToSpawn": [
+        "StoneGolem",
+        "WoodGolem"
+    ],
+    "enemyWeights": [
+        3,
+        10
+    ],
+    "minimalDistanceToBase": 19.239999771118164,
+    "numberOfEnemiesPerWave": [
+        6,
+        9,
+        12,
+        16,
+        22,
+        30,
+        38,
+        48,
+        60,
+        69
+    ],
+    "ringThickness": 26.760000228881836
+}

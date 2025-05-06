@@ -1,0 +1,73 @@
+{
+    "element": {
+        "name": "InGameBottomRight",
+        "tobs": 0,
+        "lors": 3,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [
+            {
+                "start": {
+                    "value0": 0.009999999776482582,
+                    "value1": 0.009999999776482582
+                },
+                "size": {
+                    "value0": 0.2280000001192093,
+                    "value1": 0.2280000001192093
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "HoveringOverUI"
+                },
+                "typein": 1,
+                "hoverimg": "none",
+                "hoverable": true,
+                "name": "hovering",
+                "linkedComponentstr": "BackGround",
+                "layer": 0
+            }
+        ],
+        "texts": [],
+        "images": [
+            {
+                "name": "BackGround",
+                "start": {
+                    "value0": 0.009999999776482582,
+                    "value1": 0.009999999776482582
+                },
+                "size": {
+                    "value0": 0.2280000001192093,
+                    "value1": 0.2280000001192093
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 572.0,
+                    "value3": 558.0
+                },
+                "imageFile": "assets/textures\\UI\\RightBottom_BuildingBlock.png",
+                "layer": 0
+            }
+        ],
+        "layer": 5,
+        "opacity": 1.0
+    }
+}

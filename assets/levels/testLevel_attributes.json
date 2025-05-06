@@ -1,0 +1,382 @@
+{
+    "attributes": [
+        {
+            "first": {
+                "m_entityType": "barracks",
+                "m_team": 1,
+                "smallGridIndex": 1028,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 10.5,
+                    "value1": -8.5,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " barracks"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "barracks",
+                "m_team": 1,
+                "smallGridIndex": 986,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -10.5,
+                    "value1": -8.5,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " barracks"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "warrior",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 15.210101127624512,
+                    "value1": 5.1633710861206059,
+                    "value2": 0.46338945627212527
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "warrior",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 0.42614442110061648,
+                    "value1": 6.947160243988037,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "warrior",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 1.2655092477798463,
+                    "value1": 1.59150230884552,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "warrior",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 10.465584754943848,
+                    "value1": 1.6357011795043946,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "warrior",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 10.7022123336792,
+                    "value1": 4.431828498840332,
+                    "value2": 0.000047367295337608087
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "warrior",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 8.63263988494873,
+                    "value1": 8.520509719848633,
+                    "value2": 0.11234147101640701
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "warrior",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 6.548534393310547,
+                    "value1": 7.8333892822265629,
+                    "value2": 0.000054741303756600249
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "warrior",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 3.9706132411956789,
+                    "value1": 4.475033283233643,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "warrior",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -2.247434139251709,
+                    "value1": 1.5190843343734742,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "warrior",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -7.171682834625244,
+                    "value1": 5.135512351989746,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "warrior",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -5.966086387634277,
+                    "value1": 7.263139724731445,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "warrior",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -2.0648820400238039,
+                    "value1": 7.480324745178223,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "warrior"
+            }
+        }
+    ]
+}

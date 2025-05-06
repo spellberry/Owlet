@@ -1,0 +1,92 @@
+{
+    "element": {
+        "name": "PopupTemplate",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [
+            {
+              "start": {
+                "value0": 0.3332536816596985,
+                "value1": 0.021431971341371537
+              },
+              "size": {
+                "value0": 0.04114999994635582,
+                "value1": 0.04114999994635582
+              },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "ClosePopup"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "CloseButton",
+                "linkedComponentstr": "CloseTex",
+                "layer": 0
+            }
+        ],
+        "texts": [],
+        "images": [
+            {
+                "name": "backGround",
+                "start": {
+                    "value0": 0.0,
+                    "value1": 0.0
+                },
+                "size": {
+                    "value0": 0.3779999911785126,
+                    "value1": 0.2057500034570694
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1019.0,
+                    "value3": 503.0
+                },
+                "imageFile": "assets/textures\\UI\\BottomScroll_Popup.png",
+                "layer": 0
+            },
+            {
+                "name": "CloseTex",
+                "start": {
+                    "value0": 0.3332536816596985,
+                    "value1": 0.021431971341371537
+                },
+                "size": {
+                    "value0": 0.04114999994635582,
+                    "value1": 0.04114999994635582
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 79.0,
+                    "value3": 76.0
+                },
+                "imageFile": "assets/textures\\UI\\Exit_Button.png",
+                "layer": 0
+            }
+        ],
+        "layer": 5,
+        "opacity": 1.0
+    }
+}

@@ -1,0 +1,656 @@
+{
+    "templateData": [
+        {
+            "key": "tree",
+            "value": {
+                "name": "tree",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\Level Testing models\\SM_Tree_01.glb",
+                "materialPaths": [
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        },
+        {
+            "key": "BigTree",
+            "value": {
+                "name": "BigTree",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.2
+                    },
+                    {
+                        "key": 1,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\Level Testing models\\SM_Tree_01.glb",
+                "materialPaths": [
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        },
+        {
+            "key": "Rock1",
+            "value": {
+                "name": "Rock1",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 3.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\rock.gltf",
+                "materialPaths": [
+                    "materials\\MI_Rock.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 2.0,
+                    "value1": 3.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        },
+        {
+            "key": "Rock2",
+            "value": {
+                "name": "Rock2",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\rock. 2.gltf",
+                "materialPaths": [
+                    "materials\\MI_Rock.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 5.0,
+                    "value1": 3.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        },
+        {
+            "key": "Rock_02",
+            "value": {
+                "name": "Rock_02",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\Rocks\\SM_Rock_02.glb",
+                "materialPaths": [
+                    "materials\\MI_Rock.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        },
+        {
+            "key": "BigRock1",
+            "value": {
+                "name": "BigRock1",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 8.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\rock.gltf",
+                "materialPaths": [
+                    "materials\\MI_Rock.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 5.0,
+                    "value1": 8.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        },
+        {
+            "key": "SmallTree",
+            "value": {
+                "name": "SmallTree",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 1,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\Level Testing models\\SM_Tree_01.glb",
+                "materialPaths": [
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        },
+        {
+            "key": "Fence",
+            "value": {
+                "name": "Fence",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\Structures\\SM_Fence.glb",
+                "materialPaths": [
+                    "materials\\MI_Dark_Bark.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 4.0,
+                    "value1": 4.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        },
+        {
+            "key": "Rock_01",
+            "value": {
+                "name": "Rock_01",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\Rocks\\SM_Rock_01.glb",
+                "materialPaths": [
+                    "materials\\MI_Rock.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        },
+        {
+            "key": "Rock_03",
+            "value": {
+                "name": "Rock_03",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\Rocks\\SM_Rock_03.glb",
+                "materialPaths": [
+                    "materials\\MI_Rock.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        },
+        {
+            "key": "Ruin_Base",
+            "value": {
+                "name": "Ruin_Base",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\Structures\\SM_Base_LVL0.glb",
+                "materialPaths": [
+                    "materials\\MI_Dark_Bark.pepimat",
+                    "materials\\MI_Ivy.pepimat",
+                    "materials\\MI_Stone_Tracery.pepimat",
+                    "materials\\MI_Stone_Simple.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        },
+        {
+            "key": "Ruin_Mage",
+            "value": {
+                "name": "Ruin_Mage",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\Structures\\SM_Mage_Tower_LVL0.glb",
+                "materialPaths": [
+                    "materials\\MI_Dark_Bark.pepimat",
+                    "materials\\MI_Ivy.pepimat",
+                    "materials\\MI_Stone_Simple.pepimat",
+                    "materials\\MI_Stone_Tracery.pepimat",
+                    "materials\\MI_Stone_Trim.pepimat",
+                    "materials\\MI_Stone_Wall.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        },
+        {
+            "key": "Ruin_Warrior",
+            "value": {
+                "name": "Ruin_Warrior",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.1
+                    }
+                ],
+                "modelPath": "models\\Structures\\SM_Barracks_LVL0.glb",
+                "materialPaths": [
+                    "materials\\MI_Dark_Bark.pepimat",
+                    "materials\\MI_Ivy.pepimat",
+                    "materials\\MI_Roof_Styilized.pepimat",
+                    "materials\\MI_Stone_Tracery.pepimat",
+                    "materials\\MI_Stone_Wall.pepimat"
+                ],
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "createCollider": false,
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "resourceType": 0
+            }
+        }
+    ]
+}

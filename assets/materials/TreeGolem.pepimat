@@ -1,0 +1,32 @@
+{
+    "material": {
+        "Name": "M_TreeGolem",
+        "BaseColorFactor": {
+            "value0": 1.0,
+            "value1": 1.0,
+            "value2": 1.0,
+            "value3": 1.0
+        },
+        "UseBaseTexture": true,
+        "EmissiveFactor": {
+            "value0": 0.0,
+            "value1": 1.0,
+            "value2": 0.0
+        },
+        "UseEmissiveTexture": true,
+        "NormalTextureScale": 0.0,
+        "UseNormalTexture": true,
+        "OcclusionTextureStrength": 0.0,
+        "UseOcclusionTexture": false,
+        "UseMetallicRoughnessTexture": true,
+        "MetallicFactor": 0.0,
+        "RoughnessFactor": 1.0,
+        "IsUnlit": false,
+        "ReceiveShadows": true,
+        "BaseColorTexturePath": "textures\\Character_Textures\\standardSurface1_Base_color.png",
+        "EmissiveTexturePath": "textures\\Character_Textures\\Golem_LP_standardSurface1_Emissive.png",
+        "NormalTexturePath": "textures\\Character_Textures\\Golem_LP_standardSurface1_Normal.png",
+        "OcclusionTexturePath": "",
+        "MetallicRoughnessTexturePath": "textures\\Character_Textures\\Golem_LP_standardSurface1_OcclusionRoughnessMetallic.png"
+    }
+}

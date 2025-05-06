@@ -1,0 +1,124 @@
+{
+    "element": {
+        "name": "UnitQueued",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [
+            {
+                "start": {
+                    "value0": 0.009999999776482582,
+                    "value1": 0.6706435680389404
+                },
+                "size": {
+                    "value0": 0.07500000298023224,
+                    "value1": 0.004999999888241291
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 4.0,
+                    "value3": 4.0
+                },
+                "imageFile": "assets/textures\\green.png",
+                "fColor": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "bColor": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 0.0
+                },
+                "name": "Progress",
+                "value": 100.0,
+                "layer": 0
+            }
+        ],
+        "buttons": [
+            {
+                "start": {
+                    "value0": 0.015818901360034944,
+                    "value1": 0.5643407702445984
+                },
+                "size": {
+                    "value0": 0.07500000298023224,
+                    "value1": 0.07500000298023224
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "none",
+                "hoverable": true,
+                "name": "UnitQue",
+                "linkedComponentstr": "UnitTexture",
+                "layer": 0
+            }
+        ],
+        "texts": [
+            {
+                "name": "Queued",
+                "start": {
+                    "value0": 0.06885524094104767,
+                    "value1": 0.6634523868560791
+                },
+                "size": 0.15000000596046449,
+                "text": "0",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [
+            {
+                "name": "UnitTexture",
+                "start": {
+                    "value0": 0.009999999776482582,
+                    "value1": 0.6000000238418579
+                },
+                "size": {
+                    "value0": 0.07500000298023224,
+                    "value1": 0.07500000298023224
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 64.0,
+                    "value3": 64.0
+                },
+                "imageFile": "assets\\textures\\UI\\Game UI collection\\png files\\buttons blue-01.png",
+                "layer": 0
+            }
+        ],
+        "layer": 5,
+        "opacity": 1.0
+    }
+}

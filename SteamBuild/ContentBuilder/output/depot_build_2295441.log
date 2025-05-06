@@ -1,0 +1,16 @@
+[2024-03-20 16:00:23]: Starting build for depot 2295441, content path is "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\Build\Game\x64\Release", build flags 0x0
+[2024-03-20 16:00:23]: Building file listing for depot 2295441 ...
+[2024-03-20 16:00:23]: Found 293 files for mapping: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\Build\Game\x64\Release * -> .
+[2024-03-20 16:00:23]: Found 293 files (382 MB) for depot 2295441
+[2024-03-20 16:00:24]: Building depot 2295441, baseline manifest 7642390447677520149 (293 files)
+[2024-03-20 16:00:26]: Found 572 chunks ( 583 used previously ) for depot 2295441, took 0 minutes, 1 seconds
+[2024-03-20 16:00:26]: Changes to baseline manifest 7642390447677520149 :
+[2024-03-20 16:00:26]: Changed: "Game.exe" 4193 kB size, 3072 kB changed 
+[2024-03-20 16:00:26]: Changed: "Game.iobj" 85477 kB size, 69030 kB changed 
+[2024-03-20 16:00:26]: Changed: "Game.ipdb" 21599 kB size, 18660 kB changed 
+[2024-03-20 16:00:26]: Changed: "Game.log" 47 kB size, 47 kB changed 
+[2024-03-20 16:00:26]: Changed: "Game.tlog\link.write.1.tlog" 2 kB size, 2 kB changed 
+[2024-03-20 16:00:26]: Summary: 0 files added, 5 files changed, 0 files removed
+[2024-03-20 16:00:26]: Uploading new manifest to 208.78.164.214:80 (handle 9917798836219030536, 52708 bytes).
+[2024-03-20 16:00:27]: Uploading 80 out of 80 missing chunks.
+[2024-03-20 16:00:35]: Success! New manifestID 7188113940111458040 created and 80 new chunks uploaded.

@@ -1,0 +1,34 @@
+{
+    "element": {
+        "name": "LeaderboardBackground",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [],
+        "images": [
+            {
+                "name": "New Component0",
+                "start": {
+                    "value0": 1.2844358682632447,
+                    "value1": 0.1675339639186859
+                },
+                "size": {
+                    "value0": 0.4099999964237213,
+                    "value1": 0.27000001072883608
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 567.0,
+                    "value3": 540.0
+                },
+                "imageFile": "assets/textures\\Leaderboard.png",
+                "layer": 0
+            }
+        ],
+        "layer": 1,
+        "opacity": 1.0
+    }
+}

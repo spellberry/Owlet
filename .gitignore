@@ -1,0 +1,16 @@
+
+.vs
+.idea
+*.vcxproj.user
+intermediate/
+executable/
+Build/
+tidy/
+**/__pycache__/
+
+imgui.ini
+inspector.json
+SimpleBT.json
+SimpleFSM.json
+/Build
+/Debug

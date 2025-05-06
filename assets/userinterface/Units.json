@@ -1,0 +1,185 @@
+{
+    "element": {
+        "name": "Units",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [
+            {
+                "name": "Ally2Spawned",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.3149999976158142
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 2 spawned: 0 ",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Enemy1Spawned",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.4449999928474426
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 3 spawned: 0 ",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Enemy2Killed",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.5350000262260437
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 4 killed: 0 ",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Ally2Killed",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.3449999988079071
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 2 killed: 0 ",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Ally1Killed",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.2849999964237213
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 1 killed: 0 ",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Enemy2Spawned",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.5049999952316284
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 4 spawned: 0 ",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Enemy1Killed",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.4749999940395355
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 3 killed: 0 ",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Ally1Spawned",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.2549999952316284
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 1 spawned: 0 ",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "New Component8",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.4054054021835327
+                },
+                "size": 0.20000000298023225,
+                "text": "Enemy Units:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "New Component9",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.2199999988079071
+                },
+                "size": 0.20000000298023225,
+                "text": "Ally Units:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

@@ -1,0 +1,1901 @@
+{
+    "templateData": [
+        {
+            "key": "TownHallLvl2",
+            "value": {
+                "name": "TownHallLvl2",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 16,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 1500.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 2,
+                        "value": 15.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 15.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 6.0
+                    },
+                    {
+                        "key": 27,
+                        "value": 7.0
+                    },
+                    {
+                        "key": 28,
+                        "value": 7.0
+                    }
+                ],
+                "fsmPath": "fsm\\barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Base_LVL02.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_Emmissive.pepimat",
+                    "materials\\M_Metal.pepimat",
+                    "materials\\M_Roof_Simple1.pepimat",
+                    "materials\\M_Roof_Simple2.pepimat",
+                    "materials\\M_Roof_Simple3.pepimat",
+                    "materials\\M_Roof_Stylized1.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Tracery.pepimat",
+                    "materials\\M_Stone_TrimSheet.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat",
+                    "materials\\M_Windows.pepimat",
+                    "materials\\M_Wood.pepimat"
+                ],
+                "buildingUpgradeHandle": "TownHallLvl3",
+                "tileDimensions": {
+                    "value0": 7.0,
+                    "value1": 18.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": -2.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": -0.0,
+                        "value2": -0.7071067690849304,
+                        "value3": 0.7071067690849304
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    12
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\Townhall_button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1116.0,
+                    "value3": 1117.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 4
+            }
+        },
+        {
+            "key": "SwordsmenTowerLvl2",
+            "value": {
+                "name": "SwordsmenTowerLvl2",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 15.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 250.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 16,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 21,
+                        "value": 5.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 25,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 26,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 27,
+                        "value": 8.0
+                    }
+                ],
+                "fsmPath": "fsm\\barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Barracks_LVL02.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_Metal.pepimat",
+                    "materials\\M_Plaster_Cracked.pepimat",
+                    "materials\\M_Blue_Simple1.pepimat",
+                    "materials\\M_Blue_Simple2.pepimat",
+                    "materials\\M_Blue_Simple3.pepimat",
+                    "materials\\M_Blue_Stylized1.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_TrimSheet.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat",
+                    "materials\\M_Windows.pepimat",
+                    "materials\\M_Wood_Simple.pepimat",
+                    "materials\\M_Wood.pepimat"
+                ],
+                "buildingUpgradeHandle": "SwordsmenTowerLvl3",
+                "tileDimensions": {
+                    "value0": 4.0,
+                    "value1": 4.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    10,
+                    12
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\WarriorTower_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1118.0,
+                    "value3": 1118.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 1
+            }
+        },
+        {
+            "key": "MageTowerLvl1",
+            "value": {
+                "name": "MageTowerLvl1",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 200.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 16,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 21,
+                        "value": 5.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 28,
+                        "value": 5.0
+                    }
+                ],
+                "fsmPath": "fsm\\barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Mage_Tower_LVL01.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_Metal.pepimat",
+                    "materials\\M_Pink_Simple1.pepimat",
+                    "materials\\M_Pink_Simple2.pepimat",
+                    "materials\\M_Pink_Simple3.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Tracery.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat",
+                    "materials\\M_Windows.pepimat",
+                    "materials\\M_Wood_Simple.pepimat",
+                    "materials\\M_Wood.pepimat",
+                    "materials\\M_Stone_Tracery.pepimat",
+                    "materials\\M_Stone_Tracery.pepimat"
+                ],
+                "buildingUpgradeHandle": "MageTowerLvl2",
+                "tileDimensions": {
+                    "value0": 4.0,
+                    "value1": 4.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    11,
+                    12
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\MageTower_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1114.0,
+                    "value3": 1114.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 2
+            }
+        },
+        {
+            "key": "Wall",
+            "value": {
+                "name": "Wall",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 200.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 1.5
+                    }
+                ],
+                "fsmPath": "fsm\\wall_fsm.json",
+                "modelPath": "models\\Structures\\SM_Wall.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat"
+                ],
+                "buildingUpgradeHandle": "",
+                "tileDimensions": {
+                    "value0": 3.0,
+                    "value1": 1.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [],
+                "iconPath": "assets\\textures\\UI\\icons\\StoneWall_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1119.0,
+                    "value3": 1119.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 0
+            }
+        },
+        {
+            "key": "SwordsmenTowerLvl1",
+            "value": {
+                "name": "SwordsmenTowerLvl1",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 200.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 16,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 21,
+                        "value": 5.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 27,
+                        "value": 5.0
+                    }
+                ],
+                "fsmPath": "fsm\\barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Barracks_LVL01.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_Stone_Tracery.pepimat",
+                    "materials\\M_Metal.pepimat",
+                    "materials\\M_Blue_Simple1.pepimat",
+                    "materials\\M_Blue_Simple2.pepimat",
+                    "materials\\M_Blue_Simple3.pepimat",
+                    "materials\\M_Blue_Stylized1.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat",
+                    "materials\\M_Windows.pepimat",
+                    "materials\\M_Wood_Simple.pepimat",
+                    "materials\\M_Wood.pepimat"
+                ],
+                "buildingUpgradeHandle": "SwordsmenTowerLvl2",
+                "tileDimensions": {
+                    "value0": 4.0,
+                    "value1": 4.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    10,
+                    12
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\WarriorTower_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1118.0,
+                    "value3": 1118.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 1
+            }
+        },
+        {
+            "key": "SwordsmenTowerLvl3",
+            "value": {
+                "name": "SwordsmenTowerLvl3",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 20.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 300.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 16,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 21,
+                        "value": 5.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 3.0
+                    },
+                    {
+                        "key": 25,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 26,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 27,
+                        "value": 12.0
+                    }
+                ],
+                "fsmPath": "fsm\\barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Barracks_LVL03.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_Banner_Barracks.pepimat",
+                    "materials\\M_FlagLong_Barracks.pepimat",
+                    "materials\\M_Metal.pepimat",
+                    "materials\\M_Plaster_Cracked.pepimat",
+                    "materials\\M_Blue_Simple1.pepimat",
+                    "materials\\M_Blue_Simple2.pepimat",
+                    "materials\\M_Blue_Simple3.pepimat",
+                    "materials\\M_Blue_Stylized1.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Tracery.pepimat",
+                    "materials\\M_Stone_TrimSheet.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat",
+                    "materials\\M_Windows.pepimat",
+                    "materials\\M_Wood_Simple.pepimat",
+                    "materials\\M_Wood.pepimat"
+                ],
+                "buildingUpgradeHandle": "SwordsmenTowerLvl4",
+                "tileDimensions": {
+                    "value0": 4.0,
+                    "value1": 4.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    10,
+                    12
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\WarriorTower_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1118.0,
+                    "value3": 1118.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 1
+            }
+        },
+        {
+            "key": "MageTowerLvl2",
+            "value": {
+                "name": "MageTowerLvl2",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 15.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 250.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 16,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 21,
+                        "value": 5.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 25,
+                        "value": 3.0
+                    },
+                    {
+                        "key": 26,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 28,
+                        "value": 8.0
+                    }
+                ],
+                "fsmPath": "fsm\\barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Mage_Tower_LVL02.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_FlagLong_Mage.pepimat",
+                    "materials\\M_Metal.pepimat",
+                    "materials\\M_Plaster_Cracked.pepimat",
+                    "materials\\M_Pink_Simple1.pepimat",
+                    "materials\\M_Pink_Simple2.pepimat",
+                    "materials\\M_Pink_Simple3.pepimat",
+                    "materials\\M_Pink_Stylized1.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Tracery.pepimat",
+                    "materials\\M_Stone_TrimSheet.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat",
+                    "materials\\M_Windows.pepimat",
+                    "materials\\M_Wood_Simple.pepimat",
+                    "materials\\M_Wood.pepimat"
+                ],
+                "buildingUpgradeHandle": "MageTowerLvl3",
+                "tileDimensions": {
+                    "value0": 4.0,
+                    "value1": 4.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    11,
+                    12
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\MageTower_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1114.0,
+                    "value3": 1114.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 2
+            }
+        },
+        {
+            "key": "SwordsmenTowerLvl4",
+            "value": {
+                "name": "SwordsmenTowerLvl4",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 30.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 400.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 16,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 21,
+                        "value": 5.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 25,
+                        "value": 6.0
+                    },
+                    {
+                        "key": 26,
+                        "value": 6.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 27,
+                        "value": 16.0
+                    }
+                ],
+                "fsmPath": "fsm\\barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Barracks_LVL04.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_Banner_Barracks.pepimat",
+                    "materials\\M_FlagLong_Barracks.pepimat",
+                    "materials\\M_FlagShort_Barracks.pepimat",
+                    "materials\\M_Metal.pepimat",
+                    "materials\\M_Plaster_Cracked.pepimat",
+                    "materials\\M_Blue_Simple1.pepimat",
+                    "materials\\M_Blue_Simple2.pepimat",
+                    "materials\\M_Blue_Simple3.pepimat",
+                    "materials\\M_Blue_Stylized1.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Tracery.pepimat",
+                    "materials\\M_Stone_TrimSheet.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat",
+                    "materials\\M_Windows.pepimat",
+                    "materials\\M_Wood_Simple.pepimat",
+                    "materials\\M_Wood.pepimat"
+                ],
+                "buildingUpgradeHandle": "",
+                "tileDimensions": {
+                    "value0": 4.0,
+                    "value1": 4.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    10
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\WarriorTower_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1118.0,
+                    "value3": 1118.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 1
+            }
+        },
+        {
+            "key": "MageTowerLvl3",
+            "value": {
+                "name": "MageTowerLvl3",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 20.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 300.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 16,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 21,
+                        "value": 5.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 3.0
+                    },
+                    {
+                        "key": 25,
+                        "value": 6.0
+                    },
+                    {
+                        "key": 26,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 28,
+                        "value": 12.0
+                    }
+                ],
+                "fsmPath": "fsm\\barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Mage_Tower_LVL03.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_FlagLong_Mage.pepimat",
+                    "materials\\M_FlagLong_Mage.pepimat",
+                    "materials\\M_Metal.pepimat",
+                    "materials\\M_Plaster_Cracked.pepimat",
+                    "materials\\M_Pink_Simple1.pepimat",
+                    "materials\\M_Pink_Simple2.pepimat",
+                    "materials\\M_Pink_Simple3.pepimat",
+                    "materials\\M_Pink_Stylized1.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Tracery.pepimat",
+                    "materials\\M_Stone_TrimSheet.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat",
+                    "materials\\M_Windows.pepimat",
+                    "materials\\M_Wood_Simple.pepimat",
+                    "materials\\M_Wood.pepimat"
+                ],
+                "buildingUpgradeHandle": "MageTowerLvl4",
+                "tileDimensions": {
+                    "value0": 4.0,
+                    "value1": 4.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    11,
+                    12
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\MageTower_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1114.0,
+                    "value3": 1114.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 2
+            }
+        },
+        {
+            "key": "MageTowerLvl4",
+            "value": {
+                "name": "MageTowerLvl4",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 30.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 400.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 16,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 21,
+                        "value": 5.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 25,
+                        "value": 9.0
+                    },
+                    {
+                        "key": 26,
+                        "value": 3.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 28,
+                        "value": 16.0
+                    }
+                ],
+                "fsmPath": "fsm\\barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Mage_Tower_LVL04.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_FlagLong_Mage.pepimat",
+                    "materials\\M_Metal.pepimat",
+                    "materials\\M_Plaster_Cracked.pepimat",
+                    "materials\\M_Pink_Simple1.pepimat",
+                    "materials\\M_Pink_Simple2.pepimat",
+                    "materials\\M_Pink_Simple3.pepimat",
+                    "materials\\M_Pink_Stylized1.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Tracery.pepimat",
+                    "materials\\M_Stone_TrimSheet.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat",
+                    "materials\\M_Windows.pepimat",
+                    "materials\\M_Wood_Simple.pepimat",
+                    "materials\\M_Wood.pepimat"
+                ],
+                "buildingUpgradeHandle": "",
+                "tileDimensions": {
+                    "value0": 4.0,
+                    "value1": 4.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    11
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\WarriorTower_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1118.0,
+                    "value3": 1118.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 2
+            }
+        },
+        {
+            "key": "TownHallLvl1",
+            "value": {
+                "name": "TownHallLvl1",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 16,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 1000.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 3,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 6.0
+                    },
+                    {
+                        "key": 27,
+                        "value": 5.0
+                    },
+                    {
+                        "key": 28,
+                        "value": 5.0
+                    }
+                ],
+                "fsmPath": "fsm\\barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Base_LVL01.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_Emmissive.pepimat",
+                    "materials\\M_Metal.pepimat",
+                    "materials\\M_Roof_Simple1.pepimat",
+                    "materials\\M_Roof_Simple2.pepimat",
+                    "materials\\M_Roof_Simple3.pepimat",
+                    "materials\\M_Roof_Stylized1.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Tracery.pepimat",
+                    "materials\\M_Stone_TrimSheet.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat",
+                    "materials\\M_Windows.pepimat",
+                    "materials\\M_Wood.pepimat"
+                ],
+                "buildingUpgradeHandle": "TownHallLvl2",
+                "tileDimensions": {
+                    "value0": 8.0,
+                    "value1": 18.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": -2.0,
+                        "value2": -0.30000001192092898
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": -0.0,
+                        "value2": -0.7071067690849304,
+                        "value3": 0.7071067690849304
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    12
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\Townhall_button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1116.0,
+                    "value3": 1117.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 4
+            }
+        },
+        {
+            "key": "TownHallLvl3",
+            "value": {
+                "name": "TownHallLvl3",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 16,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 3.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 2000.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 2,
+                        "value": 20.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 20.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 6.0
+                    },
+                    {
+                        "key": 27,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 28,
+                        "value": 10.0
+                    }
+                ],
+                "fsmPath": "fsm\\barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Base_LVL03.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Emmissive.pepimat",
+                    "materials\\M_Metal.pepimat",
+                    "materials\\M_Roof_Simple1.pepimat",
+                    "materials\\M_Roof_Simple2.pepimat",
+                    "materials\\M_Roof_Simple3.pepimat",
+                    "materials\\M_Roof_Stylized1.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Tracery.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat",
+                    "materials\\M_Windows.pepimat",
+                    "materials\\M_Wood.pepimat"
+                ],
+                "buildingUpgradeHandle": "TownHallLvl4",
+                "tileDimensions": {
+                    "value0": 7.0,
+                    "value1": 18.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": -0.0,
+                        "value2": -0.7071067690849304,
+                        "value3": 0.7071067690849304
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    12
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\Townhall_button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1116.0,
+                    "value3": 1117.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 4
+            }
+        },
+        {
+            "key": "TownHallLvl4",
+            "value": {
+                "name": "TownHallLvl4",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 16,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 3000.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 2,
+                        "value": 30.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 30.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 6.0
+                    },
+                    {
+                        "key": 27,
+                        "value": 15.0
+                    },
+                    {
+                        "key": 28,
+                        "value": 15.0
+                    }
+                ],
+                "fsmPath": "fsm\\barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Base_LVL04.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_Emmissive.pepimat",
+                    "materials\\M_Metal.pepimat",
+                    "materials\\M_Roof_Simple1.pepimat",
+                    "materials\\M_Roof_Simple2.pepimat",
+                    "materials\\M_Roof_Simple3.pepimat",
+                    "materials\\M_Roof_Stylized1.pepimat",
+                    "materials\\M_Stone_Simple.pepimat",
+                    "materials\\M_Stone_Tracery.pepimat",
+                    "materials\\M_Stone_TrimSheet.pepimat",
+                    "materials\\M_Stone_Stylized.pepimat",
+                    "materials\\M_Windows.pepimat",
+                    "materials\\M_Wood.pepimat"
+                ],
+                "buildingUpgradeHandle": "",
+                "tileDimensions": {
+                    "value0": 7.0,
+                    "value1": 18.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": -0.0,
+                        "value2": -0.7071067690849304,
+                        "value3": 0.7071067690849304
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [],
+                "iconPath": "assets\\textures\\UI\\icons\\Townhall_button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1116.0,
+                    "value3": 1117.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 4
+            }
+        },
+        {
+            "key": "Fence",
+            "value": {
+                "name": "Fence",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 2,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 50.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 1.5
+                    }
+                ],
+                "fsmPath": "fsm\\wall_fsm.json",
+                "modelPath": "models\\Structures\\SM_Fence.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\M_Wood.pepimat"
+                ],
+                "buildingUpgradeHandle": "",
+                "tileDimensions": {
+                    "value0": 3.0,
+                    "value1": 1.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [],
+                "iconPath": "assets\\textures\\UI\\icons\\Fence_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1111.0,
+                    "value3": 1111.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 0
+            }
+        },
+        {
+            "key": "SwordsmenTowerLvl0",
+            "value": {
+                "name": "SwordsmenTowerLvl0",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 25.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 16,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 0.0
+                    }
+                ],
+                "fsmPath": "barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Barracks_LVL0.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\MI_Dark_Bark.pepimat",
+                    "materials\\MI_Ivy.pepimat",
+                    "materials\\MI_Roof_Styilized.pepimat",
+                    "materials\\MI_Stone_Tracery.pepimat",
+                    "materials\\MI_Stone_Wall.pepimat"
+                ],
+                "buildingUpgradeHandle": "SwordsmenTowerLvl1",
+                "tileDimensions": {
+                    "value0": 4.0,
+                    "value1": 4.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    12
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\WarriorTower_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1118.0,
+                    "value3": 1118.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 1
+            }
+        },
+        {
+            "key": "MageTowerLvl0",
+            "value": {
+                "name": "MageTowerLvl0",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 25.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 16,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 4.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 0.0
+                    }
+                ],
+                "fsmPath": "barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Mage_Tower_LVL0.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\MI_Dark_Bark.pepimat",
+                    "materials\\MI_Ivy.pepimat",
+                    "materials\\MI_Stone_Simple.pepimat",
+                    "materials\\MI_Stone_Tracery.pepimat",
+                    "materials\\MI_Stone_Trim.pepimat",
+                    "materials\\MI_Stone_Wall.pepimat"
+                ],
+                "buildingUpgradeHandle": "MageTowerLvl1",
+                "tileDimensions": {
+                    "value0": 4.0,
+                    "value1": 4.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    12
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\MageTower_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1114.0,
+                    "value3": 1114.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 2
+            }
+        },
+        {
+            "key": "TownHallLvl0",
+            "value": {
+                "name": "TownHallLvl0",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 2,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 3,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 12,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 4,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 25.0
+                    },
+                    {
+                        "key": 14,
+                        "value": 0.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    },
+                    {
+                        "key": 16,
+                        "value": 2.0
+                    },
+                    {
+                        "key": 29,
+                        "value": 6.0
+                    },
+                    {
+                        "key": 24,
+                        "value": 0.0
+                    }
+                ],
+                "fsmPath": "barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Base_LVL0.glb",
+                "corpsePath": "models\\Skeleton.gltf",
+                "materialPaths": [
+                    "materials\\MI_Dark_Bark.pepimat",
+                    "materials\\MI_Ivy.pepimat",
+                    "materials\\MI_Stone_Tracery.pepimat",
+                    "materials\\MI_Stone_Simple.pepimat"
+                ],
+                "buildingUpgradeHandle": "TownHallLvl1",
+                "tileDimensions": {
+                    "value0": 8.0,
+                    "value1": 18.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.7071067690849304,
+                        "value3": 0.7071067690849304
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [
+                    12
+                ],
+                "iconPath": "assets\\textures\\UI\\icons\\Townhall_button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1116.0,
+                    "value3": 1117.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 4
+            }
+        }
+    ]
+}

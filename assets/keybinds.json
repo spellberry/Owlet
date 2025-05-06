@@ -1,0 +1,124 @@
+{
+    "m_digitalActionMapping": [
+        {
+            "key": "Down",
+            "value": 69
+        },
+        {
+            "key": "Selection",
+            "value": 0
+        },
+        {
+            "key": "Order",
+            "value": 1
+        },
+        {
+            "key": "Move",
+            "value": 49
+        },
+        {
+            "key": "All",
+            "value": 340
+        },
+        {
+            "key": "Up",
+            "value": 81
+        },
+        {
+            "key": "None",
+            "value": 48
+        },
+        {
+            "key": "OffensiveMove",
+            "value": 90
+        },
+        {
+            "key": "Patrol",
+            "value": 51
+        },
+        {
+            "key": "Attack",
+            "value": 79
+        },
+        {
+            "key": "BuildBase",
+            "value": -1
+        },
+        {
+            "key": "BuildMageTower",
+            "value": 77
+        },
+        {
+            "key": "BuildBarracks",
+            "value": 66
+        },
+        {
+            "key": "BuildWallStart",
+            "value": 82
+        },
+        {
+            "key": "BuildWallEnd",
+            "value": -1
+        },
+        {
+            "key": "BuildFenceStart",
+            "value": 70
+        },
+        {
+            "key": "BuildFenceEnd",
+            "value": -1
+        },
+        {
+            "key": "Right",
+            "value": 68
+        },
+        {
+            "key": "TrainWarrior",
+            "value": 84
+        },
+        {
+            "key": "TrainMage",
+            "value": 84
+        },
+        {
+            "key": "UpgradeBuilding",
+            "value": 85
+        },
+        {
+            "key": "Forward",
+            "value": 87
+        },
+        {
+            "key": "Backward",
+            "value": 83
+        },
+        {
+            "key": "Left",
+            "value": 65
+        }
+    ],
+    "m_analogActionMapping": [
+        {
+            "key": "Wheel",
+            "value": 2
+        }
+    ],
+    "m_staticAnalogActionMapping": [
+        {
+            "key": "WheelMin",
+            "value": 5
+        },
+        {
+            "key": "WheelMax",
+            "value": 4
+        },
+        {
+            "key": "CameraWheel",
+            "value": 3
+        },
+        {
+            "key": "Mouse",
+            "value": 1
+        }
+    ]
+}

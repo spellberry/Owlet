@@ -1,0 +1,1948 @@
+{
+    "attributes": [
+        {
+            "first": {
+                "m_entityType": "testStr",
+                "m_team": 1,
+                "smallGridIndex": 51386,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 57.5,
+                    "value1": 35.5,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " testStr"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -24.529006958007814,
+                    "value1": 3.453216314315796,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -21.90365982055664,
+                    "value1": -0.2756549119949341,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -1.0948127508163453,
+                    "value1": 2.0978176593780519,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 6.277958869934082,
+                    "value1": 10.02279281616211,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 8.629463195800782,
+                    "value1": 14.448912620544434,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -4.366863250732422,
+                    "value1": 23.062030792236329,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -9.22585678100586,
+                    "value1": 24.819639205932618,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -12.650245666503907,
+                    "value1": 13.425084114074707,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -11.63182258605957,
+                    "value1": 5.089653968811035,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -10.531220436096192,
+                    "value1": -2.9670603275299074,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -13.277376174926758,
+                    "value1": -6.216696262359619,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -18.505048751831056,
+                    "value1": -4.845703125,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -21.669082641601564,
+                    "value1": 11.174625396728516,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -23.375667572021486,
+                    "value1": 16.25448226928711,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -27.4748592376709,
+                    "value1": 18.574352264404298,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -36.570255279541019,
+                    "value1": 3.030949831008911,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -35.228816986083987,
+                    "value1": -8.042064666748047,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -26.418184280395509,
+                    "value1": -15.993820190429688,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -9.722949981689454,
+                    "value1": -18.43391990661621,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 4.609220027923584,
+                    "value1": -13.84183120727539,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 7.854032516479492,
+                    "value1": -7.255223274230957,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 15.286094665527344,
+                    "value1": -0.9189378023147583,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 21.690425872802736,
+                    "value1": 7.07108736038208,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 24.905010223388673,
+                    "value1": 14.114851951599121,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 24.39301109313965,
+                    "value1": 22.658662796020509,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 17.369266510009767,
+                    "value1": 27.408645629882814,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 11.938793182373047,
+                    "value1": 29.27488899230957,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 7.744076728820801,
+                    "value1": 30.019512176513673,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -0.3352726101875305,
+                    "value1": 30.957744598388673,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -0.0778307393193245,
+                    "value1": 22.600242614746095,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 1.230060338973999,
+                    "value1": 19.08468246459961,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -5.833272457122803,
+                    "value1": 11.286053657531739,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -9.593008041381836,
+                    "value1": 8.391833305358887,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -14.933022499084473,
+                    "value1": 23.07992172241211,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -18.531343460083009,
+                    "value1": 27.077247619628908,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -24.867380142211915,
+                    "value1": 26.871129989624025,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -31.659639358520509,
+                    "value1": 23.154449462890626,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -32.9410514831543,
+                    "value1": 20.2803897857666,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -30.60723114013672,
+                    "value1": 15.222124099731446,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -32.0723762512207,
+                    "value1": 5.262332439422607,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -34.33900451660156,
+                    "value1": 6.624345302581787,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -41.67898178100586,
+                    "value1": 15.996216773986817,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -44.172393798828128,
+                    "value1": 17.743473052978517,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -42.994964599609378,
+                    "value1": 2.9441537857055666,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -40.59122085571289,
+                    "value1": -8.312536239624024,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -36.01417922973633,
+                    "value1": -13.368851661682129,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -28.874372482299806,
+                    "value1": -5.450161457061768,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -25.105052947998048,
+                    "value1": -1.481117844581604,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -20.70766830444336,
+                    "value1": -16.92608642578125,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -16.54642105102539,
+                    "value1": -21.553754806518556,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -6.538963317871094,
+                    "value1": -20.80593490600586,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 11.542389869689942,
+                    "value1": 18.185762405395509,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 7.021355628967285,
+                    "value1": 1.400682806968689,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 5.010611057281494,
+                    "value1": -3.1569693088531496,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 1.924485683441162,
+                    "value1": 14.35949993133545,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -1.353149652481079,
+                    "value1": 24.846567153930665,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -7.374018669128418,
+                    "value1": 40.18958282470703,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -23.37279510498047,
+                    "value1": 40.717811584472659,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -40.14470291137695,
+                    "value1": 28.936216354370118,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -32.88016891479492,
+                    "value1": 29.14311408996582,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -16.205215454101564,
+                    "value1": 31.508678436279298,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -7.500234127044678,
+                    "value1": 33.776268005371097,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -21.04610824584961,
+                    "value1": 34.59309387207031,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -35.441890716552737,
+                    "value1": 34.09929656982422,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -40.33012008666992,
+                    "value1": 33.56192398071289,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -34.651737213134769,
+                    "value1": 38.780757904052737,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -25.664691925048829,
+                    "value1": 42.07660675048828,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 2.678101062774658,
+                    "value1": 42.90066909790039,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 17.365753173828126,
+                    "value1": 41.36799240112305,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 19.878677368164064,
+                    "value1": 27.808774948120118,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "test",
+                "m_team": 1,
+                "smallGridIndex": -1,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 26.423934936523439,
+                    "value1": 23.91938018798828,
+                    "value2": 0.0
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "test"
+            }
+        }
+    ]
+}

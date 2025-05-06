@@ -1,0 +1,99 @@
+{
+    "emitter": {
+        "particleProps": {
+            "ptr_wrapper": {
+                "id": 2147483649,
+                "data": {
+                    "position": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": -4.0
+                    },
+                    "velocity": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "velocityVariation": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": -1.0
+                    },
+                    "sizeBegin": {
+                        "value0": 3.0,
+                        "value1": 3.0,
+                        "value2": 3.0
+                    },
+                    "colorBegin": {
+                        "value0": 0.4823528826236725,
+                        "value1": 0.9960784316062927,
+                        "value2": 0.4953586161136627,
+                        "value3": 1.0
+                    },
+                    "colorEnd": {
+                        "value0": 0.0,
+                        "value1": 0.6313725709915161,
+                        "value2": 0.11372549086809159,
+                        "value3": 0.0
+                    },
+                    "sizeVariation": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "lifeTime": 3.0,
+                    "gravity": 1.5,
+                    "hasGravity": true,
+                    "type": 0,
+                    "sizeCurvePoints": {
+                        "value0": {
+                            "value0": 0.0,
+                            "value1": 0.0
+                        },
+                        "value1": {
+                            "value0": 0.0,
+                            "value1": 0.1033778190612793
+                        },
+                        "value2": {
+                            "value0": 1.0,
+                            "value1": 0.047338902950286868
+                        },
+                        "value3": {
+                            "value0": -10000.0,
+                            "value1": 0.0
+                        },
+                        "value4": {
+                            "value0": 0.0,
+                            "value1": 0.0
+                        },
+                        "value5": {
+                            "value0": 0.0,
+                            "value1": 0.0
+                        },
+                        "value6": {
+                            "value0": 0.0,
+                            "value1": 0.0
+                        },
+                        "value7": {
+                            "value0": 0.0,
+                            "value1": 0.0
+                        },
+                        "value8": {
+                            "value0": 0.0,
+                            "value1": 0.0
+                        },
+                        "value9": {
+                            "value0": 0.0,
+                            "value1": 0.0
+                        }
+                    }
+                }
+            }
+        },
+        "m_isLoop": true,
+        "m_EmitAmount": 3,
+        "m_emitRate": 5.0,
+        "m_particleModelPath": "models/PlaneWithT.glb",
+        "m_materialPath": "materials\\VFX_Leaf.pepimat"
+    }
+}

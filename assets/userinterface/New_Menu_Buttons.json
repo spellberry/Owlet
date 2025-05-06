@@ -1,0 +1,313 @@
+{
+    "element": {
+        "name": "New_Menu_Buttons",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [
+            {
+                "start": {
+                    "value0": 0.10000000149011612,
+                    "value1": 0.4000000059604645
+                },
+                "size": {
+                    "value0": 0.36000001430511477,
+                    "value1": 0.10999999940395355
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "StartStarCraft"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "Button_Play",
+                "linkedComponentstr": "Texture_Button_Play",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.10000000149011612,
+                    "value1": 0.550000011920929
+                },
+                "size": {
+                    "value0": 0.36000001430511477,
+                    "value1": 0.11999999731779099
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "Button_Options",
+                "linkedComponentstr": "Texture_Button_Options",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.10000000149011612,
+                    "value1": 0.699999988079071
+                },
+                "size": {
+                    "value0": 0.36000001430511477,
+                    "value1": 0.11999999731779099
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "Button_Credits",
+                "linkedComponentstr": "Texture_Button_Credits",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.10000000149011612,
+                    "value1": 0.8485974669456482
+                },
+                "size": {
+                    "value0": 0.36000001430511477,
+                    "value1": 0.11999999731779099
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "Exit"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "Button_Quit",
+                "linkedComponentstr": "Texture_Button_Quit",
+                "layer": 0
+            }
+        ],
+        "texts": [
+            {
+                "name": "Text_Play",
+                "start": {
+                    "value0": 0.22499999403953553,
+                    "value1": 0.4699999988079071
+                },
+                "size": 0.25,
+                "text": "PLAY",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Text_Options",
+                "start": {
+                    "value0": 0.17800000309944154,
+                    "value1": 0.6240000128746033
+                },
+                "size": 0.25,
+                "text": "OPTIONS",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Text_Credits",
+                "start": {
+                    "value0": 0.18299999833106996,
+                    "value1": 0.7747352719306946
+                },
+                "size": 0.25,
+                "text": "CREDITS",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Text_Quit",
+                "start": {
+                    "value0": 0.21899999678134919,
+                    "value1": 0.925000011920929
+                },
+                "size": 0.25,
+                "text": "QUIT",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [
+            {
+                "name": "Texture_Button_Play",
+                "start": {
+                    "value0": 0.10000000149011612,
+                    "value1": 0.4000000059604645
+                },
+                "size": {
+                    "value0": 0.36000001430511477,
+                    "value1": 0.10999999940395355
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 547.0,
+                    "value3": 207.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Menu_Button.png",
+                "layer": 0
+            },
+            {
+                "name": "Texture_Button_Options",
+                "start": {
+                    "value0": 0.10000000149011612,
+                    "value1": 0.550000011920929
+                },
+                "size": {
+                    "value0": 0.36000001430511477,
+                    "value1": 0.11999999731779099
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 547.0,
+                    "value3": 207.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Menu_Button.png",
+                "layer": 0
+            },
+            {
+                "name": "Texture_Button_Credits",
+                "start": {
+                    "value0": 0.10000000149011612,
+                    "value1": 0.699999988079071
+                },
+                "size": {
+                    "value0": 0.36000001430511477,
+                    "value1": 0.11999999731779099
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 547.0,
+                    "value3": 207.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Menu_Button.png",
+                "layer": 0
+            },
+            {
+                "name": "Texture_Button_Quit",
+                "start": {
+                    "value0": 0.10000000149011612,
+                    "value1": 0.8485974669456482
+                },
+                "size": {
+                    "value0": 0.36000001430511477,
+                    "value1": 0.11999999731779099
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 547.0,
+                    "value3": 207.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Menu_Button.png",
+                "layer": 0
+            }
+        ],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

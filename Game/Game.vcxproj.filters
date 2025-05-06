@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\EnemyAIBehaviors.cpp" />
+    <ClCompile Include="source\game_ui\main_menu.cpp" />
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\order\order_system.cpp" />
+    <ClCompile Include="source\quest_system\objectives\build_objective.cpp" />
+    <ClCompile Include="source\quest_system\objectives\collect_objective.cpp" />
+    <ClCompile Include="source\quest_system\objectives\kill_objective.cpp" />
+    <ClCompile Include="source\quest_system\objectives\location_objective.cpp" />
+    <ClCompile Include="source\quest_system\objectives\objective.cpp" />
+    <ClCompile Include="source\quest_system\objectives\train_units_objective.cpp" />
+    <ClCompile Include="source\quest_system\quest.cpp" />
+    <ClCompile Include="source\quest_system\quest_system.cpp" />
+    <ClCompile Include="source\quest_system\stage.cpp" />
+    <ClCompile Include="source\quest_system\timer.cpp" />
+    <ClCompile Include="source\Starcraft.cpp" />
+    <ClCompile Include="source\game_ui\deprecated\unit_preview.cpp" />
+    <ClCompile Include="source\TowerDefense.cpp" />
+    <ClCompile Include="source\game_ui\deprecated\resource_ui.cpp" />
+    <ClCompile Include="source\wave_system.cpp" />
+    <ClCompile Include="source\leaderboard\leaderboard.cpp" />
+    <ClCompile Include="source\game_ui\in_game_ui.cpp" />
+    <ClCompile Include="source\structure_behaviors.cpp" />
+    <ClCompile Include="source\leaderboard\text_field.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ai_behaviors\enemy_ai_behaviors.hpp" />
+    <ClInclude Include="include\game_ui\main_menu.hpp" />
+    <ClInclude Include="include\order\order_system.hpp" />
+    <ClInclude Include="include\quest_system\objectives\build_objective.hpp" />
+    <ClInclude Include="include\quest_system\objectives\collect_objective.hpp" />
+    <ClInclude Include="include\quest_system\objectives\kill_objective.hpp" />
+    <ClInclude Include="include\quest_system\objectives\location_objective.hpp" />
+    <ClInclude Include="include\quest_system\objectives\objective.hpp" />
+    <ClInclude Include="include\quest_system\objectives\train_units_objective.hpp" />
+    <ClInclude Include="include\quest_system\quest.hpp" />
+    <ClInclude Include="include\quest_system\quest_system.hpp" />
+    <ClInclude Include="include\quest_system\stage.hpp" />
+    <ClInclude Include="include\quest_system\timer.hpp" />
+    <ClInclude Include="include\Starcraft.hpp" />
+    <ClInclude Include="include\game_ui\Deprecated\unit_preview.hpp" />
+    <ClInclude Include="include\TowerDefense.hpp" />
+    <ClInclude Include="include\ai_behaviors\structure_behaviors.hpp" />
+    <ClInclude Include="include\ai_behaviors\unit_behaviors.hpp" />
+    <ClInclude Include="include\game_ui\Deprecated\resource_ui.hpp" />
+    <ClInclude Include="include\ai_behaviors\wave_system.hpp" />
+    <ClInclude Include="include\leaderboard\leaderboard.hpp" />
+    <ClInclude Include="include\game_ui\in_game_ui.hpp" />
+    <ClInclude Include="include\leaderboard\text_field.hpp" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon.png" />
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+</Project>

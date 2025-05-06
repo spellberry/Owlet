@@ -1,0 +1,91 @@
+{
+    "element": {
+        "name": "NextWave",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [
+            {
+                "start": {
+                    "value0": 0.8200000281333923,
+                    "value1": 0.013500000596046448
+                },
+                "size": {
+                    "value0": 0.11099999523162843,
+                    "value1": 0.04000000074505806
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "StartNextWave"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "NextWave",
+                "linkedComponentstr": "NextWaveTex",
+                "layer": 0
+            }
+        ],
+        "texts": [
+            {
+                "name": "NextWaveText",
+                "start": {
+                    "value0": 0.8225000233650208,
+                    "value1": 0.0420000178813934
+                },
+                "size": 0.115,
+                "text": "Next Wave",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [
+            {
+                "name": "NextWaveTex",
+                "start": {
+                    "value0": 0.8200000281333923,
+                    "value1": 0.013500000596046448
+                },
+                "size": {
+                    "value0": 0.11099999523162843,
+                    "value1": 0.04000000074505806
+                },
+                "atlas": {
+                    "value0": 375.0,
+                    "value1": 1768.0,
+                    "value2": 1404.0,
+                    "value3": 2219.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Borders blue-01.png",
+                "layer": 0
+            }
+        ],
+        "layer": 4,
+        "opacity": 1.0
+    }
+}

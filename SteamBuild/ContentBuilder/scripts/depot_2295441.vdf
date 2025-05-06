@@ -1,0 +1,12 @@
+"DepotBuildConfig"
+{
+	"DepotID" "2295441"
+	"contentroot" "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\Build\Game\x64\Release"
+	"FileMapping"
+	{
+		"LocalPath" "*"
+		"DepotPath" "."
+		"recursive" "1"
+	}
+	"FileExclusion" "*.pdb"
+}

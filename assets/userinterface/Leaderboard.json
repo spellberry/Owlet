@@ -1,0 +1,202 @@
+{
+    "element": {
+        "name": "Leaderboard",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [
+            {
+                "name": "3Place",
+                "start": {
+                    "value0": 1.309999942779541,
+                    "value1": 0.3100000023841858
+                },
+                "size": 0.10000000149011612,
+                "text": "3:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "1Place",
+                "start": {
+                    "value0": 1.309999942779541,
+                    "value1": 0.25
+                },
+                "size": 0.10000000149011612,
+                "text": "1: ",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Leaderboard",
+                "start": {
+                    "value0": 1.3954604864120484,
+                    "value1": 0.21161651611328126
+                },
+                "size": 0.20000000298023225,
+                "text": "Leaderboard",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "2Place",
+                "start": {
+                    "value0": 1.309999942779541,
+                    "value1": 0.2800000011920929
+                },
+                "size": 0.10000000149011612,
+                "text": "2:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "5Place",
+                "start": {
+                    "value0": 1.3101071119308472,
+                    "value1": 0.3700000047683716
+                },
+                "size": 0.10000000149011612,
+                "text": "5:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "4Place",
+                "start": {
+                    "value0": 1.309999942779541,
+                    "value1": 0.3400000035762787
+                },
+                "size": 0.10000000149011612,
+                "text": "4:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "1PlaceScore",
+                "start": {
+                    "value0": 1.659999966621399,
+                    "value1": 0.25
+                },
+                "size": 0.10000000149011612,
+                "text": "0",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "5PlaceScore",
+                "start": {
+                    "value0": 1.659999966621399,
+                    "value1": 0.3700000047683716
+                },
+                "size": 0.10000000149011612,
+                "text": "0",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "4PlaceScore",
+                "start": {
+                    "value0": 1.659999966621399,
+                    "value1": 0.3400000035762787
+                },
+                "size": 0.10000000149011612,
+                "text": "0",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "3PlaceScore",
+                "start": {
+                    "value0": 1.659999966621399,
+                    "value1": 0.3100000023841858
+                },
+                "size": 0.10000000149011612,
+                "text": "0",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "2PlaceScore",
+                "start": {
+                    "value0": 1.659999966621399,
+                    "value1": 0.2800000011920929
+                },
+                "size": 0.10000000149011612,
+                "text": "0",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

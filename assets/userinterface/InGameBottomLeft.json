@@ -1,0 +1,251 @@
+{
+    "element": {
+        "name": "InGameBottomLeft",
+        "tobs": 0,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [
+            {
+                "name": "Name:",
+                "start": {
+                    "value0": 0.029348090291023256,
+                    "value1": 0.09449750185012818
+                },
+                "size": 0.07999999821186066,
+                "text": "Name:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Health:",
+                "start": {
+                    "value0": 0.02813134714961052,
+                    "value1": 0.07401295006275177
+                },
+                "size": 0.07999999821186066,
+                "text": "Health:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Damage:",
+                "start": {
+                    "value0": 0.02691478282213211,
+                    "value1": 0.05440801382064819
+                },
+                "size": 0.07999999821186066,
+                "text": "Damage:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "DamageText",
+                "start": {
+                    "value0": 0.08413517475128174,
+                    "value1": 0.054065972566604617
+                },
+                "size": 0.07999999821186066,
+                "text": "10",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "HealthText",
+                "start": {
+                    "value0": 0.07850616425275803,
+                    "value1": 0.07516226172447205
+                },
+                "size": 0.07999999821186066,
+                "text": "10/10",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "NameText",
+                "start": {
+                    "value0": 0.07040434330701828,
+                    "value1": 0.09240484237670899
+                },
+                "size": 0.07999999821186066,
+                "text": "Warrior",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [
+            {
+                "name": "New Component9",
+                "start": {
+                    "value0": 0.009999990463256836,
+                    "value1": 0.009999999776482582
+                },
+                "size": {
+                    "value0": 0.30000001192092898,
+                    "value1": 0.30000001192092898
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 700.0,
+                    "value3": 640.0
+                },
+                "imageFile": "assets/textures\\UI\\LeftBottom_Block.png",
+                "layer": 0
+            },
+            {
+                "name": "Portrait",
+                "start": {
+                    "value0": 0.03167157620191574,
+                    "value1": 0.11095523834228516
+                },
+                "size": {
+                    "value0": 0.09000000357627869,
+                    "value1": 0.09000000357627869
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1024.0,
+                    "value3": 1024.0
+                },
+                "imageFile": "assets/textures\\base.png",
+                "layer": 0
+            },
+            {
+                "name": "Unit2",
+                "start": {
+                    "value0": 0.1899999976158142,
+                    "value1": 0.040420323610305789
+                },
+                "size": {
+                    "value0": 0.07500000298023224,
+                    "value1": 0.07500000298023224
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 64.0,
+                    "value3": 64.0
+                },
+                "imageFile": "assets/Textures/checkerboard.png",
+                "layer": 0
+            },
+            {
+                "name": "Unit1",
+                "start": {
+                    "value0": 0.1899999976158142,
+                    "value1": 0.11999999731779099
+                },
+                "size": {
+                    "value0": 0.07500000298023224,
+                    "value1": 0.07500000298023224
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 64.0,
+                    "value3": 64.0
+                },
+                "imageFile": "assets/Textures/checkerboard.png",
+                "layer": 0
+            },
+            {
+                "name": "Order1",
+                "start": {
+                    "value0": 0.05200427770614624,
+                    "value1": 0.24250000715255738
+                },
+                "size": {
+                    "value0": 0.05249999836087227,
+                    "value1": 0.05249999836087227
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 64.0,
+                    "value3": 64.0
+                },
+                "imageFile": "assets/Textures/checkerboard.png",
+                "layer": 0
+            },
+            {
+                "name": "Order2",
+                "start": {
+                    "value0": 0.12999999523162843,
+                    "value1": 0.24250000715255738
+                },
+                "size": {
+                    "value0": 0.05249999836087227,
+                    "value1": 0.05249999836087227
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 64.0,
+                    "value3": 64.0
+                },
+                "imageFile": "assets/Textures/checkerboard.png",
+                "layer": 0
+            },
+            {
+                "name": "Order3",
+                "start": {
+                    "value0": 0.21016405522823335,
+                    "value1": 0.24250000715255738
+                },
+                "size": {
+                    "value0": 0.05249999836087227,
+                    "value1": 0.05249999836087227
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 64.0,
+                    "value3": 64.0
+                },
+                "imageFile": "assets/Textures/checkerboard.png",
+                "layer": 0
+            }
+        ],
+        "layer": 5,
+        "opacity": 1.0
+    }
+}

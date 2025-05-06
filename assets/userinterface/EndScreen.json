@@ -1,0 +1,347 @@
+{
+    "element": {
+        "name": "EndScreen",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [
+            {
+                "start": {
+                    "value0": 0.7613835334777832,
+                    "value1": 0.581383466720581
+                },
+                "size": {
+                    "value0": 0.23999999463558198,
+                    "value1": 0.07999999821186066
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "StartStarCraft"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "none"
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "Retry",
+                "linkedComponentstr": "Button1",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.7590000033378601,
+                    "value1": 0.7799999713897705
+                },
+                "size": {
+                    "value0": 0.23999999463558198,
+                    "value1": 0.07999999821186066
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "Exit"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "none"
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "Quit Game",
+                "linkedComponentstr": "Button3",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.7599999904632568,
+                    "value1": 0.6800000071525574
+                },
+                "size": {
+                    "value0": 0.23999999463558198,
+                    "value1": 0.07999999821186066
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "StartMainMenu"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "none"
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "MainMenu",
+                "linkedComponentstr": "Button2",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.6779999732971191,
+                    "value1": 0.4492481052875519
+                },
+                "size": {
+                    "value0": 0.4000000059604645,
+                    "value1": 0.07999999821186066
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "TextFieldButton"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "none",
+                "hoverable": true,
+                "name": "TextField",
+                "linkedComponentstr": "Gray",
+                "layer": 0
+            }
+        ],
+        "texts": [
+            {
+                "name": "LastWaveText",
+                "start": {
+                    "value0": 0.6259999871253967,
+                    "value1": 0.32199999690055849
+                },
+                "size": 0.30000001192092898,
+                "text": "Last Wave Survived: 0",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "New Component7",
+                "start": {
+                    "value0": 0.8211504220962524,
+                    "value1": 0.625
+                },
+                "size": 0.20000000298023225,
+                "text": "Retry",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "New Component8",
+                "start": {
+                    "value0": 0.8029999732971191,
+                    "value1": 0.828000009059906
+                },
+                "size": 0.20000000298023225,
+                "text": "Quit Game",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "New Component9",
+                "start": {
+                    "value0": 0.7839999794960022,
+                    "value1": 0.7300000190734863
+                },
+                "size": 0.20000000298023225,
+                "text": "Main Menu",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "TextInput",
+                "start": {
+                    "value0": 0.6880000233650208,
+                    "value1": 0.4981202781200409
+                },
+                "size": 0.20000000298023225,
+                "text": "Text",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Rank",
+                "start": {
+                    "value0": 0.7179999947547913,
+                    "value1": 0.3936605453491211
+                },
+                "size": 0.25,
+                "text": "Your Rank:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [
+            {
+                "name": "Button1",
+                "start": {
+                    "value0": 0.7613835334777832,
+                    "value1": 0.581383466720581
+                },
+                "size": {
+                    "value0": 0.23999999463558198,
+                    "value1": 0.07999999821186066
+                },
+                "atlas": {
+                    "value0": 6691.0,
+                    "value1": 4847.0,
+                    "value2": 7884.0,
+                    "value3": 4981.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Bars-01.png",
+                "layer": 0
+            },
+            {
+                "name": "Button2",
+                "start": {
+                    "value0": 0.7599999904632568,
+                    "value1": 0.6800000071525574
+                },
+                "size": {
+                    "value0": 0.23999999463558198,
+                    "value1": 0.07999999821186066
+                },
+                "atlas": {
+                    "value0": 6691.0,
+                    "value1": 4847.0,
+                    "value2": 7884.0,
+                    "value3": 4984.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Bars-01.png",
+                "layer": 0
+            },
+            {
+                "name": "Button3",
+                "start": {
+                    "value0": 0.7590000033378601,
+                    "value1": 0.7799999713897705
+                },
+                "size": {
+                    "value0": 0.23999999463558198,
+                    "value1": 0.07999999821186066
+                },
+                "atlas": {
+                    "value0": 6691.0,
+                    "value1": 4847.0,
+                    "value2": 7884.0,
+                    "value3": 4983.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Bars-01.png",
+                "layer": 0
+            },
+            {
+                "name": "Gray",
+                "start": {
+                    "value0": 0.6779999732971191,
+                    "value1": 0.4492481052875519
+                },
+                "size": {
+                    "value0": 0.4000000059604645,
+                    "value1": 0.07999999821186066
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 4.0,
+                    "value3": 4.0
+                },
+                "imageFile": "assets/textures\\gray.png",
+                "layer": 0
+            }
+        ],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

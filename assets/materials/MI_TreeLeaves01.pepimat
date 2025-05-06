@@ -1,0 +1,32 @@
+{
+    "material": {
+        "Name": "MI_TreeLeaves01",
+        "BaseColorFactor": {
+            "value0": 1.0,
+            "value1": 0.0,
+            "value2": 0.0,
+            "value3": 1.0
+        },
+        "UseBaseTexture": true,
+        "EmissiveFactor": {
+            "value0": 0.8523056507110596,
+            "value1": 1.5686274766921998,
+            "value2": 0.326028436422348
+        },
+        "UseEmissiveTexture": true,
+        "NormalTextureScale": 0.0,
+        "UseNormalTexture": true,
+        "OcclusionTextureStrength": 0.0,
+        "UseOcclusionTexture": false,
+        "UseMetallicRoughnessTexture": false,
+        "MetallicFactor": 0.0,
+        "RoughnessFactor": 0.6489999890327454,
+        "IsUnlit": false,
+        "ReceiveShadows": false,
+        "BaseColorTexturePath": "textures\\Foliage\\T_Tree_Leaf_D.png",
+        "EmissiveTexturePath": "textures\\Foliage\\T_Tree_Leaf_D.png",
+        "NormalTexturePath": "textures\\Foliage\\T_Tree_Leaf_N.png",
+        "OcclusionTexturePath": "",
+        "MetallicRoughnessTexturePath": ""
+    }
+}

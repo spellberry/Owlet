@@ -1,0 +1,15 @@
+BasedOnStyle: Google
+Standard: c++17
+SortIncludes: true
+IndentWidth: 4
+SortUsingDeclarations: true
+SpacesBeforeTrailingComments: 2
+IncludeBlocks: Regroup # <-- to split include blocks between "" and <>
+AllowAllArgumentsOnNextLine: true
+AllowAllConstructorInitializersOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+AccessModifierOffset: -4
+AlignAfterOpenBracket: Align
+BreakBeforeBraces: Allman
+ReflowComments: true
+ColumnLimit: 128

@@ -1,0 +1,321 @@
+{
+    "element": {
+        "name": "Structures",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [
+            {
+                "name": "Structure3",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.3149999976158142
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 3:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure4",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.3449999988079071
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 4:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure2",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.2849999964237213
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 2:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure1",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.2549999952316284
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 1:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structures:",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.2199999988079071
+                },
+                "size": 0.20000000298023225,
+                "text": "Structures Spawned:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure11",
+                "start": {
+                    "value0": 0.20999999344348908,
+                    "value1": 0.4300000071525574
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 11:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure6",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.46000000834465029
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 6:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure5",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.4300000071525574
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 5:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure8",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.5199999809265137
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 8:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure9",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.550000011920929
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 9:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure7",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.49000000953674319
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 7:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Upgrades",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.39500001072883608
+                },
+                "size": 0.20000000298023225,
+                "text": "Upgrades:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure13",
+                "start": {
+                    "value0": 0.20999999344348908,
+                    "value1": 0.49000000953674319
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 13:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure12",
+                "start": {
+                    "value0": 0.20999999344348908,
+                    "value1": 0.46000000834465029
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 12:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure14",
+                "start": {
+                    "value0": 0.20999999344348908,
+                    "value1": 0.5199999809265137
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 14:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure15",
+                "start": {
+                    "value0": 0.20999999344348908,
+                    "value1": 0.550000011920929
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 15:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure10",
+                "start": {
+                    "value0": 0.029999999329447748,
+                    "value1": 0.5799999833106995
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 10",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structure16",
+                "start": {
+                    "value0": 0.20999999344348908,
+                    "value1": 0.5799999833106995
+                },
+                "size": 0.10000000149011612,
+                "text": "Type 16:",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

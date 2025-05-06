@@ -1,0 +1,32 @@
+{
+    "material": {
+        "Name": "Warrior_Owl",
+        "BaseColorFactor": {
+            "value0": 1.0,
+            "value1": 1.0,
+            "value2": 1.0,
+            "value3": 1.0
+        },
+        "UseBaseTexture": true,
+        "EmissiveFactor": {
+            "value0": 0.0,
+            "value1": 0.0,
+            "value2": 0.0
+        },
+        "UseEmissiveTexture": false,
+        "NormalTextureScale": 0.0,
+        "UseNormalTexture": false,
+        "OcclusionTextureStrength": 0.0,
+        "UseOcclusionTexture": false,
+        "UseMetallicRoughnessTexture": false,
+        "MetallicFactor": 0.0,
+        "RoughnessFactor": 1.0,
+        "IsUnlit": false,
+        "ReceiveShadows": true,
+        "BaseColorTexturePath": "textures\\Character_Textures\\T_OwlMage_D.png",
+        "EmissiveTexturePath": "",
+        "NormalTexturePath": "textures\\Character_Textures\\T_Owl_N.png",
+        "OcclusionTexturePath": "textures\\Character_Textures\\T_Owl_ORM.png",
+        "MetallicRoughnessTexturePath": "textures\\Character_Textures\\T_Owl_ORM.png"
+    }
+}

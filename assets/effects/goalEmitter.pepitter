@@ -1,0 +1,99 @@
+{
+    "emitter": {
+        "particleProps": {
+            "ptr_wrapper": {
+                "id": 2147483649,
+                "data": {
+                    "position": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": -4.0
+                    },
+                    "velocity": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 20.0
+                    },
+                    "velocityVariation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": -3.0
+                    },
+                    "sizeBegin": {
+                        "value0": 1.5,
+                        "value1": 1.5,
+                        "value2": 1.5
+                    },
+                    "colorBegin": {
+                        "value0": 0.6624319553375244,
+                        "value1": 0.1021900549530983,
+                        "value2": 0.1021900549530983,
+                        "value3": 1.0
+                    },
+                    "colorEnd": {
+                        "value0": 0.6627451181411743,
+                        "value1": 0.10196078568696976,
+                        "value2": 0.10196078568696976,
+                        "value3": 1.0
+                    },
+                    "sizeVariation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "lifeTime": 0.30000001192092898,
+                    "gravity": 152.0500030517578,
+                    "hasGravity": true,
+                    "type": 1,
+                    "sizeCurvePoints": {
+                        "value0": {
+                            "value0": 0.0,
+                            "value1": 0.0
+                        },
+                        "value1": {
+                            "value0": 0.0,
+                            "value1": 0.9848110675811768
+                        },
+                        "value2": {
+                            "value0": 0.0,
+                            "value1": 1.0
+                        },
+                        "value3": {
+                            "value0": 0.0,
+                            "value1": 0.9443073272705078
+                        },
+                        "value4": {
+                            "value0": 0.0,
+                            "value1": 0.949370265007019
+                        },
+                        "value5": {
+                            "value0": 0.0,
+                            "value1": 1.0
+                        },
+                        "value6": {
+                            "value0": 0.0,
+                            "value1": 1.0
+                        },
+                        "value7": {
+                            "value0": 0.0,
+                            "value1": 0.0
+                        },
+                        "value8": {
+                            "value0": 0.001868076273240149,
+                            "value1": 1.0
+                        },
+                        "value9": {
+                            "value0": 1.0,
+                            "value1": 1.0
+                        }
+                    }
+                }
+            }
+        },
+        "m_isLoop": false,
+        "m_EmitAmount": 1,
+        "m_emitRate": 1.0,
+        "m_particleModelPath": "models\\arrow.glb",
+        "m_materialPath": "materials\\M_Emmissive.pepimat"
+    }
+}

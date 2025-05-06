@@ -1,0 +1,1 @@
+{"behavior-structure-type":"FSM","editor-data":[{"name":"Test","position":{"x":0.0,"y":0.0}}],"states":[{"default":true,"editor-variables":[{"name":"speed","value":"0.000000"},{"name":"repeat","value":"0"},{"name":"animationPath","value":"assets/test.anim"}],"name":"AnimationState"}],"transition-data":[{"from":0}],"transitions":[]}

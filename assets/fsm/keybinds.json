@@ -1,0 +1,104 @@
+{
+    "m_digitalActionMapping": [
+        {
+            "key": "Down",
+            "value": 69
+        },
+        {
+            "key": "Selection",
+            "value": 0
+        },
+        {
+            "key": "Order",
+            "value": 1
+        },
+        {
+            "key": "Move",
+            "value": 49
+        },
+        {
+            "key": "All",
+            "value": 340
+        },
+        {
+            "key": "Up",
+            "value": 81
+        },
+        {
+            "key": "None",
+            "value": 48
+        },
+        {
+            "key": "OffensiveMove",
+            "value": 50
+        },
+        {
+            "key": "Patrol",
+            "value": 51
+        },
+        {
+            "key": "Attack",
+            "value": 52
+        },
+        {
+            "key": "BuildBase",
+            "value": 53
+        },
+        {
+            "key": "BuildBarracks",
+            "value": 54
+        },
+        {
+            "key": "TrainFighter",
+            "value": 56
+        },
+        {
+            "key": "BuildBunker",
+            "value": 55
+        },
+        {
+            "key": "TrainWorker",
+            "value": 57
+        },
+        {
+            "key": "Forward",
+            "value": 87
+        },
+        {
+            "key": "Backward",
+            "value": 83
+        },
+        {
+            "key": "Left",
+            "value": 65
+        },
+        {
+            "key": "Right",
+            "value": 68
+        }
+    ],
+    "m_analogActionMapping": [
+        {
+            "key": "Wheel",
+            "value": 2
+        }
+    ],
+    "m_staticAnalogActionMapping": [
+        {
+            "key": "WheelMin",
+            "value": 5
+        },
+        {
+            "key": "WheelMax",
+            "value": 4
+        },
+        {
+            "key": "CameraWheel",
+            "value": 3
+        },
+        {
+            "key": "Mouse",
+            "value": 1
+        }
+    ]
+}

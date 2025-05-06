@@ -1,0 +1,321 @@
+{
+    "templateData": [
+        {
+            "key": "Grass",
+            "value": {
+                "name": "Grass",
+                "windMultiplier": 1.0,
+                "modelPath": "models\\Level Testing models\\SM_Grass_01.glb",
+                "materialPaths": [
+                    "materials\\Grass Material.pepimat"
+                ],
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "colorVariations": []
+            }
+        },
+        {
+            "key": "Tree",
+            "value": {
+                "name": "Tree",
+                "windMultiplier": 0.30000001192092898,
+                "modelPath": "models\\Foliage\\SM_Tree_01.glb",
+                "materialPaths": [
+                    "materials\\MI_TreeLeaves01.pepimat",
+                    "materials\\MI_Bark.pepimat"
+                ],
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "colorVariations": []
+            }
+        },
+        {
+            "key": "Tree2",
+            "value": {
+                "name": "Tree2",
+                "windMultiplier": 0.30000001192092898,
+                "modelPath": "models\\Foliage\\SM_Tree_02.glb",
+                "materialPaths": [
+                    "materials\\MI_TreeLeaves02.pepimat",
+                    "materials\\MI_Bark.pepimat"
+                ],
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "colorVariations": []
+            }
+        },
+        {
+            "key": "SmallStone",
+            "value": {
+                "name": "SmallStone",
+                "windMultiplier": 0.0,
+                "modelPath": "models\\Rocks\\SM_Rock_01.glb",
+                "materialPaths": [
+                    "materials/Empty.pepimat"
+                ],
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 0.5,
+                        "value1": 0.5,
+                        "value2": 0.5
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "colorVariations": []
+            }
+        },
+        {
+            "key": "Tree3",
+            "value": {
+                "name": "Tree3",
+                "windMultiplier": 0.30000001192092898,
+                "modelPath": "models\\Foliage\\SM_Tree_03.glb",
+                "materialPaths": [
+                    "materials\\MI_TreeLeaves03.pepimat",
+                    "materials\\MI_Bark.pepimat"
+                ],
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "colorVariations": []
+            }
+        },
+        {
+            "key": "Bush",
+            "value": {
+                "name": "Bush",
+                "windMultiplier": 1.0,
+                "modelPath": "models\\Foliage\\SM_Bush_01.glb",
+                "materialPaths": [
+                    "materials\\MI_TreeLeaves01.pepimat",
+                    "materials\\MI_Bark.pepimat"
+                ],
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "colorVariations": []
+            }
+        },
+        {
+            "key": "Bush2",
+            "value": {
+                "name": "Bush2",
+                "windMultiplier": 1.0,
+                "modelPath": "models\\Foliage\\SM_Bush_02.glb",
+                "materialPaths": [
+                    "materials\\MI_TreeLeaves02.pepimat",
+                    "materials\\MI_Bark.pepimat"
+                ],
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "colorVariations": []
+            }
+        },
+        {
+            "key": "Tree4",
+            "value": {
+                "name": "Tree4",
+                "windMultiplier": 0.30000001192092898,
+                "modelPath": "models\\Foliage\\SM_Tree_01.glb",
+                "materialPaths": [
+                    "materials\\MI_TreeLeaves04.pepimat",
+                    "materials\\MI_Bark.pepimat"
+                ],
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "colorVariations": []
+            }
+        },
+        {
+            "key": "Bush3",
+            "value": {
+                "name": "Bush3",
+                "windMultiplier": 1.0,
+                "modelPath": "models\\Foliage\\SM_Bush_03.glb",
+                "materialPaths": [
+                    "materials\\MI_TreeLeaves03.pepimat",
+                    "materials\\MI_Bark.pepimat"
+                ],
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "colorVariations": []
+            }
+        },
+        {
+            "key": "SmallStone2",
+            "value": {
+                "name": "SmallStone2",
+                "windMultiplier": 0.0,
+                "modelPath": "models\\Rocks\\SM_Rock_02.glb",
+                "materialPaths": [
+                    "materials\\MI_Rock.pepimat"
+                ],
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "colorVariations": []
+            }
+        }
+    ]
+}

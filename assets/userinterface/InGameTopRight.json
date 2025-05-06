@@ -1,0 +1,103 @@
+{
+    "element": {
+        "name": "InGameTopRight",
+        "tobs": 1,
+        "lors": 3,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [
+            {
+                "name": "MageAmount",
+                "start": {
+                    "value0": 0.012999999336898327,
+                    "value1": 0.027000004425644876
+                },
+                "size": 0.11999999731779099,
+                "text": "100/100",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "WarriorAmount",
+                "start": {
+                    "value0": 0.13446490466594697,
+                    "value1": 0.027000004425644876
+                },
+                "size": 0.11999999731779099,
+                "text": "100/100",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "StoneAmount",
+                "start": {
+                    "value0": 0.25999999046325686,
+                    "value1": 0.027000004425644876
+                },
+                "size": 0.11999999731779099,
+                "text": "1000",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "WoodAmount",
+                "start": {
+                    "value0": 0.4000000059604645,
+                    "value1": 0.027000004425644876
+                },
+                "size": 0.11999999731779099,
+                "text": "1000",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [
+            {
+                "name": "New Component0",
+                "start": {
+                    "value0": 0.0,
+                    "value1": 0.0
+                },
+                "size": {
+                    "value0": 0.5400000214576721,
+                    "value1": 0.04899999871850014
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1202.0,
+                    "value3": 128.0
+                },
+                "imageFile": "assets/textures\\UI\\ResourceBar.png",
+                "layer": 0
+            }
+        ],
+        "layer": 5,
+        "opacity": 1.0
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "element": {
+        "name": "TownHall",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [
+            {
+                "name": "townhallAmount",
+                "start": {
+                    "value0": 0.0735417827963829,
+                    "value1": 0.031115982681512834
+                },
+                "size": 0.20000000298023225,
+                "text": "0",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [
+            {
+                "name": "New Component3",
+                "start": {
+                    "value0": 0.0,
+                    "value1": 0.0
+                },
+                "size": {
+                    "value0": 0.11999999731779099,
+                    "value1": 0.04500000178813934
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 318.0,
+                    "value3": 122.0
+                },
+                "imageFile": "assets/textures\\UI\\TownHall_LevelBar.png",
+                "layer": 0
+            }
+        ],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

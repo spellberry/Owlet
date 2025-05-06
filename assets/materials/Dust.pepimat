@@ -1,0 +1,32 @@
+{
+    "material": {
+        "Name": "Dust",
+        "BaseColorFactor": {
+            "value0": 0.9578059315681458,
+            "value1": 0.868384063243866,
+            "value2": 0.5859994292259216,
+            "value3": 1.0
+        },
+        "UseBaseTexture": false,
+        "EmissiveFactor": {
+            "value0": 0.0,
+            "value1": 0.0,
+            "value2": 0.0
+        },
+        "UseEmissiveTexture": false,
+        "NormalTextureScale": 0.0,
+        "UseNormalTexture": false,
+        "OcclusionTextureStrength": 0.0,
+        "UseOcclusionTexture": false,
+        "UseMetallicRoughnessTexture": false,
+        "MetallicFactor": 0.0,
+        "RoughnessFactor": 1.0,
+        "IsUnlit": false,
+        "ReceiveShadows": false,
+        "BaseColorTexturePath": "",
+        "EmissiveTexturePath": "",
+        "NormalTexturePath": "",
+        "OcclusionTexturePath": "",
+        "MetallicRoughnessTexturePath": ""
+    }
+}

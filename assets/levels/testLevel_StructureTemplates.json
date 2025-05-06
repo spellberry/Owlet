@@ -1,0 +1,78 @@
+{
+    "templateData": [
+        {
+            "key": "barracks",
+            "value": {
+                "name": "barracks",
+                "m_baseAttributes": [
+                    {
+                        "key": 0,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 1,
+                        "value": 1.0
+                    },
+                    {
+                        "key": 13,
+                        "value": 10.0
+                    },
+                    {
+                        "key": 15,
+                        "value": 0.5
+                    }
+                ],
+                "fsmPath": "barracks_fsm.json",
+                "modelPath": "models\\Structures\\SM_Barracks_LVL01.glb",
+                "corpsePath": "models/Skeleton.gltf",
+                "materialPaths": [
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat",
+                    "materials/Empty.pepimat"
+                ],
+                "buildingUpgradeHandle": "",
+                "tileDimensions": {
+                    "value0": 1.0,
+                    "value1": 1.0
+                },
+                "modelOffset": {
+                    "Translation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "Scale": {
+                        "value0": 1.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "Rotation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "Name": ""
+                },
+                "availableOrders": [],
+                "iconPath": "textures/checkerboard.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "buffedAttribute": 0,
+                "structureType": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,2623 @@
+{
+    "attributes": [
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 129654,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -12.612342834472657,
+                    "value1": -20.209407806396486,
+                    "value2": 6.761196136474609
+                },
+                "Scale": {
+                    "value0": 0.9999998807907105,
+                    "value1": 0.9999998211860657,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.019754085689783098,
+                    "value1": -0.05776418745517731,
+                    "value2": 0.32297608256340029,
+                    "value3": 0.9444361329078674
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 118570,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -24.0,
+                    "value1": -31.0,
+                    "value2": 4.584200382232666
+                },
+                "Scale": {
+                    "value0": 0.9999922513961792,
+                    "value1": 0.9999920129776001,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.06540434062480927,
+                    "value1": -0.05786508321762085,
+                    "value2": 0.7460941076278687,
+                    "value3": 0.6600889563560486
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 100858,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -31.847963333129884,
+                    "value1": -47.57489776611328,
+                    "value2": 1.1822965145111085
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.1289060115814209,
+                    "value3": 0.9916568398475647
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 110952,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 38.0,
+                    "value1": -38.0,
+                    "value2": 2.099182605743408
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.012767412699759007,
+                    "value1": 0.04170890152454376,
+                    "value2": 0.29242298007011416,
+                    "value3": 0.9552937150001526
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 115334,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 17.0,
+                    "value1": -34.0,
+                    "value2": 5.2087297439575199
+                },
+                "Scale": {
+                    "value0": 0.9999995827674866,
+                    "value1": 0.9999998807907105,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.04191633686423302,
+                    "value1": 0.08619388192892075,
+                    "value2": -0.4353189170360565,
+                    "value3": 0.8951597809791565
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 133028,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 16.0,
+                    "value1": -18.0,
+                    "value2": 7.268749237060547
+                },
+                "Scale": {
+                    "value0": 0.9999985694885254,
+                    "value1": 0.9999998807907105,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.013902533799409867,
+                    "value1": 0.03201068937778473,
+                    "value2": -0.39811837673187258,
+                    "value3": 0.9166699647903442
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 177270,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 17.0,
+                    "value1": 20.836341857910158,
+                    "value2": 6.893837928771973
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 0.9999998807907105,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.00698470463976264,
+                    "value1": 0.04305674880743027,
+                    "value2": 0.15997472405433656,
+                    "value3": 0.9861569404602051
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 183940,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 34.0,
+                    "value1": 28.0,
+                    "value2": 3.8654820919036867
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.046972133219242099,
+                    "value1": 0.07370337098836899,
+                    "value2": 0.5353881120681763,
+                    "value3": 0.8400720357894898
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 200524,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 31.0,
+                    "value1": 43.0,
+                    "value2": 1.5595515966415406
+                },
+                "Scale": {
+                    "value0": 0.9999967813491821,
+                    "value1": 0.999996542930603,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.05464259907603264,
+                    "value1": 0.08910880237817764,
+                    "value2": 0.5198893547058106,
+                    "value3": 0.8478142023086548
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 176108,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -11.0,
+                    "value1": 21.0,
+                    "value2": 7.191692352294922
+                },
+                "Scale": {
+                    "value0": 0.9999958872795105,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.026132479310035707,
+                    "value1": -0.023131463676691057,
+                    "value2": -0.43002817034721377,
+                    "value3": 0.9021406769752502
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 186038,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -23.0,
+                    "value1": 30.0,
+                    "value2": 5.213541507720947
+                },
+                "Scale": {
+                    "value0": 0.9999528527259827,
+                    "value1": 0.9999443292617798,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.05364999920129776,
+                    "value1": -0.061986155807971957,
+                    "value2": -0.6522305607795715,
+                    "value3": 0.753574550151825
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 192638,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -41.0,
+                    "value1": 36.0,
+                    "value2": 1.8320186138153077
+                },
+                "Scale": {
+                    "value0": 0.9999991655349731,
+                    "value1": 0.9999991655349731,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.3601989150047302,
+                    "value3": 0.9328755140304565
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 129654,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -12.612342834472657,
+                    "value1": -20.209407806396486,
+                    "value2": 6.761196136474609
+                },
+                "Scale": {
+                    "value0": 0.9999998807907105,
+                    "value1": 0.9999998211860657,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.019754085689783098,
+                    "value1": -0.05776418745517731,
+                    "value2": 0.32297608256340029,
+                    "value3": 0.9444361329078674
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 118570,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -24.0,
+                    "value1": -31.0,
+                    "value2": 4.584200382232666
+                },
+                "Scale": {
+                    "value0": 0.9999922513961792,
+                    "value1": 0.9999920129776001,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.06540434062480927,
+                    "value1": -0.05786508321762085,
+                    "value2": 0.7460941076278687,
+                    "value3": 0.6600889563560486
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 100858,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -31.847963333129884,
+                    "value1": -47.57489776611328,
+                    "value2": 1.1822965145111085
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.1289060115814209,
+                    "value3": 0.9916568398475647
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 110952,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 38.0,
+                    "value1": -38.0,
+                    "value2": 2.099182605743408
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.012767412699759007,
+                    "value1": 0.04170890152454376,
+                    "value2": 0.29242298007011416,
+                    "value3": 0.9552937150001526
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 115334,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 17.0,
+                    "value1": -34.0,
+                    "value2": 5.2087297439575199
+                },
+                "Scale": {
+                    "value0": 0.9999995827674866,
+                    "value1": 0.9999998807907105,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.04191633686423302,
+                    "value1": 0.08619388192892075,
+                    "value2": -0.4353189170360565,
+                    "value3": 0.8951597809791565
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 133028,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 16.0,
+                    "value1": -18.0,
+                    "value2": 7.268749237060547
+                },
+                "Scale": {
+                    "value0": 0.9999985694885254,
+                    "value1": 0.9999998807907105,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.013902533799409867,
+                    "value1": 0.03201068937778473,
+                    "value2": -0.39811837673187258,
+                    "value3": 0.9166699647903442
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 177270,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 17.0,
+                    "value1": 20.836341857910158,
+                    "value2": 6.893837928771973
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 0.9999998807907105,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.00698470463976264,
+                    "value1": 0.04305674880743027,
+                    "value2": 0.15997472405433656,
+                    "value3": 0.9861569404602051
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 183940,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 34.0,
+                    "value1": 28.0,
+                    "value2": 3.8654820919036867
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.046972133219242099,
+                    "value1": 0.07370337098836899,
+                    "value2": 0.5353881120681763,
+                    "value3": 0.8400720357894898
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 200524,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 31.0,
+                    "value1": 43.0,
+                    "value2": 1.5595515966415406
+                },
+                "Scale": {
+                    "value0": 0.9999967813491821,
+                    "value1": 0.999996542930603,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.05464259907603264,
+                    "value1": 0.08910880237817764,
+                    "value2": 0.5198893547058106,
+                    "value3": 0.8478142023086548
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 176108,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -11.0,
+                    "value1": 21.0,
+                    "value2": 7.191692352294922
+                },
+                "Scale": {
+                    "value0": 0.9999958872795105,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.026132479310035707,
+                    "value1": -0.023131463676691057,
+                    "value2": -0.43002817034721377,
+                    "value3": 0.9021406769752502
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 186038,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -23.0,
+                    "value1": 30.0,
+                    "value2": 5.213541507720947
+                },
+                "Scale": {
+                    "value0": 0.9999528527259827,
+                    "value1": 0.9999443292617798,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.05364999920129776,
+                    "value1": -0.061986155807971957,
+                    "value2": -0.6522305607795715,
+                    "value3": 0.753574550151825
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 192638,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -41.0,
+                    "value1": 36.0,
+                    "value2": 1.8320186138153077
+                },
+                "Scale": {
+                    "value0": 0.9999991655349731,
+                    "value1": 0.9999991655349731,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.3601989150047302,
+                    "value3": 0.9328755140304565
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_02",
+                "m_team": 2,
+                "smallGridIndex": 218816,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 52.5,
+                    "value1": 59.5,
+                    "value2": -0.0004420132900122553
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " Rock_02"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_03",
+                "m_team": 2,
+                "smallGridIndex": 217500,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -52.5,
+                    "value1": 57.5,
+                    "value2": 1.9848955869674683
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 4.675648312968406e-9,
+                    "value1": 0.737393856048584,
+                    "value2": 4.675648312968406e-9,
+                    "value3": 0.6754630208015442
+                },
+                "Name": " Rock_03"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_02",
+                "m_team": 2,
+                "smallGridIndex": 216402,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -48.5,
+                    "value1": 57.5,
+                    "value2": 1.0862257480621338
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " Rock_02"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_02",
+                "m_team": 2,
+                "smallGridIndex": 214188,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -49.5,
+                    "value1": 55.5,
+                    "value2": 0.2305137813091278
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.10443831980228424,
+                    "value1": -0.586926281452179,
+                    "value2": 0.14065644145011903,
+                    "value3": 0.7904593348503113
+                },
+                "Name": " Rock_02"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Ruin_Mage",
+                "m_team": 2,
+                "smallGridIndex": 231826,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -78.5,
+                    "value1": 71.5,
+                    "value2": 3.2194995880126955
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -1.0,
+                    "value3": 7.549790126404332e-8
+                },
+                "Name": " Ruin_Mage"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_01",
+                "m_team": 2,
+                "smallGridIndex": 87226,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 64.5,
+                    "value1": -59.5,
+                    "value2": 0.08121202141046524
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " Rock_01"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_02",
+                "m_team": 2,
+                "smallGridIndex": 92756,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 64.5,
+                    "value1": -54.5,
+                    "value2": -0.05451633036136627
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " Rock_02"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_03",
+                "m_team": 2,
+                "smallGridIndex": 211962,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -56.5,
+                    "value1": 53.5,
+                    "value2": 0.3502143323421478
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " Rock_03"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_01",
+                "m_team": 2,
+                "smallGridIndex": 224350,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": 54.5,
+                    "value1": 64.5,
+                    "value2": 0.12563556432724
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.7071067690849304,
+                    "value3": 0.7071067690849304
+                },
+                "Name": " Rock_01"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_01",
+                "m_team": 2,
+                "smallGridIndex": 215282,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -55.5,
+                    "value1": 56.5,
+                    "value2": 2.142237663269043
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " Rock_01"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_02",
+                "m_team": 2,
+                "smallGridIndex": 96046,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": 50.5,
+                    "value1": -51.5,
+                    "value2": 0.006494356319308281
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.7071067690849304,
+                    "value3": 0.7071067690849304
+                },
+                "Name": " Rock_02"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_01",
+                "m_team": 2,
+                "smallGridIndex": 218600,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -55.5,
+                    "value1": 59.5,
+                    "value2": 2.8794474601745607
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " Rock_01"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Ruin_Base",
+                "m_team": 2,
+                "smallGridIndex": 68132,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -79.16610717773438,
+                    "value1": -74.36624145507813,
+                    "value2": 5.155430316925049
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -0.9781473875045776,
+                    "value3": 0.20791257917881013
+                },
+                "Name": " Ruin_Base"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Ruin_Mage",
+                "m_team": 2,
+                "smallGridIndex": 71748,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 71.90904998779297,
+                    "value1": -76.5,
+                    "value2": 3.610856771469116
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " Ruin_Mage"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_02",
+                "m_team": 2,
+                "smallGridIndex": 85882,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": -54.5,
+                    "value1": -60.5,
+                    "value2": 0.4907093048095703
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.7071067690849304,
+                    "value3": 0.7071067690849304
+                },
+                "Name": " Rock_02"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Ruin_Warrior",
+                "m_team": 2,
+                "smallGridIndex": 241780,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -78.5,
+                    "value1": 80.5,
+                    "value2": 3.3573267459869386
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -1.0,
+                    "value3": 7.549790126404332e-8
+                },
+                "Name": " Ruin_Warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_01",
+                "m_team": 2,
+                "smallGridIndex": 210854,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": -57.5,
+                    "value1": 52.5,
+                    "value2": 0.11863464117050171
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.7071067690849304,
+                    "value3": 0.7071067690849304
+                },
+                "Name": " Rock_01"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_01",
+                "m_team": 2,
+                "smallGridIndex": 85866,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -62.5,
+                    "value1": -60.5,
+                    "value2": 1.4638307094573975
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " Rock_01"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_03",
+                "m_team": 2,
+                "smallGridIndex": 214184,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -52.5,
+                    "value1": 56.07148361206055,
+                    "value2": -0.7347286939620972
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.8660249710083008,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 0.5000007748603821
+                },
+                "Name": " Rock_03"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_03",
+                "m_team": 2,
+                "smallGridIndex": 100478,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 54.5,
+                    "value1": -47.5,
+                    "value2": 0.004427875857800245
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " Rock_03"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Ruin_Base",
+                "m_team": 2,
+                "smallGridIndex": 237666,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": 76.5,
+                    "value1": 76.5,
+                    "value2": 5.822959899902344
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.30901652574539187,
+                    "value3": 0.9510566592216492
+                },
+                "Name": " Ruin_Base"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_01",
+                "m_team": 2,
+                "smallGridIndex": 209756,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -53.5,
+                    "value1": 51.5,
+                    "value2": -1.358957052230835
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " Rock_01"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_03",
+                "m_team": 2,
+                "smallGridIndex": 221020,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 48.5,
+                    "value1": 61.5,
+                    "value2": 0.0009262416278943419
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -1.1226859442103888e-9,
+                    "value1": -0.7047601342201233,
+                    "value2": 1.1318803672111244e-9,
+                    "value3": 0.7094456553459168
+                },
+                "Name": " Rock_03"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Rock_03",
+                "m_team": 2,
+                "smallGridIndex": 91414,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -53.5,
+                    "value1": -55.5,
+                    "value2": 0.13830885291099549
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " Rock_03"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Ruin_Warrior",
+                "m_team": 2,
+                "smallGridIndex": 69556,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 77.48224639892578,
+                    "value1": -75.51545715332031,
+                    "value2": 3.5310568809509279
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.015566657297313214,
+                    "value1": 0.007094133645296097,
+                    "value2": -0.414632648229599,
+                    "value3": 0.9098280668258667
+                },
+                "Name": " Ruin_Warrior"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 129654,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -12.612342834472657,
+                    "value1": -20.209407806396486,
+                    "value2": 6.761196136474609
+                },
+                "Scale": {
+                    "value0": 0.9999998807907105,
+                    "value1": 0.9999998211860657,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.019754085689783098,
+                    "value1": -0.05776418745517731,
+                    "value2": 0.32297608256340029,
+                    "value3": 0.9444361329078674
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 118570,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -24.0,
+                    "value1": -31.0,
+                    "value2": 4.584200382232666
+                },
+                "Scale": {
+                    "value0": 0.9999922513961792,
+                    "value1": 0.9999920129776001,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.06540434062480927,
+                    "value1": -0.05786508321762085,
+                    "value2": 0.7460941076278687,
+                    "value3": 0.6600889563560486
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 100858,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -31.847963333129884,
+                    "value1": -47.57489776611328,
+                    "value2": 1.1822965145111085
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.1289060115814209,
+                    "value3": 0.9916568398475647
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 110952,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 38.0,
+                    "value1": -38.0,
+                    "value2": 2.099182605743408
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.012767412699759007,
+                    "value1": 0.04170890152454376,
+                    "value2": 0.29242298007011416,
+                    "value3": 0.9552937150001526
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 115334,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 17.0,
+                    "value1": -34.0,
+                    "value2": 5.2087297439575199
+                },
+                "Scale": {
+                    "value0": 0.9999995827674866,
+                    "value1": 0.9999998807907105,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.04191633686423302,
+                    "value1": 0.08619388192892075,
+                    "value2": -0.4353189170360565,
+                    "value3": 0.8951597809791565
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 133028,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 16.0,
+                    "value1": -18.0,
+                    "value2": 7.268749237060547
+                },
+                "Scale": {
+                    "value0": 0.9999985694885254,
+                    "value1": 0.9999998807907105,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.013902533799409867,
+                    "value1": 0.03201068937778473,
+                    "value2": -0.39811837673187258,
+                    "value3": 0.9166699647903442
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 177270,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 17.0,
+                    "value1": 20.836341857910158,
+                    "value2": 6.893837928771973
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 0.9999998807907105,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.00698470463976264,
+                    "value1": 0.04305674880743027,
+                    "value2": 0.15997472405433656,
+                    "value3": 0.9861569404602051
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 183940,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 34.0,
+                    "value1": 28.0,
+                    "value2": 3.8654820919036867
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.046972133219242099,
+                    "value1": 0.07370337098836899,
+                    "value2": 0.5353881120681763,
+                    "value3": 0.8400720357894898
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 200524,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 31.0,
+                    "value1": 43.0,
+                    "value2": 1.5595515966415406
+                },
+                "Scale": {
+                    "value0": 0.9999967813491821,
+                    "value1": 0.999996542930603,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.05464259907603264,
+                    "value1": 0.08910880237817764,
+                    "value2": 0.5198893547058106,
+                    "value3": 0.8478142023086548
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 176108,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -11.0,
+                    "value1": 21.0,
+                    "value2": 7.191692352294922
+                },
+                "Scale": {
+                    "value0": 0.9999958872795105,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.026132479310035707,
+                    "value1": -0.023131463676691057,
+                    "value2": -0.43002817034721377,
+                    "value3": 0.9021406769752502
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 186038,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -23.0,
+                    "value1": 30.0,
+                    "value2": 5.213541507720947
+                },
+                "Scale": {
+                    "value0": 0.9999528527259827,
+                    "value1": 0.9999443292617798,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.05364999920129776,
+                    "value1": -0.061986155807971957,
+                    "value2": -0.6522305607795715,
+                    "value3": 0.753574550151825
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 192638,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -41.0,
+                    "value1": 36.0,
+                    "value2": 1.8320186138153077
+                },
+                "Scale": {
+                    "value0": 0.9999991655349731,
+                    "value1": 0.9999991655349731,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.3601989150047302,
+                    "value3": 0.9328755140304565
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 130242,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": 5.5,
+                    "value1": -20.5,
+                    "value2": 7.165571212768555
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.7071067690849304,
+                    "value3": 0.7071067690849304
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 158962,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -12.5,
+                    "value1": 5.5,
+                    "value2": 7.489022254943848
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -1.0,
+                    "value3": 7.549790126404332e-8
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 158950,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -18.5,
+                    "value1": 5.5,
+                    "value2": 7.255903244018555
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -1.0,
+                    "value3": 7.549790126404332e-8
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 146852,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 15.5,
+                    "value1": -5.5,
+                    "value2": 7.502599716186523
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.1920928955078126e-7,
+                    "value3": 1.0
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 175566,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": -5.5,
+                    "value1": 20.5,
+                    "value2": 7.202983856201172
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -0.7071067094802856,
+                    "value3": 0.7071068286895752
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 133560,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": 5.5,
+                    "value1": -17.5,
+                    "value2": 7.316077709197998
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.7071067690849304,
+                    "value3": 0.7071067690849304
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 172270,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": 5.5,
+                    "value1": 17.5,
+                    "value2": 7.340594291687012
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -0.7071067094802856,
+                    "value3": 0.7071068286895752
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 146784,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -18.5,
+                    "value1": -5.5,
+                    "value2": 7.096587181091309
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -1.0,
+                    "value3": 7.549790126404332e-8
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 146858,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 18.5,
+                    "value1": -5.5,
+                    "value2": 7.393013954162598
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.1920928955078126e-7,
+                    "value3": 1.0
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 175588,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": 5.5,
+                    "value1": 20.5,
+                    "value2": 7.1887712478637699
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -0.7071067094802856,
+                    "value3": 0.7071068286895752
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 178884,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": -5.5,
+                    "value1": 23.5,
+                    "value2": 7.015155792236328
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -0.7071067094802856,
+                    "value3": 0.7071068286895752
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "SwordsmenTowerLvl0",
+                "m_team": 1,
+                "smallGridIndex": 130784,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 0.0,
+                    "value1": -20.0,
+                    "value2": 7.108582496643066
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " SwordsmenTowerLvl0"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 146796,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -12.5,
+                    "value1": -5.5,
+                    "value2": 7.355166435241699
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -1.0,
+                    "value3": 7.549790126404332e-8
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 159024,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 18.5,
+                    "value1": 5.5,
+                    "value2": 7.34903621673584
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.1920928955078126e-7,
+                    "value3": 1.0
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 159012,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 12.5,
+                    "value1": 5.5,
+                    "value2": 7.555553436279297
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.1920928955078126e-7,
+                    "value3": 1.0
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 158956,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -15.5,
+                    "value1": 5.5,
+                    "value2": 7.388862609863281
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -1.0,
+                    "value3": 7.549790126404332e-8
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 172248,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": -5.5,
+                    "value1": 17.5,
+                    "value2": 7.356731414794922
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -0.7071067094802856,
+                    "value3": 0.7071068286895752
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "TownHallLvl0",
+                "m_team": 1,
+                "smallGridIndex": 152904,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 0.0,
+                    "value1": 2.0,
+                    "value2": 7.653627872467041
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " TownHallLvl0"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 126924,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": 5.5,
+                    "value1": -23.5,
+                    "value2": 6.928764343261719
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.7071067690849304,
+                    "value3": 0.7071067690849304
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 146846,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 12.5,
+                    "value1": -5.5,
+                    "value2": 7.554336071014404
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -1.0,
+                    "value3": 3.1391647326017848e-7
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "MageTowerLvl0",
+                "m_team": 1,
+                "smallGridIndex": 152874,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -15.0,
+                    "value1": 0.0,
+                    "value2": 7.35952091217041
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": " MageTowerLvl0"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 146790,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -15.5,
+                    "value1": -5.5,
+                    "value2": 7.244072914123535
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -1.0,
+                    "value3": 7.549790126404332e-8
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 178906,
+                "flipped": true
+            },
+            "second": {
+                "Translation": {
+                    "value0": 5.5,
+                    "value1": 23.5,
+                    "value2": 7.0012407302856449
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": -0.0,
+                    "value2": -0.7071067094802856,
+                    "value3": 0.7071068286895752
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Wall",
+                "m_team": 1,
+                "smallGridIndex": 159018,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 15.5,
+                    "value1": 5.5,
+                    "value2": 7.480040550231934
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.1920928955078126e-7,
+                    "value3": 1.0
+                },
+                "Name": " Wall"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 129654,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -12.612342834472657,
+                    "value1": -20.209407806396486,
+                    "value2": 6.761196136474609
+                },
+                "Scale": {
+                    "value0": 0.9999998807907105,
+                    "value1": 0.9999998211860657,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.019754085689783098,
+                    "value1": -0.05776418745517731,
+                    "value2": 0.32297608256340029,
+                    "value3": 0.9444361329078674
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 118570,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -24.0,
+                    "value1": -31.0,
+                    "value2": 4.584200382232666
+                },
+                "Scale": {
+                    "value0": 0.9999922513961792,
+                    "value1": 0.9999920129776001,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.06540434062480927,
+                    "value1": -0.05786508321762085,
+                    "value2": 0.7460941076278687,
+                    "value3": 0.6600889563560486
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 100858,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -31.847963333129884,
+                    "value1": -47.57489776611328,
+                    "value2": 1.1822965145111085
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.1289060115814209,
+                    "value3": 0.9916568398475647
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 110952,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 38.0,
+                    "value1": -38.0,
+                    "value2": 2.099182605743408
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.012767412699759007,
+                    "value1": 0.04170890152454376,
+                    "value2": 0.29242298007011416,
+                    "value3": 0.9552937150001526
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 115334,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 17.0,
+                    "value1": -34.0,
+                    "value2": 5.2087297439575199
+                },
+                "Scale": {
+                    "value0": 0.9999995827674866,
+                    "value1": 0.9999998807907105,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.04191633686423302,
+                    "value1": 0.08619388192892075,
+                    "value2": -0.4353189170360565,
+                    "value3": 0.8951597809791565
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 133028,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 16.0,
+                    "value1": -18.0,
+                    "value2": 7.268749237060547
+                },
+                "Scale": {
+                    "value0": 0.9999985694885254,
+                    "value1": 0.9999998807907105,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.013902533799409867,
+                    "value1": 0.03201068937778473,
+                    "value2": -0.39811837673187258,
+                    "value3": 0.9166699647903442
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 177270,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 17.0,
+                    "value1": 20.836341857910158,
+                    "value2": 6.893837928771973
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 0.9999998807907105,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.00698470463976264,
+                    "value1": 0.04305674880743027,
+                    "value2": 0.15997472405433656,
+                    "value3": 0.9861569404602051
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 183940,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 34.0,
+                    "value1": 28.0,
+                    "value2": 3.8654820919036867
+                },
+                "Scale": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.046972133219242099,
+                    "value1": 0.07370337098836899,
+                    "value2": 0.5353881120681763,
+                    "value3": 0.8400720357894898
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 200524,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": 31.0,
+                    "value1": 43.0,
+                    "value2": 1.5595515966415406
+                },
+                "Scale": {
+                    "value0": 0.9999967813491821,
+                    "value1": 0.999996542930603,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.05464259907603264,
+                    "value1": 0.08910880237817764,
+                    "value2": 0.5198893547058106,
+                    "value3": 0.8478142023086548
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 176108,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -11.0,
+                    "value1": 21.0,
+                    "value2": 7.191692352294922
+                },
+                "Scale": {
+                    "value0": 0.9999958872795105,
+                    "value1": 1.0,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.026132479310035707,
+                    "value1": -0.023131463676691057,
+                    "value2": -0.43002817034721377,
+                    "value3": 0.9021406769752502
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 186038,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -23.0,
+                    "value1": 30.0,
+                    "value2": 5.213541507720947
+                },
+                "Scale": {
+                    "value0": 0.9999528527259827,
+                    "value1": 0.9999443292617798,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": -0.05364999920129776,
+                    "value1": -0.061986155807971957,
+                    "value2": -0.6522305607795715,
+                    "value3": 0.753574550151825
+                },
+                "Name": " Fence"
+            }
+        },
+        {
+            "first": {
+                "m_entityType": "Fence",
+                "m_team": 2,
+                "smallGridIndex": 192638,
+                "flipped": false
+            },
+            "second": {
+                "Translation": {
+                    "value0": -41.0,
+                    "value1": 36.0,
+                    "value2": 1.8320186138153077
+                },
+                "Scale": {
+                    "value0": 0.9999991655349731,
+                    "value1": 0.9999991655349731,
+                    "value2": 1.0
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.3601989150047302,
+                    "value3": 0.9328755140304565
+                },
+                "Name": " Fence"
+            }
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "list": [
+        "DoOrderStartFence",
+        "ToSettings",
+        "ToPause",
+        "SetOrderFromUI",
+        "ClosePopup",
+        "StartNextWave",
+        "StartStarCraft",
+        "DoOrderBuildMageTower",
+        "DoOrderBuildBarracks",
+        "DoOrderStartWall",
+        "HoveringOverUI",
+        "ShowBuildHover",
+        "ShowOrderHover",
+        "OpenSpeceficUnit",
+        "StartTowerDefense",
+        "ToOptions",
+        "MakeMetricDataAppear",
+        "ToMainMenu",
+        "ToLevels",
+        "Exit",
+        "BasicDebugMetricData",
+        "BuildBarracks",
+        "BuildMageTower",
+        "StartMainMenu",
+        "UnitsDebugMetricData",
+        "StructureDebugMetricData",
+        "TextFieldButton"
+    ]
+}

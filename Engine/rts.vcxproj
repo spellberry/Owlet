@@ -1,0 +1,1602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Prospero">
+      <Configuration>Debug</Configuration>
+      <Platform>Prospero</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Steam_Debug|x64">
+      <Configuration>Steam_Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Steam_Debug|Prospero">
+      <Configuration>Steam_Debug</Configuration>
+      <Platform>Prospero</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Prospero">
+      <Configuration>Release</Configuration>
+      <Platform>Prospero</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Build_Release|x64">
+      <Configuration>Build_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Steam_Release|x64">
+      <Configuration>Steam_Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Steam_Release|Prospero">
+      <Configuration>Steam_Release</Configuration>
+      <Platform>Prospero</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="test|Prospero">
+      <Configuration>test</Configuration>
+      <Platform>Prospero</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="test|x64">
+      <Configuration>test</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a5d06fec-7fcb-4af8-b043-6d92d6b99695}</ProjectGuid>
+    <RootNamespace>bee</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Engine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">
+    <PlatformToolset>Clang</PlatformToolset>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'" Label="Configuration">
+    <PlatformToolset>Clang</PlatformToolset>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">
+    <PlatformToolset>Clang</PlatformToolset>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="properties\bee.props" />
+    <Import Project="properties\bee_debug.props" />
+    <Import Project="properties\bee_pc.props" />
+    <Import Project="properties\bee_pc_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="properties\bee.props" />
+    <Import Project="properties\bee_debug.props" />
+    <Import Project="properties\bee_pc.props" />
+    <Import Project="properties\bee_pc_debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="properties\bee.props" />
+    <Import Project="properties\bee_pc.props" />
+    <Import Project="properties\bee_pc_release_build.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="properties\bee.props" />
+    <Import Project="properties\bee_pc.props" />
+    <Import Project="properties\bee_pc_release.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">
+    <Import Project="properties\bee.props" />
+    <Import Project="properties\bee_debug.props" />
+    <Import Project="properties\bee_prospero.props" />
+    <Import Project="properties\bee_prospero_debug.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'" Label="PropertySheets">
+    <Import Project="properties\bee.props" />
+    <Import Project="properties\bee_debug.props" />
+    <Import Project="properties\bee_prospero.props" />
+    <Import Project="properties\bee_prospero_debug.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">
+    <Import Project="properties\bee.props" />
+    <Import Project="properties\bee_prospero.props" />
+    <Import Project="properties\bee_prospero_release.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">
+    <Import Project="properties\bee_pc_release.props" />
+    <Import Project="properties\bee.props" />
+    <Import Project="properties\bee_pc.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>intermediate\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <IncludePath>..\2324-Y2C-PR-RTS\source\platform\dx12;$(IncludePath)</IncludePath>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <TargetName>$(ProjectName)</TargetName>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">
+    <OutDir>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>intermediate\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <IncludePath>..\2324-Y2C-PR-RTS\source\platform\dx12;$(IncludePath)</IncludePath>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <TargetName>$(ProjectName)</TargetName>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">
+    <OutDir>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>intermediate\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>..\2324-Y2C-PR-RTS\source\platform\dx12;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>intermediate\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>..\2324-Y2C-PR-RTS\source\platform\dx12;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">
+    <OutDir>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">
+    <OutDir>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">
+    <OutDir>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">
+    <OutDir>$(SolutionDir)\Build\Engine\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>intermediate\$(Platform)\$(Configuration)\</IntDir>
+    <IncludePath>..\2324-Y2C-PR-RTS\source\platform\dx12;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;BEE_INSPERCTOR;BEE_INSPECTOR;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);PLATFORM_WINDOWS;PLATFORM_DESKTOP</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)external;$(SolutionDir)external\clipper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;$(ProjectDir)external;$(ProjectDir)external\clipper\include;$(ProjectDir)external\msdfgen\dependencies\include;$(ProjectDir)external\msdfgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <WarningLevel>Level1</WarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)external\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw/glfw3.lib;fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;fmod/lib/fmod$(FMODSuffix)_vc.lib;dxcompiler.lib;d3d12.lib;dxgi.lib;d3dcompiler.lib;dxguid.lib;WindowsApp.lib;Comctl32.lib;User32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)external\msdfgen\dependencies\debug\lib;$(ProjectDir)external\msdfgen\Debug;$(ProjectDir)external\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw/glfw3.lib;fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;fmod/lib/fmod$(FMODSuffix)_vc.lib;msdfgen-core.lib;msdfgen-ext.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2d.lib;freetyped.lib;libpng16d.lib;tinyxml2.lib;zlibd.lib;/NODEFAULTLIB:LIBCMTD;/NODEFAULTLIB:MSVCRT;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command />
+    </PostBuildEvent>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <Lib>
+      <AdditionalDependencies>brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2d.lib;freetyped.lib;libpng16d.lib;tinyxml2.lib;zlibd.lib;msdfgen-core.lib;msdfgen-ext.lib;dxcompiler.lib;dxguid.lib;D3D12.lib;DXGI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)external\;$(ProjectDir)external\msdfgen\Debug;$(ProjectDir)source\platform\dx12\Dx12NiceRenderer\Renderer\lib;$(ProjectDir)external\msdfgen\dependencies\debug\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">
+    <ClCompile>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;BEE_INSPERCTOR;BEE_INSPECTOR;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);PLATFORM_WINDOWS;PLATFORM_DESKTOP;STEAM_API_WINDOWS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)external;$(SolutionDir)external\clipper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;$(ProjectDir)external;$(ProjectDir)external\clipper\include;$(ProjectDir)external\msdfgen\dependencies\include;$(ProjectDir)external\msdfgen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <WarningLevel>Level1</WarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)external\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw/glfw3.lib;fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;fmod/lib/fmod$(FMODSuffix)_vc.lib;dxcompiler.lib;d3d12.lib;dxgi.lib;d3dcompiler.lib;dxguid.lib;WindowsApp.lib;Comctl32.lib;User32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)external\msdfgen\dependencies\debug\lib;$(ProjectDir)external\msdfgen\Debug;$(ProjectDir)external\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw/glfw3.lib;fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;fmod/lib/fmod$(FMODSuffix)_vc.lib;msdfgen-core.lib;msdfgen-ext.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2d.lib;freetyped.lib;libpng16d.lib;tinyxml2.lib;zlibd.lib;/NODEFAULTLIB:LIBCMTD;/NODEFAULTLIB:MSVCRT;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <Lib>
+      <AdditionalDependencies>brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2d.lib;freetyped.lib;libpng16d.lib;tinyxml2.lib;zlibd.lib;msdfgen-core.lib;msdfgen-ext.lib;dxcompiler.lib;dxguid.lib;D3D12.lib;DXGI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)external\;$(ProjectDir)external\msdfgen\Debug;$(ProjectDir)source\platform\dx12\Dx12NiceRenderer\Renderer\lib;$(ProjectDir)external\msdfgen\dependencies\debug\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">
+    <ClCompile>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);PLATFORM_WINDOWS;PLATFORM_DESKTOP;AUTOMATIC_RESOURCE</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)external;$(SolutionDir)external\clipper\include;$(SolutionDir)external\entt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;$(ProjectDir)external\msdfgen\dependencies\include;$(ProjectDir)external\msdfgen;$(ProjectDir)external;$(ProjectDir)external\clipper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)external\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw/glfw3.lib;fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;fmod/lib/fmod$(FMODSuffix)_vc.lib;dxcompiler.lib;d3d12.lib;dxgi.lib;d3dcompiler.lib;dxguid.lib;WindowsApp.lib;Comctl32.lib;User32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)external\;$(ProjectDir)external\msdfgen\dependencies\lib;$(ProjectDir)external\msdfgen\Build_Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw/glfw3.lib;fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;fmod/lib/fmod$(FMODSuffix)_vc.lib;msdfgen-core.lib;msdfgen-ext.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2.lib;freetype.lib;libpng16.lib;tinyxml2.lib;zlib.lib;/NODEFAULTLIB:libcmt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d /c "$(ProjectDir)external\Superluminal\PerformanceAPI.dll"</Command>
+    </PostBuildEvent>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <Lib>
+      <AdditionalDependencies>msdfgen-core.lib;msdfgen-ext.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2.lib;freetype.lib;libpng16.lib;tinyxml2.lib;zlib.lib;dxcompiler.lib;dxguid.lib;D3D12.lib;DXGI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)source\platform\dx12\Dx12NiceRenderer\Renderer\lib;$(ProjectDir)external\;$(ProjectDir)external\msdfgen\dependencies\lib;$(ProjectDir)external\msdfgen\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);PLATFORM_WINDOWS;PLATFORM_DESKTOP;AUTOMATIC_RESOURCE</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)include;$(SolutionDir)external;$(SolutionDir)external\clipper\include;$(SolutionDir)external\entt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;$(ProjectDir)external\msdfgen\dependencies\include;$(ProjectDir)external\msdfgen;$(ProjectDir)external;$(ProjectDir)external\clipper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)external\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw/glfw3.lib;fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;fmod/lib/fmod$(FMODSuffix)_vc.lib;dxcompiler.lib;d3d12.lib;dxgi.lib;d3dcompiler.lib;dxguid.lib;WindowsApp.lib;Comctl32.lib;User32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)external\;$(ProjectDir)external\msdfgen\dependencies\lib;$(ProjectDir)external\msdfgen\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw/glfw3.lib;fmod/lib/fmodstudio$(FMODSuffix)_vc.lib;fmod/lib/fmod$(FMODSuffix)_vc.lib;msdfgen-core.lib;msdfgen-ext.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2.lib;freetype.lib;libpng16.lib;tinyxml2.lib;zlib.lib;/NODEFAULTLIB:libcmt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d /c "$(ProjectDir)external\Superluminal\PerformanceAPI.dll"</Command>
+    </PostBuildEvent>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <Lib>
+      <AdditionalDependencies>msdfgen-core.lib;msdfgen-ext.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2.lib;freetype.lib;libpng16.lib;tinyxml2.lib;zlib.lib;dxcompiler.lib;dxguid.lib;D3D12.lib;DXGI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)source\platform\dx12\Dx12NiceRenderer\Renderer\lib;$(ProjectDir)external\;$(ProjectDir)external\msdfgen\dependencies\lib;$(ProjectDir)external\msdfgen\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">
+    <Link>
+      <Addressing>Aslr</Addressing>
+    </Link>
+    <ClCompile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <WavePsslc>
+      <SymbolCacheFile>true</SymbolCacheFile>
+    </WavePsslc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">
+    <Link>
+      <Addressing>Aslr</Addressing>
+    </Link>
+    <ClCompile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+    <WavePsslc>
+      <SymbolCacheFile>true</SymbolCacheFile>
+    </WavePsslc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">
+    <Link>
+      <Addressing>Aslr</Addressing>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile />
+    <WavePsslc>
+      <SymbolCacheFile>true</SymbolCacheFile>
+    </WavePsslc>
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <ClCompile>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">
+    <ClCompile>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;$(ProjectDir)external\msdfgen\dependencies\include;$(ProjectDir)external\msdfgen;$(ProjectDir)external;$(ProjectDir)external\clipper\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ConformanceMode>true</ConformanceMode>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;PLATFORM_WINDOWS;PLATFORM_DESKTOP;BEE_PLATFORM_PC;STEAM_API_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>msdfgen-core.lib;msdfgen-ext.lib;brotlicommon.lib;brotlidec.lib;brotlienc.lib;bz2.lib;freetype.lib;libpng16.lib;tinyxml2.lib;zlib.lib;dxcompiler.lib;dxguid.lib;D3D12.lib;DXGI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Lib>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)source\platform\dx12\Dx12NiceRenderer\Renderer\lib;$(ProjectDir)external\;$(ProjectDir)external\msdfgen\dependencies\lib;$(ProjectDir)external\msdfgen\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy /y /d /c "$(ProjectDir)external\Superluminal\PerformanceAPI.dll"</Command>
+    </PostBuildEvent>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="external\imgui\ImGuizmo.cpp" />
+    <ClInclude Include="include\tools\debug_metric.hpp" />
+    <ClInclude Include="include\level_editor\brushes\foliage_brush.hpp" />
+    <ClInclude Include="include\user_interface\user_interface_editor_structs.hpp" />
+    <ClInclude Include="include\user_interface\user_interface_serializer.hpp" />
+    <ClCompile Include="source\tools\debug_metric.cpp" />
+    <ClInclude Include="include\actors\buff_system.hpp" />
+    <ClInclude Include="include\tools\serialize_imgui.hpp" />
+    <ClCompile Include="source\actors\attributes.cpp" />
+    <ClCompile Include="source\actors\buff_system.cpp" />
+    <ClCompile Include="source\actors\selection_system.cpp" />
+    <ClCompile Include="source\ai\ai_behavior_selection_system.cpp" />
+    <ClCompile Include="source\animation\animation_state.cpp" />
+    <ClCompile Include="source\actors\actor_wrapper.cpp" />
+    <ClCompile Include="source\actors\props\prop_manager_system.cpp" />
+    <ClCompile Include="source\actors\props\prop_template.cpp" />
+    <ClCompile Include="source\actors\props\resource_system.cpp" />
+    <ClCompile Include="source\actors\structures\structure_manager_system.cpp" />
+    <ClCompile Include="source\actors\structures\structure_template.cpp" />
+    <ClCompile Include="source\camera\camera_editor_system.cpp" />
+    <ClCompile Include="source\level_editor\brushes\area_brush.cpp" />
+    <ClCompile Include="source\level_editor\brushes\foliage_brush.cpp" />
+    <ClCompile Include="source\level_editor\brushes\prop_brush.cpp" />
+    <ClCompile Include="source\level_editor\brushes\structure_brush.cpp" />
+    <ClCompile Include="source\light_system\light_system.cpp" />
+    <ClCompile Include="source\material_system\material_system.cpp" />
+    <ClCompile Include="source\particle_system\particle_emitter.cpp" />
+    <ClCompile Include="source\particle_system\particle_system.cpp" />
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\source\animation_system.cpp" />
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\source\skeletal_animation.cpp" />
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\source\skeleton.cpp" />
+    <ClCompile Include="source\platform\dx12\ui_renderer_dx12.cpp" />
+    <ClCompile Include="source\actors\proejctile_system\projectile_system.cpp" />
+    <ClCompile Include="external\imgui\imgui_stdlib.cpp" />
+    <ClCompile Include="source\core\game_base.cpp" />
+    <ClCompile Include="source\ai\grid_navigation_system.cpp" />
+    <ClCompile Include="source\ai\navigation_grid.cpp" />
+    <ClCompile Include="source\level_editor\brushes\unit_brush.cpp" />
+    <ClCompile Include="source\ai\behavior_editor_system.cpp" />
+    <ClCompile Include="external\clipper\src\clipper.engine.cpp" />
+    <ClCompile Include="external\clipper\src\clipper.offset.cpp" />
+    <ClCompile Include="external\clipper\src\clipper.rectclip.cpp" />
+    <ClCompile Include="external\glad\src\glad.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\imgui\crude_json.cpp" />
+    <ClCompile Include="external\imgui\imgui.cpp" />
+    <ClCompile Include="external\imgui\imgui_canvas.cpp" />
+    <ClCompile Include="external\imgui\imgui_demo.cpp" />
+    <ClCompile Include="external\imgui\imgui_draw.cpp" />
+    <ClCompile Include="external\imgui\imgui_impl.cpp" />
+    <ClCompile Include="external\imgui\imgui_impl_dx12.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_glfw.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_opengl3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_node_editor.cpp" />
+    <ClCompile Include="external\imgui\imgui_node_editor_api.cpp" />
+    <ClCompile Include="external\imgui\imgui_tables.cpp" />
+    <ClCompile Include="external\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="external\imgui\implot.cpp" />
+    <ClCompile Include="external\imgui\implot_demo.cpp" />
+    <ClCompile Include="external\imgui\implot_items.cpp" />
+    <ClCompile Include="external\msdf-atlas-gen\bitmap-blit.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\charset-parser.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\Charset.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\csv-export.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\FontGeometry.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\glyph-generators.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\GlyphGeometry.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\image-encode.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\json-export.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\RectanglePacker.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\shadron-preview-generator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\size-selectors.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\TightAtlasPacker.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\utf8.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\msdf-atlas-gen\Workload.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="external\predicates\predicates.cpp" />
+    <ClCompile Include="external\tinygltf\tiny_gltf.cc" />
+    <ClCompile Include="source\camera\camera_rts_system.cpp" />
+    <ClCompile Include="source\ai\BehaviorTrees\behaviors.cpp" />
+    <ClCompile Include="source\ai\BehaviorTrees\behavior_tree.cpp" />
+    <ClCompile Include="source\ai\BehaviorTrees\behavior_tree_builder.cpp" />
+    <ClCompile Include="source\ai\BehaviorTrees\Editor\behavior_tree_editor.cpp" />
+    <ClCompile Include="source\ai\Blackboards\blackboard.cpp" />
+    <ClCompile Include="source\ai\Blackboards\comparator.cpp" />
+    <ClCompile Include="source\ai\FiniteStateMachines\Editor\finite_state_machine_editor.cpp" />
+    <ClCompile Include="source\ai\FiniteStateMachines\finite_state_machine.cpp" />
+    <ClCompile Include="source\ai\navigation_path.cpp" />
+    <ClCompile Include="source\ai\Utils\blackboard_inspector.cpp" />
+    <ClCompile Include="source\camera\camera_test.cpp" />
+    <ClInclude Include="include\ai\wave_data.hpp" />
+    <ClInclude Include="include\tools\convex_hull.hpp" />
+    <ClInclude Include="external\imgui\imgui_curve.hpp" />
+    <ClInclude Include="include\actors\selection_system.hpp" />
+    <ClInclude Include="include\ai\ai_behavior_selection_system.hpp" />
+    <ClInclude Include="include\animation\animation_state.hpp" />
+    <ClCompile Include="source\platform\opengl\mesh_gl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="include\actors\attributes.hpp" />
+    <ClInclude Include="include\actors\actor_utils.hpp" />
+    <ClInclude Include="include\actors\actor_wrapper.hpp" />
+    <ClInclude Include="include\actors\props\prop_manager.hpp" />
+    <ClInclude Include="include\actors\props\resource_system.hpp" />
+    <ClInclude Include="include\actors\props\prop_manager_system.hpp" />
+    <ClInclude Include="include\actors\structures\structure_manager_system.hpp" />
+    <ClInclude Include="include\actors\structures\structure_template.hpp" />
+    <ClInclude Include="include\actors\Props\prop_template.hpp" />
+    <ClInclude Include="include\actors\units\UnitOrderType.hpp" />
+    <ClInclude Include="include\camera\camera_editor_system.hpp" />
+    <ClInclude Include="include\level_editor\brushes\structure_brush.hpp" />
+    <ClInclude Include="include\light_system\light_system.hpp" />
+    <ClInclude Include="include\material_system\material_system.hpp" />
+    <ClInclude Include="include\particle_system\particle_emitter.hpp" />
+    <ClInclude Include="include\particle_system\particle_system.hpp" />
+    <ClInclude Include="include\platform\dx12\ui_render_data_dx12.hpp" />
+    <ClInclude Include="include\platform\prospero\rendering\ui_render_data_prospero.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClCompile Include="source\core\audio.cpp" />
+    <ClCompile Include="source\level_editor\brushes\brush.cpp" />
+    <ClCompile Include="source\level_editor\brushes\path_brush.cpp" />
+    <ClCompile Include="source\level_editor\brushes\terraform_brush.cpp" />
+    <ClCompile Include="source\level_editor\brushes\texture_brush.cpp" />
+    <ClCompile Include="source\level_editor\level_editor_system.cpp" />
+    <ClCompile Include="source\level_editor\terrain_system.cpp" />
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\DXRHelpers\nv_helpers_dx12\BottomLevelASGenerator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\DXRHelpers\nv_helpers_dx12\RaytracingPipelineGenerator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\DXRHelpers\nv_helpers_dx12\RootSignatureGenerator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\DXRHelpers\nv_helpers_dx12\ShaderBindingTableGenerator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\DXRHelpers\nv_helpers_dx12\TopLevelASGenerator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\source\DeviceManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\source\image_dx12.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\source\mesh_dx12.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\source\RenderPipeline.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\source\ResourceManager.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\opengl\debug_render_gl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\opengl\ui_renderer_gl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='test|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\prospero\rendering\debug_render_prospero.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\prospero\rendering\ui_renderer_prospero.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\prospero\rendering\ui_render_data_prospero.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\rendering\debug_render.cpp" />
+    <ClCompile Include="source\ai\navigation_system.cpp" />
+    <ClCompile Include="source\graph\euclidean_graph.cpp" />
+    <ClCompile Include="source\graph\graph_search.cpp" />
+    <ClCompile Include="source\ai\navmesh.cpp" />
+    <ClCompile Include="source\ai\navmesh_agent.cpp" />
+    <ClCompile Include="source\core\ecs.cpp" />
+    <ClCompile Include="source\core\engine.cpp" />
+    <ClCompile Include="source\core\fileio.cpp" />
+    <ClCompile Include="source\core\geometry2d.cpp" />
+    <ClCompile Include="source\math\geometry.cpp" />
+    <ClCompile Include="source\platform\opengl\image_gl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='test|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\opengl\render_gl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\opengl\shader_gl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\pc\core\device_pc.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\pc\core\fileio_pc.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\pc\core\input_pc.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">
+      </ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\core\resources.cpp" />
+    <ClCompile Include="source\core\transform.cpp" />
+    <ClCompile Include="source\physics\world.cpp" />
+    <ClCompile Include="source\platform\prospero\rendering\image_prospero.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\prospero\rendering\mesh_prospero.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\prospero\rendering\render_prospero.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\rendering\model.cpp" />
+    <ClCompile Include="source\rendering\render_components.cpp" />
+    <ClCompile Include="source\platform\opengl\open_gl.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\prospero\core\device_prospero.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\prospero\core\direct_mem_alloc.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\prospero\core\fileio_prospero.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\prospero\core\input_prospero.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\prospero\core\user_malloc.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\platform\prospero\core\user_new.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\tools\3d_utility_functions.cpp" />
+    <ClCompile Include="source\tools\asset_explorer_system.cpp" />
+    <ClCompile Include="source\tools\GuizmoData.cpp" />
+    <ClCompile Include="source\tools\input_wrapper.cpp" />
+    <ClCompile Include="source\tools\inspector.cpp" />
+    <ClCompile Include="source\tools\log.cpp" />
+    <ClCompile Include="source\tools\profiler.cpp" />
+    <ClCompile Include="source\tools\serialization.cpp" />
+    <ClCompile Include="source\tools\shader_preprocessor.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="source\tools\steam_input_system.cpp" />
+    <ClCompile Include="source\tools\thread_pool.cpp" />
+    <ClCompile Include="source\tools\tools.cpp" />
+    <ClCompile Include="source\actors\units\unit_template.cpp" />
+    <ClCompile Include="source\actors\units\unit_manager_system.cpp" />
+    <ClCompile Include="source\user_interface\font_handler.cpp" />
+    <ClCompile Include="source\user_interface\user_interface.cpp" />
+    <ClCompile Include="source\user_interface\user_interface_editor.cpp" />
+    <ClCompile Include="source\user_interface\user_interface_editor_structs.cpp" />
+    <ClCompile Include="source\user_interface\user_interface_serializer.cpp" />
+    <ClCompile Include="source\user_interface\user_interface_structs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external\imgui\imgui_stdlib.h" />
+    <ClInclude Include="include\core\game_base.hpp" />
+    <ClInclude Include="include\ai\grid_navigation_system.hpp" />
+    <ClInclude Include="include\ai\behavior_editor_system.hpp" />
+    <ClInclude Include="external\clipper\include\clipper2\clipper.core.h" />
+    <ClInclude Include="external\clipper\include\clipper2\clipper.engine.h" />
+    <ClInclude Include="external\clipper\include\clipper2\clipper.export.h" />
+    <ClInclude Include="external\clipper\include\clipper2\clipper.h" />
+    <ClInclude Include="external\clipper\include\clipper2\clipper.minkowski.h" />
+    <ClInclude Include="external\clipper\include\clipper2\clipper.offset.h" />
+    <ClInclude Include="external\clipper\include\clipper2\clipper.rectclip.h" />
+    <ClInclude Include="external\fmod\fmod.h" />
+    <ClInclude Include="external\fmod\fmod.hpp" />
+    <ClInclude Include="external\fmod\fmod_codec.h" />
+    <ClInclude Include="external\fmod\fmod_common.h" />
+    <ClInclude Include="external\fmod\fmod_dsp.h" />
+    <ClInclude Include="external\fmod\fmod_dsp_effects.h" />
+    <ClInclude Include="external\fmod\fmod_errors.h" />
+    <ClInclude Include="external\fmod\fmod_output.h" />
+    <ClInclude Include="external\fmod\fmod_studio.h" />
+    <ClInclude Include="external\fmod\fmod_studio.hpp" />
+    <ClInclude Include="external\fmod\fmod_studio_common.h" />
+    <ClInclude Include="external\fmod\fmod_switch.h" />
+    <ClInclude Include="external\imgui\imgui_impl_dx12.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\magic_enum\magic_enum.hpp" />
+    <ClInclude Include="external\magic_enum\magic_enum_all.hpp" />
+    <ClInclude Include="external\magic_enum\magic_enum_containers.hpp" />
+    <ClInclude Include="external\magic_enum\magic_enum_flags.hpp" />
+    <ClInclude Include="external\magic_enum\magic_enum_format.hpp" />
+    <ClInclude Include="external\magic_enum\magic_enum_fuse.hpp" />
+    <ClInclude Include="external\magic_enum\magic_enum_iostream.hpp" />
+    <ClInclude Include="external\magic_enum\magic_enum_switch.hpp" />
+    <ClInclude Include="external\magic_enum\magic_enum_utility.hpp" />
+    <ClInclude Include="external\msdf-atlas-gen\AtlasGenerator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\AtlasStorage.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\bitmap-blit.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\BitmapAtlasStorage.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\BitmapAtlasStorage.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\Charset.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\csv-export.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\DynamicAtlas.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\DynamicAtlas.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\FontGeometry.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\glyph-generators.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\GlyphBox.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\GlyphGeometry.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\image-encode.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\image-save.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\image-save.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\ImmediateAtlasGenerator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\ImmediateAtlasGenerator.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\json-export.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\msdf-atlas-gen.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\rectangle-packing.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\rectangle-packing.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\Rectangle.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\RectanglePacker.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\Remap.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\shadron-preview-generator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\size-selectors.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\TightAtlasPacker.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\types.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\utf8.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdf-atlas-gen\Workload.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdfgen\core\arithmetics.hpp" />
+    <ClInclude Include="external\msdfgen\core\base.h" />
+    <ClInclude Include="external\msdfgen\core\bitmap-interpolation.hpp" />
+    <ClInclude Include="external\msdfgen\core\Bitmap.h" />
+    <ClInclude Include="external\msdfgen\core\Bitmap.hpp" />
+    <ClInclude Include="external\msdfgen\core\BitmapRef.hpp" />
+    <ClInclude Include="external\msdfgen\core\contour-combiners.h" />
+    <ClInclude Include="external\msdfgen\core\Contour.h" />
+    <ClInclude Include="external\msdfgen\core\edge-coloring.h" />
+    <ClInclude Include="external\msdfgen\core\edge-segments.h" />
+    <ClInclude Include="external\msdfgen\core\edge-selectors.h" />
+    <ClInclude Include="external\msdfgen\core\EdgeColor.h" />
+    <ClInclude Include="external\msdfgen\core\EdgeHolder.h" />
+    <ClInclude Include="external\msdfgen\core\equation-solver.h" />
+    <ClInclude Include="external\msdfgen\core\generator-config.h" />
+    <ClInclude Include="external\msdfgen\core\msdf-error-correction.h" />
+    <ClInclude Include="external\msdfgen\core\MSDFErrorCorrection.h" />
+    <ClInclude Include="external\msdfgen\core\pixel-conversion.hpp" />
+    <ClInclude Include="external\msdfgen\core\Projection.h" />
+    <ClInclude Include="external\msdfgen\core\rasterization.h" />
+    <ClInclude Include="external\msdfgen\core\render-sdf.h" />
+    <ClInclude Include="external\msdfgen\core\save-bmp.h" />
+    <ClInclude Include="external\msdfgen\core\save-tiff.h" />
+    <ClInclude Include="external\msdfgen\core\Scanline.h" />
+    <ClInclude Include="external\msdfgen\core\sdf-error-estimation.h" />
+    <ClInclude Include="external\msdfgen\core\shape-description.h" />
+    <ClInclude Include="external\msdfgen\core\Shape.h" />
+    <ClInclude Include="external\msdfgen\core\ShapeDistanceFinder.h" />
+    <ClInclude Include="external\msdfgen\core\ShapeDistanceFinder.hpp" />
+    <ClInclude Include="external\msdfgen\core\SignedDistance.hpp" />
+    <ClInclude Include="external\msdfgen\core\Vector2.hpp" />
+    <ClInclude Include="external\msdfgen\dependencies\include\brotli\decode.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\brotli\encode.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\brotli\port.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\brotli\shared_dictionary.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\brotli\types.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\bzlib.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\config\ftconfig.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\config\ftheader.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\config\ftmodule.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\config\ftoption.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\config\ftstdlib.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\config\integer-types.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\config\mac-support.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\config\public-macros.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\freetype.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftadvanc.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftbbox.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftbdf.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftbitmap.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftbzip2.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftcache.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftchapters.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftcid.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftcolor.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftdriver.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\fterrdef.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\fterrors.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftfntfmt.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftgasp.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftglyph.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftgxval.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftgzip.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftimage.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftincrem.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftlcdfil.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftlist.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftlogging.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftlzw.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftmac.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftmm.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftmodapi.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftmoderr.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftotval.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftoutln.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftparams.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftpfr.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftrender.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftsizes.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftsnames.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftstroke.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftsynth.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftsystem.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\fttrigon.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\fttypes.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ftwinfnt.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\otsvg.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\t1tables.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\ttnameid.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\tttables.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\freetype\tttags.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\ft2build.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\libpng16\png.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\libpng16\pngconf.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\libpng16\pnglibconf.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\png.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\pngconf.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\pnglibconf.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\tinyxml2.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\zconf.h" />
+    <ClInclude Include="external\msdfgen\dependencies\include\zlib.h" />
+    <ClInclude Include="external\msdfgen\ext\import-font.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdfgen\ext\import-svg.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdfgen\ext\resolve-shape-geometry.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdfgen\ext\save-png.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdfgen\msdfgen-config.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdfgen\msdfgen-ext.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdfgen\msdfgen.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\msdfgen\msdfgen\msdfgen-config.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="external\predicates\constants.h" />
+    <ClInclude Include="external\predicates\predicates.h" />
+    <ClInclude Include="include\camera\camera_rts_system.hpp" />
+    <ClInclude Include="include\ai\BehaviorTrees\behaviors.hpp" />
+    <ClInclude Include="include\ai\BehaviorTrees\behavior_tree.hpp" />
+    <ClInclude Include="include\ai\BehaviorTrees\behavior_tree_builder.hpp" />
+    <ClInclude Include="include\ai\BehaviorTrees\Editor\behavior_tree_editor.hpp" />
+    <ClInclude Include="include\ai\Blackboards\blackboard.hpp" />
+    <ClInclude Include="include\ai\Blackboards\comparator.hpp" />
+    <ClInclude Include="include\ai\FiniteStateMachines\Editor\finite_state_machine_editor.hpp" />
+    <ClInclude Include="include\ai\FiniteStateMachines\finite_state_machine.hpp" />
+    <ClInclude Include="include\ai\navigation_path.hpp" />
+    <ClInclude Include="include\ai\Utils\blackboard_inspector.hpp" />
+    <ClInclude Include="include\ai\Utils\editor_utils.hpp" />
+    <ClInclude Include="include\ai\Utils\editor_variables.hpp" />
+    <ClInclude Include="include\ai\Utils\execution_context.hpp" />
+    <ClInclude Include="include\ai\Utils\generic_factory.hpp" />
+    <ClInclude Include="include\camera\camera_test.hpp" />
+    <ClInclude Include="include\core\audio.hpp" />
+    <ClInclude Include="include\level_editor\brushes\brush.hpp" />
+    <ClInclude Include="include\level_editor\brushes\path_brush.hpp" />
+    <ClInclude Include="include\level_editor\brushes\prop_brush.hpp" />
+    <ClInclude Include="include\level_editor\brushes\terraform_brush.hpp" />
+    <ClInclude Include="include\level_editor\brushes\texture_brush.hpp" />
+    <ClInclude Include="include\level_editor\brushes\unit_brush.hpp" />
+    <ClInclude Include="include\level_editor\level_editor_system.hpp" />
+    <ClInclude Include="include\level_editor\level_editor_components.hpp" />
+    <ClInclude Include="include\level_editor\terrain_system.hpp" />
+    <ClInclude Include="include\level_editor\utils.hpp" />
+    <ClInclude Include="include\math\math.hpp" />
+    <ClInclude Include="include\platform\dx12\ui_renderer_dx12.hpp" />
+    <ClInclude Include="include\platform\opengl\ui_renderer_gl.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='test|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\platform\opengl\ui_render_data_gl.hpp" />
+    <ClInclude Include="include\platform\prospero\rendering\ui_renderer_prospero.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\rendering\ui_renderer.hpp" />
+    <ClInclude Include="include\rendering\ui_render_data.hpp" />
+    <ClInclude Include="include\tools\3d_utility_functions.hpp" />
+    <ClInclude Include="include\tools\asset_explorer_system.hpp" />
+    <ClInclude Include="include\tools\GuizmoData.hpp" />
+    <ClInclude Include="include\tools\input_mapping.hpp" />
+    <ClInclude Include="include\tools\input_wrapper.hpp" />
+    <ClInclude Include="include\tools\profiler.hpp" />
+    <ClInclude Include="include\tools\serializable.hpp" />
+    <ClInclude Include="include\tools\serialization.hpp" />
+    <ClInclude Include="include\tools\serialize_glm.h" />
+    <ClInclude Include="include\tools\steam_input_system.hpp" />
+    <ClInclude Include="include\tools\thread_pool.hpp" />
+    <ClInclude Include="include\actors\units\unit_template.hpp" />
+    <ClInclude Include="include\actors\units\unit_base_component.hpp" />
+    <ClInclude Include="include\actors\projectile_system\projectile_system.hpp" />
+    <ClInclude Include="include\actors\units\unit_manager_system.hpp" />
+    <ClInclude Include="include\ai\navigation_grid.hpp" />
+    <ClInclude Include="include\physics\raycast_system.hpp" />
+    <ClInclude Include="include\actors\props\resource_type.hpp" />
+    <ClInclude Include="include\user_interface\user_interface_editor.hpp" />
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\d3dx12.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\DXRHelpers\DXRHelper.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\DXRHelpers\DXSampleHelper.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\DXRHelpers\nv_helpers_dx12\BottomLevelASGenerator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\DXRHelpers\nv_helpers_dx12\RaytracingPipelineGenerator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\DXRHelpers\nv_helpers_dx12\RootSignatureGenerator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\DXRHelpers\nv_helpers_dx12\ShaderBindingTableGenerator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\DXRHelpers\nv_helpers_dx12\TopLevelASGenerator.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\external\tiny_gltf.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\include\DeviceManager.hpp" />
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\include\Helpers.hpp" />
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\include\image_dx12.h" />
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\include\mesh_dx12.h" />
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\include\RenderPipeline.hpp" />
+    <ClInclude Include="source\platform\dx12\Dx12NiceRenderer\Renderer\include\ResourceManager.hpp" />
+    <ClInclude Include="include\user_interface\font_handler.hpp" />
+    <ClInclude Include="include\user_interface\user_interface.hpp" />
+    <ClInclude Include="include\user_interface\user_interface_structs.hpp" />
+    <ClInclude Include="source\samples\fleet\camera.h" />
+    <ClInclude Include="source\samples\fleet\components.h" />
+    <ClInclude Include="source\samples\fleet\coordinate.h" />
+    <ClInclude Include="source\samples\fleet\fleet.h" />
+    <ClInclude Include="include\core\fwd.hpp" />
+    <ClInclude Include="include\graph\euclidean_graph.hpp" />
+    <ClInclude Include="include\graph\graph.hpp" />
+    <ClInclude Include="include\ai\navmesh.hpp" />
+    <ClInclude Include="include\ai\navmesh_agent.hpp" />
+    <ClInclude Include="include\core\device.hpp" />
+    <ClInclude Include="include\core\ecs.h" />
+    <ClInclude Include="include\core\ecs.hpp" />
+    <ClInclude Include="include\core\engine.h" />
+    <ClInclude Include="include\core\engine.hpp" />
+    <ClInclude Include="include\core\fileio.hpp" />
+    <ClInclude Include="include\core\geometry2d.hpp" />
+    <ClInclude Include="include\core\input.hpp" />
+    <ClInclude Include="include\core\resource.hpp" />
+    <ClInclude Include="include\core\resources.hpp" />
+    <ClInclude Include="include\core\transform.hpp" />
+    <ClInclude Include="include\physics\physics_components.hpp" />
+    <ClInclude Include="include\physics\world.hpp" />
+    <ClInclude Include="include\math\geometry.hpp" />
+    <ClInclude Include="include\platform\opengl\image_gl.hpp" />
+    <ClInclude Include="include\platform\opengl\mesh_gl.hpp" />
+    <ClInclude Include="include\platform\opengl\shader_gl.hpp" />
+    <ClInclude Include="include\platform\opengl\uniforms_gl.hpp" />
+    <ClInclude Include="include\platform\pc\core\device_pc.hpp" />
+    <ClInclude Include="include\platform\opengl\open_gl.hpp" />
+    <ClInclude Include="include\platform\opengl\render_components_gl.hpp" />
+    <ClInclude Include="include\platform\opengl\render_gl.hpp" />
+    <ClInclude Include="include\platform\prospero\core\device_prospero.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\platform\prospero\core\direct_mem_alloc.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\platform\prospero\rendering\agc_include.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\platform\prospero\rendering\image_prospero.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\platform\prospero\rendering\mesh_prospero.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\platform\prospero\rendering\render_prospero.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\platform\prospero\rendering\shader_prospero.hpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="include\rendering\debug_render.hpp" />
+    <ClInclude Include="include\rendering\image.hpp" />
+    <ClInclude Include="include\rendering\mesh.hpp" />
+    <ClInclude Include="include\rendering\model.hpp" />
+    <ClInclude Include="include\rendering\render.hpp" />
+    <ClInclude Include="include\rendering\render_components.hpp" />
+    <ClInclude Include="include\tools\inspector.hpp" />
+    <ClInclude Include="include\tools\log.hpp" />
+    <ClInclude Include="include\graph\graph_search.hpp" />
+    <ClInclude Include="include\ai\navigation_system.hpp" />
+    <ClInclude Include="include\tools\shader_preprocessor.hpp" />
+    <ClInclude Include="include\tools\tools.hpp" />
+    <ClInclude Include="source\platform\prospero\rendering\shaders\shader_resource_table.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\platform\prospero\rendering\shaders\vertex_format.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\platform\prospero\core\address_sanitizer_utils.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="source\samples\fleet\generator.h" />
+    <ClInclude Include="source\samples\fleet\meshgenerators.h" />
+    <ClInclude Include="source\samples\fleet\modelviewer.h" />
+    <ClInclude Include="source\samples\fleet\priorities.h" />
+    <ClInclude Include="source\samples\fleet\ships.h" />
+    <ClInclude Include="source\samples\fleet\spatial.h" />
+    <ClInclude Include="source\samples\fleet\steering.h" />
+    <ClInclude Include="source\samples\fleet\vehicle.h" />
+    <ClInclude Include="source\samples\fleet\vfx.h" />
+    <ClInclude Include="include\actors\units\order_system.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="external\entt\natvis\entt\config.natvis" />
+    <Natvis Include="external\entt\natvis\entt\container.natvis" />
+    <Natvis Include="external\entt\natvis\entt\core.natvis" />
+    <Natvis Include="external\entt\natvis\entt\entity.natvis" />
+    <Natvis Include="external\entt\natvis\entt\graph.natvis" />
+    <Natvis Include="external\entt\natvis\entt\locator.natvis" />
+    <Natvis Include="external\entt\natvis\entt\meta.natvis" />
+    <Natvis Include="external\entt\natvis\entt\platform.natvis" />
+    <Natvis Include="external\entt\natvis\entt\poly.natvis" />
+    <Natvis Include="external\entt\natvis\entt\process.natvis" />
+    <Natvis Include="external\entt\natvis\entt\resource.natvis" />
+    <Natvis Include="external\entt\natvis\entt\signal.natvis" />
+    <Natvis Include="external\glm\glm.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="external\imgui\.editorconfig" />
+    <None Include="properties\bee_prospero_release.props" />
+    <None Include="source\platform\prospero\rendering\.editorconfig">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <WavePsslc Include="source\platform\prospero\rendering\shaders\img_p.pssl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </WavePsslc>
+    <WavePsslc Include="source\platform\prospero\rendering\shaders\img_vv.pssl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </WavePsslc>
+    <WavePsslc Include="source\platform\prospero\rendering\shaders\progress_p.pssl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </WavePsslc>
+    <WavePsslc Include="source\platform\prospero\rendering\shaders\progress_vv.pssl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </WavePsslc>
+    <WavePsslc Include="source\platform\prospero\rendering\shaders\text_p.pssl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </WavePsslc>
+    <WavePsslc Include="source\platform\prospero\rendering\shaders\text_vv.pssl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </WavePsslc>
+    <WavePsslc Include="source\platform\prospero\rendering\shaders\uber_p.pssl">
+      <Profile Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">PS</Profile>
+      <Profile Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">PS</Profile>
+      <Profile Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">PS</Profile>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </WavePsslc>
+    <WavePsslc Include="source\platform\prospero\rendering\shaders\uber_vv.pssl">
+      <Profile Condition="'$(Configuration)|$(Platform)'=='Debug|Prospero'">VSVS</Profile>
+      <Profile Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|Prospero'">VSVS</Profile>
+      <Profile Condition="'$(Configuration)|$(Platform)'=='Release|Prospero'">VSVS</Profile>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </WavePsslc>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\FontVertexShader.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\ImageVertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">Vertex</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </FxCompile>
+    <FxCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\PBVertexShader.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">Vertex</ShaderType>
+    </FxCompile>
+    <FxCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\PixelShader.hlsl">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">5.0</ShaderModel>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">5.0</ShaderModel>
+      <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">5.0</ShaderModel>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </FxCompile>
+    <FxCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\FontPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">Pixel</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\ImagePixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">Pixel</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\PBPixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">Pixel</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">Pixel</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Pixel</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="source\platform\dx12\Dx12NiceRenderer\Renderer\VertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">Vertex</ShaderType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Build_Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Steam_Release|x64'">true</ExcludedFromBuild>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="include\tools\serialize_dx12.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

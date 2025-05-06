@@ -1,0 +1,129 @@
+{
+    "element": {
+        "name": "InGameTemplates",
+        "tobs": 0,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [
+            {
+                "start": {
+                    "value0": 0.7571429014205933,
+                    "value1": 0.5476188659667969
+                },
+                "size": {
+                    "value0": 0.05249999836087227,
+                    "value1": 0.05249999836087227
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "buttonTemplate",
+                "linkedComponentstr": "texTemplate",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.009999999776482582,
+                    "value1": 0.009999999776482582
+                },
+                "size": {
+                    "value0": 0.30000001192092898,
+                    "value1": 0.30000001192092898
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "HoveringOverUI"
+                },
+                "typein": 1,
+                "hoverimg": "none",
+                "hoverable": true,
+                "name": "hoveroverlay",
+                "linkedComponentstr": "",
+                "layer": 0
+            }
+        ],
+        "texts": [
+            {
+                "name": "textureTemplate",
+                "start": {
+                    "value0": 0.011111155152320862,
+                    "value1": 0.20476192235946656
+                },
+                "size": 0.0,
+                "text": "Selected Entities",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [
+            {
+                "name": "texTemplate",
+                "start": {
+                    "value0": 0.7571429014205933,
+                    "value1": 0.5476188659667969
+                },
+                "size": {
+                    "value0": 0.05249999836087227,
+                    "value1": 0.05249999836087227
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 4.0,
+                    "value3": 4.0
+                },
+                "imageFile": "assets\\textures\\UI\\Game UI collection\\png files\\buttons blue-01.png",
+                "layer": 0
+            }
+        ],
+        "layer": 4,
+        "opacity": 1.0
+    }
+}

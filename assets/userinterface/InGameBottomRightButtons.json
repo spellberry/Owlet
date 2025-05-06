@@ -1,0 +1,244 @@
+{
+    "element": {
+        "name": "InGameBottomRightButtons",
+        "tobs": 0,
+        "lors": 3,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [
+            {
+                "start": {
+                    "value0": 0.1283756047487259,
+                    "value1": 0.11699217557907105
+                },
+                "size": {
+                    "value0": 0.07499997317790985,
+                    "value1": 0.07499997317790985
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "DoOrderBuildBarracks"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "ShowBuildHover"
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "Barracksbutton",
+                "linkedComponentstr": "swordsmenTex",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.1283756047487259,
+                    "value1": 0.0331018790602684
+                },
+                "size": {
+                    "value0": 0.07499997317790985,
+                    "value1": 0.07499997317790985
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "DoOrderBuildMageTower"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "ShowBuildHover"
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "MageTowerBuilding",
+                "linkedComponentstr": "mageTowerTex",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.044169746339321139,
+                    "value1": 0.0331018790602684
+                },
+                "size": {
+                    "value0": 0.07499997317790985,
+                    "value1": 0.07499997317790985
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "DoOrderStartWall"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "ShowBuildHover"
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "wallButton",
+                "linkedComponentstr": "wallTex",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.044169746339321139,
+                    "value1": 0.11699217557907105
+                },
+                "size": {
+                    "value0": 0.07499997317790985,
+                    "value1": 0.07499997317790985
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "DoOrderStartFence"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "ShowBuildHover"
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "FenceButton",
+                "linkedComponentstr": "FenceTex",
+                "layer": 0
+            }
+        ],
+        "texts": [],
+        "images": [
+            {
+                "name": "swordsmenTex",
+                "start": {
+                    "value0": 0.1283756047487259,
+                    "value1": 0.11699217557907105
+                },
+                "size": {
+                    "value0": 0.07499997317790985,
+                    "value1": 0.07499997317790985
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 64.0,
+                    "value3": 64.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\buttons blue-01.png",
+                "layer": -5
+            },
+            {
+                "name": "mageTowerTex",
+                "start": {
+                    "value0": 0.1283756047487259,
+                    "value1": 0.0331018790602684
+                },
+                "size": {
+                    "value0": 0.07499997317790985,
+                    "value1": 0.07499997317790985
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 64.0,
+                    "value3": 64.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\buttons blue-01.png",
+                "layer": 0
+            },
+            {
+                "name": "wallTex",
+                "start": {
+                    "value0": 0.044169746339321139,
+                    "value1": 0.0331018790602684
+                },
+                "size": {
+                    "value0": 0.07499997317790985,
+                    "value1": 0.07499997317790985
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 64.0,
+                    "value3": 64.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\buttons blue-01.png",
+                "layer": 0
+            },
+            {
+                "name": "FenceTex",
+                "start": {
+                    "value0": 0.044169746339321139,
+                    "value1": 0.11699217557907105
+                },
+                "size": {
+                    "value0": 0.07499997317790985,
+                    "value1": 0.07499997317790985
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 64.0,
+                    "value3": 64.0
+                },
+                "imageFile": "assets/Textures/checkerboard.png",
+                "layer": 0
+            }
+        ],
+        "layer": 4,
+        "opacity": 1.0
+    }
+}

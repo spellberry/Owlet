@@ -1,0 +1,92 @@
+{
+    "element": {
+        "name": "Selection",
+        "fontpath": "assets/fonts/DroidSans.sff",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [],
+        "images": [
+            {
+                "name": "Left",
+                "start": {
+                    "value0": 0.25999996066093447,
+                    "value1": 0.1903703808784485
+                },
+                "size": {
+                    "value0": 0.10000000149011612,
+                    "value1": 0.6399999856948853
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 4.0,
+                    "value3": 4.0
+                },
+                "imageFile": "assets/textures\\white.png",
+                "layer": 0
+            },
+            {
+                "name": "Right",
+                "start": {
+                    "value0": 1.4555554389953614,
+                    "value1": 0.18740743398666383
+                },
+                "size": {
+                    "value0": 0.10000000149011612,
+                    "value1": 0.5400000214576721
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 4.0,
+                    "value3": 4.0
+                },
+                "imageFile": "assets/textures\\white.png",
+                "layer": 0
+            },
+            {
+                "name": "Down",
+                "start": {
+                    "value0": 0.41999995708465578,
+                    "value1": 0.7888889312744141
+                },
+                "size": {
+                    "value0": 1.0399999618530274,
+                    "value1": 0.10000000149011612
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 4.0,
+                    "value3": 4.0
+                },
+                "imageFile": "assets/textures\\white.png",
+                "layer": 0
+            },
+            {
+                "name": "Up",
+                "start": {
+                    "value0": 0.3044445216655731,
+                    "value1": 0.07037035375833512
+                },
+                "size": {
+                    "value0": 1.1100000143051148,
+                    "value1": 0.07999999821186066
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 4.0,
+                    "value3": 4.0
+                },
+                "imageFile": "assets/textures\\white.png",
+                "layer": 0
+            }
+        ],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

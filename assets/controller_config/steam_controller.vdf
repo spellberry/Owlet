@@ -1,0 +1,479 @@
+"controller_mappings"
+{
+	"version"		"3"
+	"revision"		"43"
+	"title"		"GalaxTest1.0"
+	"description"		"#SettingsController_AutosaveDescription"
+	"creator"		"-1"
+	"progenitor"		"game://steam_controller.vdf"
+	"url"		"game://steam_controller.vdf"
+	"export_type"		"personal_local"
+	"controller_type"		"controller_steamcontroller_gordon"
+	"controller_caps"		"2179063"
+	"major_revision"		"0"
+	"minor_revision"		"0"
+	"Timestamp"		"0"
+	"actions"
+	{
+		"InGameControls"
+		{
+			"title"		"#Set_Ingame"
+			"legacy_set"		"0"
+			"StickPadGyro"
+			{
+				"Move"
+				{
+					"title"		"#Action_Move"
+					"input_mode"		"joystick_move"
+				}
+				"Camera"
+				{
+					"title"		"#Action_Camera"
+					"input_mode"		"joystick_move"
+				}
+			}
+			"Button"
+			{
+				"Selection"		"#Action_Select"
+				"order"		"#Action_Order"
+				"All"		"#Action_All"
+				"Up"		"#Action_Up"
+				"Down"		"#Action_Down"
+			}
+		}
+	}
+	"action_layers"
+	{
+	}
+	"localization"
+	{
+		"english"
+		{
+			"Set_Ingame"		"In-Game Controls"
+			"Action_Move"		"Mouse Movement"
+			"Action_Camera"		"Camera Movement"
+			"Action_Select"		"Select Button"
+			"Action_Order"		"Order Button"
+			"Action_All"		"Combine Button"
+			"Action_Up"		"Move Up"
+			"Action_Down"		"Move Down"
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"four_buttons"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"four_buttons"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"11"
+		"mode"		"joystick_move"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"14"
+		"mode"		"joystick_move"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"20"
+		"mode"		"four_buttons"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"21"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"22"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"24"
+		"mode"		"four_buttons"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"25"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"26"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"28"
+		"mode"		"four_buttons"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+			"button_a"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action InGameControls Selection, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"button_b"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action InGameControls order, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"button_x"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action InGameControls Down, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"button_y"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"game_action InGameControls Up, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+		}
+	}
+	"group"
+	{
+		"id"		"29"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"30"
+		"mode"		"trigger"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"34"
+		"mode"		"joystick_move"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"InGameControls"		"Camera"
+		}
+	}
+	"group"
+	{
+		"id"		"35"
+		"mode"		"joystick_move"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"InGameControls"		"Move"
+		}
+	}
+	"group"
+	{
+		"id"		"0"
+		"mode"		"switches"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"switches"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"19"
+		"mode"		"switches"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"23"
+		"mode"		"switches"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"layer"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"27"
+		"mode"		"switches"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
+		"id"		"40"
+		"mode"		"joystick_move"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"InGameControls"		"Camera"
+		}
+	}
+	"group"
+	{
+		"id"		"41"
+		"mode"		"joystick_move"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"InGameControls"		"Move"
+		}
+	}
+	"group"
+	{
+		"id"		"42"
+		"mode"		"mouse_joystick"
+		"name"		""
+		"description"		""
+		"inputs"
+		{
+		}
+		"settings"
+		{
+			"virtual_mode"		"1"
+		}
+		"gameactions"
+		{
+			"InGameControls"		"Move"
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		"InGameControls"
+		"group_source_bindings"
+		{
+			"27"		"switch active"
+			"28"		"button_diamond active"
+			"29"		"left_trigger active"
+			"30"		"right_trigger active"
+			"34"		"joystick active"
+			"40"		"right_trackpad inactive"
+			"41"		"right_trackpad inactive"
+			"42"		"right_trackpad active"
+		}
+	}
+	"settings"
+	{
+	}
+}

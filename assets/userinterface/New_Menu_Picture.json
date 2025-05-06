@@ -1,0 +1,34 @@
+{
+    "element": {
+        "name": "New_Menu_Picture",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [],
+        "images": [
+            {
+                "name": "Texture_Picture",
+                "start": {
+                    "value0": -0.0010000000474974514,
+                    "value1": -0.0010000000474974514
+                },
+                "size": {
+                    "value0": 1.7799999713897706,
+                    "value1": 1.0019999742507935
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1822.0,
+                    "value3": 1024.0
+                },
+                "imageFile": "assets/textures\\background.png",
+                "layer": 0
+            }
+        ],
+        "layer": 2,
+        "opacity": 1.0
+    }
+}

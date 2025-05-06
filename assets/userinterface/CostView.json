@@ -1,0 +1,50 @@
+{
+    "element": {
+        "name": "CostView",
+        "fontpath": "assets/fonts/DroidSans.sff",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [
+            {
+                "name": "Stone",
+                "start": {
+                    "value0": 1.25,
+                    "value1": 0.734000027179718
+                },
+                "size": 0.15000000596046449,
+                "text": "Stone: 00000",
+                "layer": 0,
+                "colour": {
+                  "value0": 1.0,
+                  "value1": 1.0,
+                  "value2": 1.0,
+                  "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Wood",
+                "start": {
+                    "value0": 1.25,
+                    "value1": 0.6930000185966492
+                },
+                "size": 0.15000000596046449,
+                "text": "Wood: 00000",
+                "layer": 0,
+                "colour": {
+                  "value0": 1.0,
+                  "value1": 1.0,
+                  "value2": 1.0,
+                  "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

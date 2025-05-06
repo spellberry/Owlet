@@ -1,0 +1,49 @@
+{
+    "loverlays": [
+        {
+            "key": 856,
+            "value": {
+                "m_leftCornerAnchor": {
+                    "value0": 6690.0,
+                    "value1": 4184.0
+                },
+                "m_size": {
+                    "value0": 1225.0,
+                    "value1": 151.0
+                },
+                "file": "assets/textures\\UI\\Game UI collection\\png files\\Bars-01.png",
+                "name": "HoveredButton"
+            }
+        },
+        {
+            "key": 275,
+            "value": {
+                "m_leftCornerAnchor": {
+                    "value0": 461.0,
+                    "value1": 2286.0
+                },
+                "m_size": {
+                    "value0": 837.0,
+                    "value1": 2724.0
+                },
+                "file": "assets/textures\\UI\\Game UI collection\\png files\\buttons blue-01.png",
+                "name": "BuildOrderImage"
+            }
+        },
+        {
+            "key": 6,
+            "value": {
+                "m_leftCornerAnchor": {
+                    "value0": 2329.0,
+                    "value1": 5355.0
+                },
+                "m_size": {
+                    "value0": 7339.0,
+                    "value1": 7578.0
+                },
+                "file": "assets/textures\\UI\\Game UI collection\\png files\\icons blue-01.png",
+                "name": "MageOrderImage"
+            }
+        }
+    ]
+}

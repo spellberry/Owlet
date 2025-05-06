@@ -1,0 +1,20 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: Format
+
+on: [push]
+
+jobs:
+  format:
+    runs-on: windows-latest  # Ensure it runs on a Windows environment
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Run format.bat
+      shell: cmd
+      run: format.bat

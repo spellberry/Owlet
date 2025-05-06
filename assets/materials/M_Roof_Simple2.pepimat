@@ -1,0 +1,32 @@
+{
+    "material": {
+        "Name": "M_Roof_Simple2",
+        "BaseColorFactor": {
+            "value0": 1.0,
+            "value1": 1.0,
+            "value2": 1.0,
+            "value3": 1.0
+        },
+        "UseBaseTexture": true,
+        "EmissiveFactor": {
+            "value0": 0.0,
+            "value1": 0.0,
+            "value2": 0.0
+        },
+        "UseEmissiveTexture": false,
+        "NormalTextureScale": 0.0,
+        "UseNormalTexture": true,
+        "OcclusionTextureStrength": 0.0,
+        "UseOcclusionTexture": false,
+        "UseMetallicRoughnessTexture": true,
+        "MetallicFactor": 0.0,
+        "RoughnessFactor": 1.0,
+        "IsUnlit": false,
+        "ReceiveShadows": true,
+        "BaseColorTexturePath": "textures\\Structure_Textures\\Roofs\\T_Roof_Tiles_Simple2_D.png",
+        "EmissiveTexturePath": "",
+        "NormalTexturePath": "textures\\Structure_Textures\\Roofs\\T_Roof_Tiles_Simple2_N.png",
+        "OcclusionTexturePath": "",
+        "MetallicRoughnessTexturePath": "textures\\Structure_Textures\\Roofs\\T_Roof_Tiles_Simple2_ORM.png"
+    }
+}

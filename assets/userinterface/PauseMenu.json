@@ -1,0 +1,256 @@
+{
+    "element": {
+        "name": "PauseMenu",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [
+            {
+                "start": {
+                    "value0": 0.7014025449752808,
+                    "value1": 0.4200561046600342
+                },
+                "size": {
+                    "value0": 0.3700000047683716,
+                    "value1": 0.05999999865889549
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "ToPause"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "Resume",
+                "linkedComponentstr": "ResumeTexture",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.699999988079071,
+                    "value1": 0.6029999852180481
+                },
+                "size": {
+                    "value0": 0.3700000047683716,
+                    "value1": 0.05999999865889549
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "Exit"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "ExitButton",
+                "linkedComponentstr": "ExitTexture",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.6978382468223572,
+                    "value1": 0.5124513506889343
+                },
+                "size": {
+                    "value0": 0.3700000047683716,
+                    "value1": 0.05999999865889549
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "StartStarCraft"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "none"
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "New Component0",
+                "linkedComponentstr": "RestantTexture",
+                "layer": 0
+            }
+        ],
+        "texts": [
+            {
+                "name": "ResumeText",
+                "start": {
+                    "value0": 0.8059999942779541,
+                    "value1": 0.4663393795490265
+                },
+                "size": 0.23999999463558198,
+                "text": "Resume",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "ExitText",
+                "start": {
+                    "value0": 0.842215895652771,
+                    "value1": 0.6499999761581421
+                },
+                "size": 0.25999999046325686,
+                "text": "Exit",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "GamePausedText",
+                "start": {
+                    "value0": 0.722000002861023,
+                    "value1": 0.3779999911785126
+                },
+                "size": 0.3100000023841858,
+                "text": "Game Paused",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "RestandText",
+                "start": {
+                    "value0": 0.800000011920929,
+                    "value1": 0.5581063628196716
+                },
+                "size": 0.25999999046325686,
+                "text": "Restart",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [
+            {
+                "name": "ResumeTexture",
+                "start": {
+                    "value0": 0.7014025449752808,
+                    "value1": 0.4200561046600342
+                },
+                "size": {
+                    "value0": 0.3700000047683716,
+                    "value1": 0.05999999865889549
+                },
+                "atlas": {
+                    "value0": 381.0,
+                    "value1": 1759.0,
+                    "value2": 1425.0,
+                    "value3": 2219.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Borders blue-01.png",
+                "layer": 0
+            },
+            {
+                "name": "ExitTexture",
+                "start": {
+                    "value0": 0.699999988079071,
+                    "value1": 0.6029999852180481
+                },
+                "size": {
+                    "value0": 0.3700000047683716,
+                    "value1": 0.05999999865889549
+                },
+                "atlas": {
+                    "value0": 381.0,
+                    "value1": 1759.0,
+                    "value2": 1425.0,
+                    "value3": 2219.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Borders blue-01.png",
+                "layer": 0
+            },
+            {
+                "name": "RestantTexture",
+                "start": {
+                    "value0": 0.6978382468223572,
+                    "value1": 0.5124513506889343
+                },
+                "size": {
+                    "value0": 0.3700000047683716,
+                    "value1": 0.05999999865889549
+                },
+                "atlas": {
+                    "value0": 381.0,
+                    "value1": 1759.0,
+                    "value2": 1425.0,
+                    "value3": 2219.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Borders blue-01.png",
+                "layer": 0
+            }
+        ],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

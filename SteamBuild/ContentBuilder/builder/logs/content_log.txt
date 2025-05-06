@@ -1,0 +1,513 @@
+
+
+[2024-03-05 14:05:41] Client version: 1709170084
+[2024-03-05 14:05:41] Load failed: C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf.
+[2024-03-05 14:05:41] Load failed: C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\config\libraryfolders.vdf.
+[2024-03-05 14:05:41] Steam library folders configuration will be reset.
+[2024-03-05 14:05:41] No install folder configuration files found.
+[2024-03-05 14:07:57] Loaded 0 apps from install folder "C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-05 14:07:57] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-05 14:08:53] Client version: 1709170084
+[2024-03-05 14:08:53] Loaded Steam library folders configuration: C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-05 14:08:53] Loaded 0 apps from install folder "C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-05 14:08:53] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-05 14:19:14] Client version: 1709170084
+[2024-03-05 14:19:14] Loaded Steam library folders configuration: C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-05 14:19:14] Loaded 0 apps from install folder "C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-05 14:19:14] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-05 14:29:05] Client version: 1709170084
+[2024-03-05 14:29:05] Loaded Steam library folders configuration: C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-05 14:29:05] Loaded 0 apps from install folder "C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-05 14:29:05] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-05 14:34:58] Client version: 1709170084
+[2024-03-05 14:34:58] Loaded Steam library folders configuration: C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-05 14:34:58] Loaded 0 apps from install folder "C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-05 14:34:58] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-05 16:54:16] Client version: 1709170084
+[2024-03-05 16:54:16] Loaded Steam library folders configuration: C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-05 16:54:17] Loaded 0 apps from install folder "C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-05 16:54:17] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-05 17:00:24] Client version: 1709170084
+[2024-03-05 17:00:24] Loaded Steam library folders configuration: C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-05 17:00:24] Loaded 0 apps from install folder "C:\Users\INTEL\Downloads\steamworks_sdk_159\sdk\tools\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-05 17:00:24] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-11 09:54:58] Client version: 1709846822
+[2024-03-11 09:54:58] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-11 09:54:59] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-11 09:54:59] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-11 11:12:45] Client version: 1709846822
+[2024-03-11 11:12:45] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-11 11:12:45] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-11 11:12:45] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-11 14:49:49] Client version: 1709846822
+[2024-03-11 14:49:49] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-11 14:49:50] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-11 14:49:50] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-11 14:59:10] Client version: 1709846822
+[2024-03-11 14:59:10] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-11 14:59:10] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-11 14:59:10] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-11 15:15:53] Client version: 1709846822
+[2024-03-11 15:15:53] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-11 15:15:53] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-11 15:15:53] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-11 15:20:45] Client version: 1709846822
+[2024-03-11 15:20:45] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-11 15:20:45] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-11 15:20:45] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-11 15:26:35] Client version: 1709846822
+[2024-03-11 15:26:35] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-11 15:26:35] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-11 15:26:35] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-11 15:31:32] Client version: 1709846822
+[2024-03-11 15:31:32] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-11 15:31:33] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-11 15:31:33] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-11 15:52:20] Client version: 1709846822
+[2024-03-11 15:52:20] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-11 15:52:20] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-11 15:52:20] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 09:13:20] Client version: 1709846822
+[2024-03-12 09:13:20] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 09:13:20] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 09:13:20] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 09:32:30] Client version: 1709846822
+[2024-03-12 09:32:30] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 09:32:30] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 09:32:30] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 09:52:03] Client version: 1709846822
+[2024-03-12 09:52:03] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 09:52:03] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 09:52:03] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 09:55:01] Client version: 1709846822
+[2024-03-12 09:55:01] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 09:55:01] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 09:55:01] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 11:15:06] Client version: 1709846822
+[2024-03-12 11:15:06] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 11:15:06] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 11:15:06] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 13:40:12] Client version: 1709846822
+[2024-03-12 13:40:12] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 13:40:13] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 13:40:13] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 13:50:24] Client version: 1709846822
+[2024-03-12 13:50:24] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 13:50:24] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 13:50:24] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 15:01:34] Client version: 1709846822
+[2024-03-12 15:01:34] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 15:01:35] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 15:01:35] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 15:07:51] Client version: 1709846822
+[2024-03-12 15:07:51] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 15:07:51] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 15:07:51] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 15:11:07] Client version: 1709846822
+[2024-03-12 15:11:07] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 15:11:07] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 15:11:07] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 15:15:34] Client version: 1709846822
+[2024-03-12 15:15:34] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 15:15:34] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 15:15:34] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 15:19:09] Client version: 1709846822
+[2024-03-12 15:19:09] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 15:19:09] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 15:19:09] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 15:27:11] Client version: 1709846822
+[2024-03-12 15:27:11] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 15:27:11] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 15:27:11] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 15:36:11] Client version: 1709846822
+[2024-03-12 15:36:11] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 15:36:11] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 15:36:11] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 15:42:15] Client version: 1709846822
+[2024-03-12 15:42:15] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 15:42:15] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 15:42:15] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 15:46:55] Client version: 1709846822
+[2024-03-12 15:46:55] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 15:46:55] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 15:46:55] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 16:34:08] Client version: 1709846822
+[2024-03-12 16:34:08] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 16:34:08] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 16:34:08] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 16:38:32] Client version: 1709846822
+[2024-03-12 16:38:32] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 16:38:32] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 16:38:32] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 16:52:24] Client version: 1709846822
+[2024-03-12 16:52:24] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 16:52:24] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 16:52:24] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 17:00:51] Client version: 1709846822
+[2024-03-12 17:00:51] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 17:00:52] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 17:00:52] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 17:06:06] Client version: 1709846822
+[2024-03-12 17:06:06] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 17:06:06] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 17:06:06] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 17:09:42] Client version: 1709846822
+[2024-03-12 17:09:42] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 17:09:42] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 17:09:42] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-12 17:16:35] Client version: 1709846822
+[2024-03-12 17:16:35] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-12 17:16:35] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-12 17:16:35] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 09:01:32] Client version: 1709846822
+[2024-03-13 09:01:32] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 09:01:33] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 09:01:33] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 09:11:03] Client version: 1709846822
+[2024-03-13 09:11:03] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 09:11:03] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 09:11:03] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 09:25:26] Client version: 1709846822
+[2024-03-13 09:25:26] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 09:25:26] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 09:25:26] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 09:35:50] Client version: 1709846822
+[2024-03-13 09:35:50] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 09:35:50] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 09:35:50] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 09:37:46] Client version: 1709846822
+[2024-03-13 09:37:46] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 09:37:46] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 09:37:46] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 11:21:35] Client version: 1709846822
+[2024-03-13 11:21:35] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 11:21:35] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 11:21:35] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 11:31:13] Client version: 1709846822
+[2024-03-13 11:31:13] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 11:31:13] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 11:31:13] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 11:48:51] Client version: 1709846822
+[2024-03-13 11:48:51] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 11:48:51] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 11:48:51] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 11:52:43] Client version: 1709846822
+[2024-03-13 11:52:43] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 11:52:43] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 11:52:43] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 11:56:22] Client version: 1709846822
+[2024-03-13 11:56:22] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 11:56:22] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 11:56:22] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 12:07:22] Client version: 1709846822
+[2024-03-13 12:07:22] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 12:07:22] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 12:07:22] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 12:39:12] Client version: 1709846822
+[2024-03-13 12:39:12] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 12:39:12] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 12:39:12] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 12:45:54] Client version: 1709846822
+[2024-03-13 12:45:54] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 12:45:54] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 12:45:54] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-13 14:35:53] Client version: 1709846822
+[2024-03-13 14:35:53] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-13 14:35:54] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-13 14:35:54] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-18 11:21:36] Client version: 1709846822
+[2024-03-18 11:21:36] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-18 11:21:36] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-18 11:21:36] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-18 11:36:21] Client version: 1709846822
+[2024-03-18 11:36:21] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-18 11:36:21] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-18 11:36:21] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 09:58:48] Client version: 1709846822
+[2024-03-20 09:58:48] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 09:58:48] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 09:58:48] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 10:12:25] Client version: 1709846822
+[2024-03-20 10:12:25] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 10:12:25] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 10:12:25] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 10:18:30] Client version: 1709846822
+[2024-03-20 10:18:30] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 10:18:30] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 10:18:30] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 10:21:33] Client version: 1709846822
+[2024-03-20 10:21:33] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 10:21:34] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 10:21:34] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 10:29:36] Client version: 1709846822
+[2024-03-20 10:29:36] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 10:29:36] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 10:29:36] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 10:34:04] Client version: 1709846822
+[2024-03-20 10:34:04] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 10:34:04] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 10:34:04] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 10:53:57] Client version: 1709846822
+[2024-03-20 10:53:57] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 10:53:57] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 10:53:57] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 11:00:19] Client version: 1709846822
+[2024-03-20 11:00:19] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 11:00:19] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 11:00:19] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 11:14:46] Client version: 1709846822
+[2024-03-20 11:14:46] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 11:14:47] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 11:14:47] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 11:48:51] Client version: 1709846822
+[2024-03-20 11:48:51] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 11:48:51] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 11:48:51] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 13:38:54] Client version: 1709846822
+[2024-03-20 13:38:54] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 13:38:54] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 13:38:54] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 13:48:33] Client version: 1709846822
+[2024-03-20 13:48:33] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 13:48:34] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 13:48:34] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 13:51:01] Client version: 1709846822
+[2024-03-20 13:51:01] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 13:51:01] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 13:51:01] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 13:57:49] Client version: 1709846822
+[2024-03-20 13:57:49] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 13:57:49] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 13:57:49] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:00:51] Client version: 1709846822
+[2024-03-20 14:00:51] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:00:51] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:00:51] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:07:36] Client version: 1709846822
+[2024-03-20 14:07:36] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:07:36] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:07:36] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:10:49] Client version: 1709846822
+[2024-03-20 14:10:49] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:10:49] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:10:49] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:15:02] Client version: 1709846822
+[2024-03-20 14:15:02] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:15:02] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:15:02] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:17:31] Client version: 1709846822
+[2024-03-20 14:17:31] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:17:31] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:17:31] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:20:03] Client version: 1709846822
+[2024-03-20 14:20:03] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:20:03] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:20:03] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:24:13] Client version: 1709846822
+[2024-03-20 14:24:13] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:24:13] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:24:13] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:27:56] Client version: 1709846822
+[2024-03-20 14:27:56] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:27:56] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:27:56] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:30:27] Client version: 1709846822
+[2024-03-20 14:30:27] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:30:28] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:30:28] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:32:40] Client version: 1709846822
+[2024-03-20 14:32:40] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:32:40] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:32:40] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:36:31] Client version: 1709846822
+[2024-03-20 14:36:31] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:36:31] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:36:31] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:43:57] Client version: 1709846822
+[2024-03-20 14:43:57] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:43:58] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:43:58] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:47:38] Client version: 1709846822
+[2024-03-20 14:47:38] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:47:38] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:47:38] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 14:50:48] Client version: 1709846822
+[2024-03-20 14:50:48] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 14:50:48] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 14:50:48] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 15:57:04] Client version: 1709846822
+[2024-03-20 15:57:04] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 15:57:04] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 15:57:04] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2024-03-20 16:00:20] Client version: 1709846822
+[2024-03-20 16:00:20] Loaded Steam library folders configuration: C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\libraryfolders.vdf
+[2024-03-20 16:00:20] Loaded 0 apps from install folder "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\builder\steamapps\appmanifest_*.acf".
+[2024-03-20 16:00:20] Triggered async write of Steam library folders configuration (1 libraries).

@@ -1,0 +1,239 @@
+{
+    "element": {
+        "name": "Button",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [
+            {
+                "start": {
+                    "value0": 0.05000000074505806,
+                    "value1": 0.11999999731779099
+                },
+                "size": {
+                    "value0": 0.06499999761581421,
+                    "value1": 0.05000000074505806
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "BasicDebugMetricData"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "ButtonBasic",
+                "linkedComponentstr": "ButtonTexture1",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.125,
+                    "value1": 0.11999999731779099
+                },
+                "size": {
+                    "value0": 0.06499999761581421,
+                    "value1": 0.05000000074505806
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "UnitsDebugMetricData"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "ButtonUnits",
+                "linkedComponentstr": "ButtonTexture2",
+                "layer": 0
+            },
+            {
+                "start": {
+                    "value0": 0.20000000298023225,
+                    "value1": 0.11999999731779099
+                },
+                "size": {
+                    "value0": 0.10999999940395355,
+                    "value1": 0.05000000074505806
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "StructureDebugMetricData"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "ButtonStructures",
+                "linkedComponentstr": "ButtonTexture3",
+                "layer": 0
+            }
+        ],
+        "texts": [
+            {
+                "name": "Basic",
+                "start": {
+                    "value0": 0.06300000101327896,
+                    "value1": 0.15000000596046449
+                },
+                "size": 0.10000000149011612,
+                "text": "Basic",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Units",
+                "start": {
+                    "value0": 0.13500000536441804,
+                    "value1": 0.1503378301858902
+                },
+                "size": 0.10000000149011612,
+                "text": "Units",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            },
+            {
+                "name": "Structues",
+                "start": {
+                    "value0": 0.2150000035762787,
+                    "value1": 0.15000000596046449
+                },
+                "size": 0.10000000149011612,
+                "text": "Structures",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [
+            {
+                "name": "ButtonTexture1",
+                "start": {
+                    "value0": 0.05000000074505806,
+                    "value1": 0.11999999731779099
+                },
+                "size": {
+                    "value0": 0.06499999761581421,
+                    "value1": 0.05000000074505806
+                },
+                "atlas": {
+                    "value0": 6679.0,
+                    "value1": 4847.0,
+                    "value2": 7874.0,
+                    "value3": 4991.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Bars-01.png",
+                "layer": 0
+            },
+            {
+                "name": "ButtonTexture2",
+                "start": {
+                    "value0": 0.125,
+                    "value1": 0.11999999731779099
+                },
+                "size": {
+                    "value0": 0.06499999761581421,
+                    "value1": 0.05000000074505806
+                },
+                "atlas": {
+                    "value0": 6679.0,
+                    "value1": 4847.0,
+                    "value2": 7874.0,
+                    "value3": 4991.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Bars-01.png",
+                "layer": 0
+            },
+            {
+                "name": "ButtonTexture3",
+                "start": {
+                    "value0": 0.20000000298023225,
+                    "value1": 0.11999999731779099
+                },
+                "size": {
+                    "value0": 0.10999999940395355,
+                    "value1": 0.05000000074505806
+                },
+                "atlas": {
+                    "value0": 6679.0,
+                    "value1": 4847.0,
+                    "value2": 7874.0,
+                    "value3": 4991.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Bars-01.png",
+                "layer": 0
+            }
+        ],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

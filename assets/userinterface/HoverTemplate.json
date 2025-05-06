@@ -1,0 +1,34 @@
+{
+    "element": {
+        "name": "HoverTemplate",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [],
+        "images": [
+            {
+                "name": "backGround",
+                "start": {
+                    "value0": 0.0,
+                    "value1": 0.0
+                },
+                "size": {
+                    "value0": 0.3449999988079071,
+                    "value1": 0.15000000596046449
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 536.0,
+                    "value3": 233.0
+                },
+                "imageFile": "assets/textures\\UI\\Hover_Infobox.png",
+                "layer": 0
+            }
+        ],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

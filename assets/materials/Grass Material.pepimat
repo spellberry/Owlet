@@ -1,0 +1,32 @@
+{
+    "material": {
+        "Name": "Grass Material",
+        "BaseColorFactor": {
+            "value0": 1.0,
+            "value1": 1.0,
+            "value2": 1.0,
+            "value3": 1.0
+        },
+        "UseBaseTexture": true,
+        "EmissiveFactor": {
+            "value0": 1.1529412269592286,
+            "value1": 1.9607843160629273,
+            "value2": 0.49803921580314639
+        },
+        "UseEmissiveTexture": false,
+        "NormalTextureScale": 0.0,
+        "UseNormalTexture": true,
+        "OcclusionTextureStrength": 0.0,
+        "UseOcclusionTexture": false,
+        "UseMetallicRoughnessTexture": false,
+        "MetallicFactor": 0.0,
+        "RoughnessFactor": 1.0,
+        "IsUnlit": false,
+        "ReceiveShadows": false,
+        "BaseColorTexturePath": "textures\\T_Grass_Test_D.png",
+        "EmissiveTexturePath": "textures\\Foliage\\T_Grass_D.png",
+        "NormalTexturePath": "textures\\T_Grass_N.png",
+        "OcclusionTexturePath": "",
+        "MetallicRoughnessTexturePath": ""
+    }
+}

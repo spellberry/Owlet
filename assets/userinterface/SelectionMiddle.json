@@ -1,0 +1,35 @@
+{
+    "element": {
+        "name": "SelectionMiddle",
+        "fontpath": "assets/fonts/DroidSans.sff",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [],
+        "texts": [],
+        "images": [
+            {
+                "name": "Middle",
+                "start": {
+                    "value0": 0.7800000309944153,
+                    "value1": 0.3400000035762787
+                },
+                "size": {
+                    "value0": 0.10000000149011612,
+                    "value1": 0.10000000149011612
+                },
+                "atlas": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 4.0,
+                    "value3": 4.0
+                },
+                "imageFile": "assets/textures\\white.png",
+                "layer": 0
+            }
+        ],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}

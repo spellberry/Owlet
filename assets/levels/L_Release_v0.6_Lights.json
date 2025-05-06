@@ -1,0 +1,37 @@
+{
+    "lights": [
+        {
+            "first": {
+                "Translation": {
+                    "value0": -25.06825065612793,
+                    "value1": -18.340734481811525,
+                    "value2": 22.938678741455079
+                },
+                "Scale": {
+                    "value0": 0.9999973177909851,
+                    "value1": 1.0,
+                    "value2": 0.9999973177909851
+                },
+                "Rotation": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 0.0,
+                    "value3": 1.0
+                },
+                "Name": "Directional Light"
+            },
+            "second": {
+                "Color": {
+                    "value0": 1.0,
+                    "value1": 0.7921568751335144,
+                    "value2": 0.5058823823928833
+                },
+                "Intensity": 900.0,
+                "Range": 0.0,
+                "ShadowExtent": 0.10000000149011612,
+                "CastShadows": true,
+                "Type": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,489 @@
+"InstallConfigStore"
+{
+	"Software"
+	{
+		"Valve"
+		{
+			"Steam"
+			{
+				"AutoUpdateWindowEnabled"		"0"
+				"ipv6check_http_state"		"bad"
+				"ipv6check_udp_state"		"bad"
+				"CMWebSocket"
+				{
+					"ext1-par1.steamserver.net:27023"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:27038"
+					{
+						"LastPingTimestamp"		"0"
+						"LastPingValue"		"67"
+						"LastLoadValue"		"45"
+					}
+					"ext3-fra1.steamserver.net:27032"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27035"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27020"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27031"
+					{
+						"LastPingTimestamp"		"0"
+						"LastPingValue"		"53"
+						"LastLoadValue"		"55"
+					}
+					"ext2-ams1.steamserver.net:27025"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27033"
+					{
+						"LastPingTimestamp"		"0"
+						"LastPingValue"		"42"
+						"LastLoadValue"		"49"
+					}
+					"ext2-fra2.steamserver.net:27036"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra2.steamserver.net:27022"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra2.steamserver.net:27029"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra2.steamserver.net:27037"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27020"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27029"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-ams1.steamserver.net:27028"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27030"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27022"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27031"
+					{
+						"LastPingTimestamp"		"1710946624"
+						"LastPingValue"		"26"
+						"LastLoadValue"		"48"
+					}
+					"ext2-par1.steamserver.net:27028"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-fra1.steamserver.net:27025"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27030"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27036"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27024"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-fra1.steamserver.net:27028"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-ams1.steamserver.net:27019"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27023"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27033"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-ams1.steamserver.net:27038"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27038"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27032"
+					{
+						"LastPingTimestamp"		"0"
+						"LastPingValue"		"34"
+						"LastLoadValue"		"48"
+					}
+					"ext2-par1.steamserver.net:27025"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27020"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27033"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:27035"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27023"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27034"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:27036"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27029"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:27032"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:27030"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27030"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra1.steamserver.net:27029"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27035"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27028"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27019"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27024"
+					{
+						"LastPingTimestamp"		"1710946821"
+						"LastPingValue"		"10"
+						"LastLoadValue"		"52"
+					}
+					"ext2-ams1.steamserver.net:27021"
+					{
+						"LastPingTimestamp"		"1710946821"
+						"LastPingValue"		"67"
+						"LastLoadValue"		"46"
+					}
+					"ext1-ams1.steamserver.net:27036"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-ams1.steamserver.net:27032"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"1710946821"
+						"LastPingValue"		"72"
+						"LastLoadValue"		"59"
+					}
+					"ext1-ams1.steamserver.net:27031"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27019"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-ams1.steamserver.net:27033"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27037"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-ams1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27032"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27034"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-ams1.steamserver.net:27030"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27025"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27028"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-ams1.steamserver.net:27022"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27035"
+					{
+						"LastPingTimestamp"		"1710946821"
+						"LastPingValue"		"47"
+						"LastLoadValue"		"48"
+					}
+					"ext3-fra1.steamserver.net:27035"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27019"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27024"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27037"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27032"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27036"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:27019"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:27025"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27035"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27032"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-par1.steamserver.net:27031"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27034"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27023"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra1.steamserver.net:27024"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27020"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27037"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27029"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27036"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra1.steamserver.net:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27023"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra1.steamserver.net:27023"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:443"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-fra2.steamserver.net:27022"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-fra2.steamserver.net:27037"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27038"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27025"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra1.steamserver.net:27038"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27022"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-fra2.steamserver.net:27023"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-par1.steamserver.net:27038"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27033"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27019"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext2-fra2.steamserver.net:27021"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27024"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra1.steamserver.net:27020"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27028"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext1-fra1.steamserver.net:27038"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27022"
+					{
+						"LastPingTimestamp"		"0"
+					}
+					"ext3-fra2.steamserver.net:27025"
+					{
+						"LastPingTimestamp"		"0"
+					}
+				}
+				"RecentWebSocket443Failures"		""
+				"RecentWebSocketNon443Failures"		""
+				"RecentUDPFailures"		""
+				"RecentTCPFailures"		""
+				"MTBF"		"249913265"
+				"ConnectCache"
+				{
+					"bdaa15241"		"0200000073646174ea14604e4d65ec52bfa51bcea76021ee2f76e4acf7921e47315623c41a9233629bb0cc3a621e87f7590294b96d18352fb01e16f636fc257bdcd18d0f33c1badaec5073a226575895fa69d180c943192e0f910956d854ca3664cd1dd041480c07b64b0fda762de741f83edb36027faa38f6210aa16a103277921e1ea45be0a7a88dfdb65a7d31616ea1757c4940a5ea0a5d6226c59af503856b13f4fae1db7e55c4a25ade23577d27cb0e8999444fa4e6935ae8f163ff753bc9db62ee081678423dadc4261784c6d18dff33f6148f1a9d1eb3983ee9257b414ded705ff0379235853949c460935b73d33757ec544290423743b47b0e80eb78e8e440b044b941178a415c89b894f6968230ec690a9716308782076689fb81aa732d26c6d91e52c363ff94ef141b4033f4f04ef141155c6cc3b5b0ccb59991a8af84f8b01c89afd4c496afcfc02bae4a237602395a651893a883e183f5f7d0ee32e44a3387c9a6014016d403169f7fd5a763aef028ccc325dda0ccec9a8d5b453abb762e3ee11d1b8eb8a2027843b44479aed7dd9c6d2aace011397239aab55f6c07ee7cdb1b18b833e8a2ecae568ab5b895380d4776af3f8f06b5894bf9e97307f507c289f67b88ddf3148f4a44eaff2736bccddc918549730129f36d100ddc5b77afa3f42bf8cf6c0b1026b992e128dd76e3334467006f15c518"
+				}
+				"Accounts"
+				{
+					"shieldbomb"
+					{
+						"SteamID"		"76561198217315141"
+					}
+				}
+				"CellIDServerOverride"		"15"
+				"cip"		"020000005851201d8e5c0c3900004a438335"
+			}
+		}
+	}
+	"Authentication"
+	{
+		"RememberedMachineID"
+		{
+			"bdaa15241"		"eyAidHlwIjogIkpXVCIsICJhbGciOiAiRWREU0EiIH0.eyAiaXNzIjogInI6MEVCNF8yNDIzQjNFRV9GOTE4MCIsICJzdWIiOiAiNzY1NjExOTgyMTczMTUxNDEiLCAiYXVkIjogWyAibWFjaGluZSIgXSwgImV4cCI6IDE3Mjg5MzU2MjQsICJuYmYiOiAxNzAyMzA2ODIyLCAiaWF0IjogMTcxMDk0NjgyMiwgImp0aSI6ICIwRUM4XzI0MjNCM0U1X0ZDMzAyIiwgIm9hdCI6IDE3MTA5NDY4MjIsICJydF9leHAiOiAxNzI4OTM0MzYwLCAicGVyIjogMCwgImlwX3N1YmplY3QiOiAiMTQ1LjEwMS4xOTYuMTMiLCAiaXBfY29uZmlybWVyIjogIjE0NS4xMDEuMTk2LjEzIiwgIm1hdCI6IDE3MTAzMTkwOTUgfQ.VJFQqOsEgrAT_weKwYEYXoz3qefDTl5aYe3E6euJCZyceeNicwcvXNMdjOhn57aSRXy1m7bZdCHBf1AicszgAQ"
+		}
+	}
+}

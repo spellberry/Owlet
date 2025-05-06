@@ -1,0 +1,208 @@
+{
+    "OrderIcons": [
+        {
+            "key": 0,
+            "value": {
+                "iconPath": "assets/textures/checkerboard.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                }
+            }
+        },
+        {
+            "key": 1,
+            "value": {
+                "iconPath": "assets/textures\\blue.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                }
+            }
+        },
+        {
+            "key": 2,
+            "value": {
+                "iconPath": "assets/textures\\UI\\icons\\KillOrder.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1117.0,
+                    "value3": 1113.0
+                }
+            }
+        },
+        {
+            "key": 3,
+            "value": {
+                "iconPath": "assets/textures\\UI\\Game UI collection\\png files\\buttons blue-01.png",
+                "iconTextureCoordinates": {
+                    "value0": 7792.0,
+                    "value1": 5473.0,
+                    "value2": 388.0,
+                    "value3": 388.0
+                }
+            }
+        },
+        {
+            "key": 4,
+            "value": {
+                "iconPath": "assets/textures\\UI\\icons\\KillOrder.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1117.0,
+                    "value3": 1113.0
+                }
+            }
+        },
+        {
+            "key": 5,
+            "value": {
+                "iconPath": "assets/textures\\UI\\icons\\Townhall_button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1116.0,
+                    "value3": 1117.0
+                }
+            }
+        },
+        {
+            "key": 6,
+            "value": {
+                "iconPath": "assets/textures\\UI\\icons\\MageTower_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1114.0,
+                    "value3": 1114.0
+                }
+            }
+        },
+        {
+            "key": 7,
+            "value": {
+                "iconPath": "assets/textures\\UI\\icons\\WarriorTower_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1118.0,
+                    "value3": 1118.0
+                }
+            }
+        },
+        {
+            "key": 8,
+            "value": {
+                "iconPath": "assets/textures\\UI\\icons\\StoneWall_Button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1119.0,
+                    "value3": 1119.0
+                }
+            }
+        },
+        {
+            "key": 9,
+            "value": {
+                "iconPath": "assets/textures\\UI\\Game UI collection\\png files\\buttons blue-01.png",
+                "iconTextureCoordinates": {
+                    "value0": 9593.0,
+                    "value1": 1739.0,
+                    "value2": 388.0,
+                    "value3": 388.0
+                }
+            }
+        },
+        {
+            "key": 10,
+            "value": {
+                "iconPath": "assets/textures\\UI\\icons\\KnightOwl_Portrait.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 904.0,
+                    "value3": 904.0
+                }
+            }
+        },
+        {
+            "key": 11,
+            "value": {
+                "iconPath": "assets/textures\\UI\\icons\\Hoodini_Portrait.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 906.0,
+                    "value3": 902.0
+                }
+            }
+        },
+        {
+            "key": 12,
+            "value": {
+                "iconPath": "assets/textures\\UI\\icons\\Upgrade button.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1112.0,
+                    "value3": 1114.0
+                }
+            }
+        },
+        {
+            "key": 13,
+            "value": {
+                "iconPath": "assets/textures/checkerboard.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                }
+            }
+        },
+        {
+            "key": 14,
+            "value": {
+                "iconPath": "assets/textures/checkerboard.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                }
+            }
+        },
+        {
+            "key": 15,
+            "value": {
+                "iconPath": "assets/textures/checkerboard.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                }
+            }
+        },
+        {
+            "key": 16,
+            "value": {
+                "iconPath": "assets/textures/checkerboard.png",
+                "iconTextureCoordinates": {
+                    "value0": 0.0,
+                    "value1": 0.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+"appbuild"
+{
+	"appid" "2295440"
+	"desc" "Rebase test 12.7"
+	"buildoutput" "C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\output"
+	"contentroot" ""
+	"setlive" ""
+	"preview" "0"
+	"local"	""
+	"depots"
+	{
+		"2295441"	"C:\_Projects\GitHub\test\test\2324-Y2C-PR-RTS\SteamBuild\ContentBuilder\scripts\depot_2295441.vdf"
+	}
+}

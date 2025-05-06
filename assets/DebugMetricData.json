@@ -1,0 +1,131 @@
+{
+    "timeInsideGame": 144.53521728515626,
+    "diedOnWave": 0,
+    "woodDespawned": 0,
+    "stoneDespawned": 0,
+    "buildingSpawned": [
+        {
+            "key": "MageTowerLvl1",
+            "value": 0
+        },
+        {
+            "key": "Wall",
+            "value": 0
+        },
+        {
+            "key": "TownHallLvl1",
+            "value": 0
+        },
+        {
+            "key": "SwordsmenTowerLvl1",
+            "value": 0
+        },
+        {
+            "key": "Fence",
+            "value": 0
+        }
+    ],
+    "upgradedBuildings": [
+        {
+            "key": "SwordsmenTowerLvl2",
+            "value": 0
+        },
+        {
+            "key": "TownHallLvl2",
+            "value": 0
+        },
+        {
+            "key": "MageTowerLvl1",
+            "value": 1
+        },
+        {
+            "key": "SwordsmenTowerLvl1",
+            "value": 1
+        },
+        {
+            "key": "SwordsmenTowerLvl3",
+            "value": 0
+        },
+        {
+            "key": "SwordsmenTowerLvl4",
+            "value": 0
+        },
+        {
+            "key": "MageTowerLvl2",
+            "value": 0
+        },
+        {
+            "key": "MageTowerLvl3",
+            "value": 0
+        },
+        {
+            "key": "MageTowerLvl4",
+            "value": 0
+        },
+        {
+            "key": "TownHallLvl1",
+            "value": 1
+        },
+        {
+            "key": "TownHallLvl3",
+            "value": 0
+        },
+        {
+            "key": "TownHallLvl4",
+            "value": 0
+        }
+    ],
+    "allyUnitsSpawned": [
+        {
+            "key": "Warrior",
+            "value": 8
+        },
+        {
+            "key": "Mage",
+            "value": 7
+        }
+    ],
+    "allyUnitsKilled": [],
+    "enemyUnitsSpawned": [
+        {
+            "key": "StoneGolem",
+            "value": 1
+        },
+        {
+            "key": "WoodGolem",
+            "value": 5
+        }
+    ],
+    "enemyUnitsKilled": [
+        {
+            "key": "WoodGolem",
+            "value": 2
+        },
+        {
+            "key": "StoneGolem",
+            "value": 1
+        }
+    ],
+    "resourcesSpentOn": [
+        {
+            "key": "SwordsmenTowerLvl0",
+            "value": 2
+        },
+        {
+            "key": "TownHallLvl0",
+            "value": 2
+        },
+        {
+            "key": "MageTowerLvl0",
+            "value": 2
+        },
+        {
+            "key": "Mage",
+            "value": 12
+        },
+        {
+            "key": "Warrior",
+            "value": 13
+        }
+    ]
+}

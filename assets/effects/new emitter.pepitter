@@ -1,0 +1,94 @@
+{
+    "emitter": {
+        "particleProps": {
+            "ptr_wrapper": {
+                "id": 2147483649,
+                "data": {
+                    "position": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": -4.0
+                    },
+                    "velocity": {
+                        "value0": 0.0,
+                        "value1": 3.0,
+                        "value2": 2.0
+                    },
+                    "velocityVariation": {
+                        "value0": 5.0,
+                        "value1": 1.0,
+                        "value2": 1.0
+                    },
+                    "colorBegin": {
+                        "value0": 0.9113923907279968,
+                        "value1": 0.47592172026634219,
+                        "value2": 0.4268546402454376,
+                        "value3": 1.0
+                    },
+                    "colorEnd": {
+                        "value0": 0.17977884411811829,
+                        "value1": 0.7890295386314392,
+                        "value2": 0.0,
+                        "value3": 1.0
+                    },
+                    "sizeVariation": {
+                        "value0": 0.0,
+                        "value1": 0.0,
+                        "value2": 0.0
+                    },
+                    "lifeTime": 1.0,
+                    "gravity": 9.800000190734864,
+                    "hasGravity": true,
+                    "type": 1,
+                    "sizeCurvePoints": {
+                        "value0": {
+                            "value0": 0.0,
+                            "value1": 0.0
+                        },
+                        "value1": {
+                            "value0": 0.1111111119389534,
+                            "value1": 0.5370626449584961
+                        },
+                        "value2": {
+                            "value0": 0.2222222238779068,
+                            "value1": 0.7856889963150024
+                        },
+                        "value3": {
+                            "value0": 0.3333333432674408,
+                            "value1": 0.9007874131202698
+                        },
+                        "value4": {
+                            "value0": 0.4444444477558136,
+                            "value1": 0.9540708065032959
+                        },
+                        "value5": {
+                            "value0": 0.5555555820465088,
+                            "value1": 0.9787376523017883
+                        },
+                        "value6": {
+                            "value0": 0.6666666865348816,
+                            "value1": 0.990156888961792
+                        },
+                        "value7": {
+                            "value0": 0.7777777910232544,
+                            "value1": 0.9954432249069214
+                        },
+                        "value8": {
+                            "value0": 0.8888888955116272,
+                            "value1": 0.9978905320167542
+                        },
+                        "value9": {
+                            "value0": 1.0,
+                            "value1": 1.0
+                        }
+                    }
+                }
+            }
+        },
+        "m_isLoop": true,
+        "m_EmitAmount": 1,
+        "m_emitRate": 1.0,
+        "m_particleModelPath": "models\\War robot.gltf",
+        "m_materialPath": "materials/pop.pepimat"
+    }
+}

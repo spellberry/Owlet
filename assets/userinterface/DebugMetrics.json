@@ -1,0 +1,91 @@
+{
+    "element": {
+        "name": "DebugMetrics",
+        "tobs": 1,
+        "lors": 2,
+        "sliders": [],
+        "progressbars": [],
+        "buttons": [
+            {
+                "start": {
+                    "value0": 0.032999999821186069,
+                    "value1": 0.04323306679725647
+                },
+                "size": {
+                    "value0": 0.3499999940395355,
+                    "value1": 0.05999999865889549
+                },
+                "hoverst": "none",
+                "click": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": "MakeMetricDataAppear"
+                },
+                "clickst": "none",
+                "hover": {
+                    "type": 1,
+                    "newAtlas": {
+                        "value0": -1.0,
+                        "value1": -1.0,
+                        "value2": -1.0,
+                        "value3": -1.0
+                    },
+                    "funcName": ""
+                },
+                "typein": 2,
+                "hoverimg": "HoveredButton",
+                "hoverable": true,
+                "name": "Button",
+                "linkedComponentstr": "MetricDataTexture",
+                "layer": 0
+            }
+        ],
+        "texts": [
+            {
+                "name": "MetricData",
+                "start": {
+                    "value0": 0.05999999865889549,
+                    "value1": 0.08500000089406967
+                },
+                "size": 0.20000000298023225,
+                "text": "Debug Metric Data",
+                "layer": 0,
+                "colour": {
+                    "value0": 1.0,
+                    "value1": 1.0,
+                    "value2": 1.0,
+                    "value3": 1.0
+                },
+                "font": "assets/fonts/DroidSans.sff"
+            }
+        ],
+        "images": [
+            {
+                "name": "MetricDataTexture",
+                "start": {
+                    "value0": 0.032999999821186069,
+                    "value1": 0.04323306679725647
+                },
+                "size": {
+                    "value0": 0.3499999940395355,
+                    "value1": 0.05999999865889549
+                },
+                "atlas": {
+                    "value0": 6679.0,
+                    "value1": 4847.0,
+                    "value2": 7889.0,
+                    "value3": 4992.0
+                },
+                "imageFile": "assets/textures\\UI\\Game UI collection\\png files\\Bars-01.png",
+                "layer": 0
+            }
+        ],
+        "layer": 0,
+        "opacity": 1.0
+    }
+}
